@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AssistantRouteImport } from './routes/assistant'
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as FavouritesRouteImport } from './routes/favourites'
 import { Route as GenresRouteImport } from './routes/genres'
@@ -20,10 +21,16 @@ import { Route as SeriesRouteImport } from './routes/series'
 import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as WatchedRouteImport } from './routes/watched'
 import { Route as WatchlistRouteImport } from './routes/watchlist'
+import { Route as TitleIdRouteImport } from './routes/title.$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AssistantRoute = AssistantRouteImport.update({
+  id: '/assistant',
+  path: '/assistant',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AuthRoute = AuthRouteImport.update({
@@ -76,9 +83,15 @@ const WatchlistRoute = WatchlistRouteImport.update({
   path: '/watchlist',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TitleIdRoute = TitleIdRouteImport.update({
+  id: '/title/$id',
+  path: '/title/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
   '/favourites': typeof FavouritesRoute
   '/genres': typeof GenresRoute
@@ -89,9 +102,11 @@ export interface FileRoutesByFullPath {
   '/settings': typeof SettingsRoute
   '/watched': typeof WatchedRoute
   '/watchlist': typeof WatchlistRoute
+  '/title/$id': typeof TitleIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
   '/favourites': typeof FavouritesRoute
   '/genres': typeof GenresRoute
@@ -102,10 +117,12 @@ export interface FileRoutesByTo {
   '/settings': typeof SettingsRoute
   '/watched': typeof WatchedRoute
   '/watchlist': typeof WatchlistRoute
+  '/title/$id': typeof TitleIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
   '/favourites': typeof FavouritesRoute
   '/genres': typeof GenresRoute
@@ -116,11 +133,13 @@ export interface FileRoutesById {
   '/settings': typeof SettingsRoute
   '/watched': typeof WatchedRoute
   '/watchlist': typeof WatchlistRoute
+  '/title/$id': typeof TitleIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/assistant'
     | '/auth'
     | '/favourites'
     | '/genres'
@@ -131,9 +150,11 @@ export interface FileRouteTypes {
     | '/settings'
     | '/watched'
     | '/watchlist'
+    | '/title/$id'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/assistant'
     | '/auth'
     | '/favourites'
     | '/genres'
@@ -144,9 +165,11 @@ export interface FileRouteTypes {
     | '/settings'
     | '/watched'
     | '/watchlist'
+    | '/title/$id'
   id:
     | '__root__'
     | '/'
+    | '/assistant'
     | '/auth'
     | '/favourites'
     | '/genres'
@@ -157,10 +180,12 @@ export interface FileRouteTypes {
     | '/settings'
     | '/watched'
     | '/watchlist'
+    | '/title/$id'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AssistantRoute: typeof AssistantRoute
   AuthRoute: typeof AuthRoute
   FavouritesRoute: typeof FavouritesRoute
   GenresRoute: typeof GenresRoute
@@ -171,6 +196,7 @@ export interface RootRouteChildren {
   SettingsRoute: typeof SettingsRoute
   WatchedRoute: typeof WatchedRoute
   WatchlistRoute: typeof WatchlistRoute
+  TitleIdRoute: typeof TitleIdRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -180,6 +206,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/assistant': {
+      id: '/assistant'
+      path: '/assistant'
+      fullPath: '/assistant'
+      preLoaderRoute: typeof AssistantRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/auth': {
@@ -252,11 +285,19 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WatchlistRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/title/$id': {
+      id: '/title/$id'
+      path: '/title/$id'
+      fullPath: '/title/$id'
+      preLoaderRoute: typeof TitleIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AssistantRoute: AssistantRoute,
   AuthRoute: AuthRoute,
   FavouritesRoute: FavouritesRoute,
   GenresRoute: GenresRoute,
@@ -267,7 +308,18 @@ const rootRouteChildren: RootRouteChildren = {
   SettingsRoute: SettingsRoute,
   WatchedRoute: WatchedRoute,
   WatchlistRoute: WatchlistRoute,
+  TitleIdRoute: TitleIdRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}
