@@ -123,7 +123,7 @@ function HomePage() {
         subtitle="Blockbusters, classics and new releases from Tollywood"
         action={
           <Button asChild variant="outline" size="sm">
-            <Link to="/movies" search={{ language: "Telugu" }}>
+            <Link to="/movies">
               View all Telugu movies
             </Link>
           </Button>

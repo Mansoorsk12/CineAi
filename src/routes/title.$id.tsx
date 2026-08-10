@@ -74,7 +74,7 @@ function TitleDetails() {
               {title.seasons ? <span>· {title.seasons} seasons, {title.episodes} episodes</span> : null}
             </div>
             <div className="flex flex-wrap gap-1.5">
-              {title.genres.map((g) => (
+              {title.genres.map((g: string) => (
                 <Badge key={g} variant="outline" className="border-white/30 text-cinema-foreground">
                   {g}
                 </Badge>
