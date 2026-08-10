@@ -81,16 +81,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "CineAI — Smart Movie & Series Recommendations" },
+      { title: "CineAI — AI Movie & Series Recommendations" },
       {
         name: "description",
         content:
-          "CineAI is an AI-powered movie and series discovery platform with personalised picks, watchlists and analytics.",
+          "Discover movies and series with AI-personalised picks, a rich Telugu cinema collection, watchlists, favourites and viewing analytics.",
       },
       { name: "author", content: "CineAI" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#ffffff" },
+      { property: "og:title", content: "CineAI — AI Movie & Series Recommendations" },
+      { name: "twitter:title", content: "CineAI — AI Movie & Series Recommendations" },
+      { property: "og:description", content: "Discover movies and series with AI-personalised picks, a rich Telugu cinema collection, watchlists, favourites and viewing analytics." },
+      { name: "twitter:description", content: "Discover movies and series with AI-personalised picks, a rich Telugu cinema collection, watchlists, favourites and viewing analytics." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cb514206-8c60-48d7-b886-bcd008a85695" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cb514206-8c60-48d7-b886-bcd008a85695" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -101,7 +107,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap",
       },
       { rel: "manifest", href: "/manifest.webmanifest" },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),
   shellComponent: RootShell,

@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Personalised movie and series discovery with AI picks, Telugu cinema, watchlists and analytics.",
+          "Discover movies and series with AI-personalised picks, a rich Telugu cinema collection, watchlists, favourites and viewing analytics.",
       },
     ],
   }),
