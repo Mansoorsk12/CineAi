@@ -1,0 +1,10 @@
+{
+  "name": "CineAI — Smart Movie & Series Recommendations",
+  "short_name": "CineAI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "AI-powered movie and series discovery.",
+  "icons": [{ "src": "/favicon.ico", "sizes": "48x48", "type": "image/x-icon" }]
+}
