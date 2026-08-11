@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { GENRES, LANGUAGES, type Title } from "@/data/catalog";
+import { searchIndex } from "@/data/media";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
