@@ -7,6 +7,8 @@
  * link to a fabricated title page.
  */
 
+import { TMDB } from "./tmdb.generated";
+
 export type TitleKind = "movie" | "series";
 
 export interface Title {
