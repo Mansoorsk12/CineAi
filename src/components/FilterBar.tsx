@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { GENRES, LANGUAGES, type Title } from "@/data/catalog";
+import { searchIndex } from "@/data/media";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -34,14 +35,9 @@ const YEARS = ["2026", "2025", "2024", "2023", "2022", "2021", "older"];
 export function applyFilters(items: Title[], f: Filters): Title[] {
   const q = f.q.trim().toLowerCase();
   const out = items.filter((t) => {
-    if (
-      q &&
-      ![t.title, t.director, t.language, ...t.genres, ...t.cast, String(t.year)]
-        .join(" ")
-        .toLowerCase()
-        .includes(q)
-    )
-      return false;
+    // Matches title, cast, characters, director, writers, genre and language.
+    if (q && !searchIndex(t).includes(q)) return false;
+
     if (f.genre !== "all" && !t.genres.includes(f.genre)) return false;
     if (f.language !== "all" && t.language !== f.language) return false;
     if (f.year !== "all") {
