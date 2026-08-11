@@ -169,7 +169,11 @@ function AssistantPage() {
                             </Link>
                           </Button>
                           {imdb && (
-                            <Button asChild size="sm" variant="ghost" className="h-7 text-xs">
+                            <Button
+                              asChild
+                              size="sm"
+                              className="h-7 bg-gold text-cinema text-xs hover:bg-gold/90"
+                            >
                               <a href={imdb} target="_blank" rel="noreferrer noopener">
                                 IMDb
                               </a>
