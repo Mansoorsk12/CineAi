@@ -1083,5 +1083,11 @@ export const LANGUAGES = [
 
 export const byId = (id: string) => CATALOG.find((t) => t.id === id);
 
-export const imdbUrl = (t: Title) =>
-  t.imdbId ? `https://www.imdb.com/title/${t.imdbId}/` : null;
+/**
+ * IMDb link, resolved from the title's verified TMDB record so it can never
+ * point at a different film. Returns null when no id is verified.
+ */
+export const imdbUrl = (t: Title) => {
+  const id = TMDB[t.id]?.imdbId;
+  return id ? `https://www.imdb.com/title/${id}/` : null;
+};
