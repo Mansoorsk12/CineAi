@@ -5,4 +5,5655 @@
  */
 import type { TmdbRecord } from "./tmdb-types";
 
-export const TMDB: Record<string, TmdbRecord> = {};
+export const TMDB: Record<string, TmdbRecord> = {
+  "rrr": {
+    "tmdbId": 579974,
+    "tmdbType": "movie",
+    "imdbId": "tt8178634",
+    "matchedTitle": "RRR",
+    "originalTitle": "రౌద్రం రణం రుధిరం",
+    "releaseDate": "2022-03-24",
+    "posterPath": "/u0XUBNQWlOvrh0Gd97ARGpIkL0.jpg",
+    "backdropPath": "/i0Y0wP8H6SRgjr6QmuwbtQbS24D.jpg",
+    "trailerKey": "i4pjiLGUTtk",
+    "tagline": "Rise, Roar, Revolt",
+    "certification": "UA",
+    "tmdbRating": 7.7,
+    "tmdbVotes": 1654,
+    "genres": [
+      "Action",
+      "History",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "DVV Entertainment"
+    ],
+    "director": "S. S. Rajamouli",
+    "writers": [
+      "Vijayendra Prasad",
+      "S. S. Rajamouli"
+    ],
+    "cast": [
+      {
+        "name": "N.T. Rama Rao Jr.",
+        "character": "Komaram Bheem",
+        "profilePath": "/5ycQgZ3SPUa12bq0yn1jpToBq9X.jpg"
+      },
+      {
+        "name": "Ram Charan",
+        "character": "Alluri Sitarama Raju",
+        "profilePath": "/twGqYUCR0Yh33j3TcgRTZRBRhTd.jpg"
+      },
+      {
+        "name": "Olivia Morris",
+        "character": "Jennifer 'Jenny' Buxton",
+        "profilePath": "/iAzUTXzFWwEkRx6Ygudqnx4DmtW.jpg"
+      },
+      {
+        "name": "Ray Stevenson",
+        "character": "Scott Buxton",
+        "profilePath": "/9QCVNDgTgDEbGsa6w3JuECEPuQz.jpg"
+      },
+      {
+        "name": "Alison Doody",
+        "character": "Cassandra Buxton",
+        "profilePath": "/q5CpMFAjLP40JHgwS6qWku6arSC.jpg"
+      },
+      {
+        "name": "Ajay Devgn",
+        "character": "Alluri Venkatarama Raju",
+        "profilePath": "/vnHQQFzTjJ0sv14DGMIoKa3qTxN.jpg"
+      },
+      {
+        "name": "Alia Bhatt",
+        "character": "Sita",
+        "profilePath": "/suudEC5cdE3g5kB1BjCPfvfeQZY.jpg"
+      },
+      {
+        "name": "Samuthirakani",
+        "character": "Alluri Venkateshwarulu",
+        "profilePath": "/hicCPOdDfSRCEYkeb9g53FOY19A.jpg"
+      },
+      {
+        "name": "Twinkle Sharma",
+        "character": "Malli",
+        "profilePath": "/xYGDBO8uE6SK8n1wqUcrBBYMmrX.jpg"
+      },
+      {
+        "name": "Shriya Saran",
+        "character": "Alluri Sarojini",
+        "profilePath": "/7TVh3yF6kpZOQFyWV5jC5XqJruI.jpg"
+      },
+      {
+        "name": "Chatrapathi Sekhar",
+        "character": "Jangu",
+        "profilePath": "/sLP6V1McdVPwp3smHzEzuXs8ubM.jpg"
+      },
+      {
+        "name": "Makrand Deshpande",
+        "character": "Peddanna",
+        "profilePath": "/aGA9mjohVWWTeTmutXikSSCYq9x.jpg"
+      }
+    ]
+  },
+  "baahubali-1": {
+    "tmdbId": 256040,
+    "tmdbType": "movie",
+    "imdbId": "tt2631186",
+    "matchedTitle": "Bāhubali: The Beginning",
+    "originalTitle": "బాహుబలి:ద బిగినింగ్",
+    "releaseDate": "2015-07-10",
+    "posterPath": "/9BAjt8nSSms62uOVYn1t3C3dVto.jpg",
+    "backdropPath": "/e9ZEuHGHZ06AToHlfN1L7nejJ7W.jpg",
+    "trailerKey": "3NQRhE772b0",
+    "tagline": null,
+    "certification": "UA",
+    "tmdbRating": 7.6,
+    "tmdbVotes": 952,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Arka Media Works"
+    ],
+    "director": "S. S. Rajamouli",
+    "writers": [
+      "S. S. Rajamouli",
+      "Vijayendra Prasad",
+      "Rahul Koda"
+    ],
+    "cast": [
+      {
+        "name": "Prabhas",
+        "character": "Mahendra 'Sivudu' Bāhubali / Amarendra Bāhubali",
+        "profilePath": "/u6RVP8ukgLaymeoi5VmX0JRAcCn.jpg"
+      },
+      {
+        "name": "Rana Daggubati",
+        "character": "Bhallaladeva",
+        "profilePath": "/dCQE1CoWWc6RoXUTxOKjAXO8KDr.jpg"
+      },
+      {
+        "name": "Tamannaah Bhatia",
+        "character": "Avanthika",
+        "profilePath": "/t4WYoKiFAyO1Rhjv7O03EKmJHp4.jpg"
+      },
+      {
+        "name": "Anushka Shetty",
+        "character": "Devasena",
+        "profilePath": "/zpe6Es8kdNOXuPdXiJvqxzsmN6z.jpg"
+      },
+      {
+        "name": "Ramya Krishnan",
+        "character": "Sivagami",
+        "profilePath": "/sV8GnagCZQQonhhFkLGXXNtsZxV.jpg"
+      },
+      {
+        "name": "Nassar",
+        "character": "Bijjaladeva",
+        "profilePath": "/p3I0tSQY3C5qZW3NzFfbpjKPNL6.jpg"
+      },
+      {
+        "name": "Sathyaraj",
+        "character": "Karikala Kattappa Nadar",
+        "profilePath": "/lnlBZ7V3K3Z3OIsjCd0zkKx26L3.jpg"
+      },
+      {
+        "name": "Prabhakar",
+        "character": "King Kalakeya",
+        "profilePath": "/82ZArziu8gJ1gVamzlcXjedeOFq.jpg"
+      },
+      {
+        "name": "Adivi Sesh",
+        "character": "Bhadra",
+        "profilePath": "/vWvU1qlpGGrCsdox0pAJ6Gns4Bp.jpg"
+      },
+      {
+        "name": "Sudeepa",
+        "character": "Aslam Khan",
+        "profilePath": "/8c5TYgGwbkcQkvC3ZlTU41OfYBN.jpg"
+      },
+      {
+        "name": "Rohini",
+        "character": "Sanga",
+        "profilePath": "/oeT5DXeqsTY17DtJLTGpQec91fr.jpg"
+      },
+      {
+        "name": "Ramakrishna Meka",
+        "character": "Jaya Varma",
+        "profilePath": null
+      }
+    ]
+  },
+  "baahubali-2": {
+    "tmdbId": 350312,
+    "tmdbType": "movie",
+    "imdbId": "tt4849438",
+    "matchedTitle": "Bāhubali 2: The Conclusion",
+    "originalTitle": "బాహుబలి 2: ది కన్ క్లూజన్",
+    "releaseDate": "2017-04-27",
+    "posterPath": "/21sC2assImQIYCEDA84Qh9d1RsK.jpg",
+    "backdropPath": "/whNjsTOUVg2lZLCKgGhnACnmV8E.jpg",
+    "trailerKey": "PJ-mIEZMJes",
+    "tagline": null,
+    "certification": "UA",
+    "tmdbRating": 7.5,
+    "tmdbVotes": 876,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "productionCompanies": [
+      "Arka Media Works"
+    ],
+    "director": "S. S. Rajamouli",
+    "writers": [
+      "S. S. Rajamouli",
+      "Vijayendra Prasad",
+      "Rahul Koda"
+    ],
+    "cast": [
+      {
+        "name": "Prabhas",
+        "character": "Mahendra 'Sivudu' Bāhubali / Amarendra Bāhubali",
+        "profilePath": "/u6RVP8ukgLaymeoi5VmX0JRAcCn.jpg"
+      },
+      {
+        "name": "Rana Daggubati",
+        "character": "Bhallaladeva",
+        "profilePath": "/dCQE1CoWWc6RoXUTxOKjAXO8KDr.jpg"
+      },
+      {
+        "name": "Anushka Shetty",
+        "character": "Devasena",
+        "profilePath": "/zpe6Es8kdNOXuPdXiJvqxzsmN6z.jpg"
+      },
+      {
+        "name": "Sathyaraj",
+        "character": "Karikala Kattappa Nadar",
+        "profilePath": "/lnlBZ7V3K3Z3OIsjCd0zkKx26L3.jpg"
+      },
+      {
+        "name": "Nassar",
+        "character": "Bijjaladeva",
+        "profilePath": "/p3I0tSQY3C5qZW3NzFfbpjKPNL6.jpg"
+      },
+      {
+        "name": "Ramya Krishnan",
+        "character": "Sivagami",
+        "profilePath": "/sV8GnagCZQQonhhFkLGXXNtsZxV.jpg"
+      },
+      {
+        "name": "Subbaraju",
+        "character": "Kumara Varma",
+        "profilePath": "/upq4ba9D8GgejWkI5tRVzze2yZV.jpg"
+      },
+      {
+        "name": "Tamannaah Bhatia",
+        "character": "Avanthika",
+        "profilePath": "/t4WYoKiFAyO1Rhjv7O03EKmJHp4.jpg"
+      },
+      {
+        "name": "Prudhviraj",
+        "character": "Official in Kunthala Kingdom",
+        "profilePath": "/lNyBQMo0rEnLQsRV8IQsU2j5m8f.jpg"
+      },
+      {
+        "name": "Rohini",
+        "character": "Sanga",
+        "profilePath": "/oeT5DXeqsTY17DtJLTGpQec91fr.jpg"
+      },
+      {
+        "name": "Ramakrishna Meka",
+        "character": "Jaya Varma",
+        "profilePath": null
+      },
+      {
+        "name": "Rakesh Varre",
+        "character": "Sethupathi",
+        "profilePath": "/erutHeuAaIMBJ2ILrnjQhInjgjp.jpg"
+      }
+    ]
+  },
+  "eega": {
+    "tmdbId": 148265,
+    "tmdbType": "movie",
+    "imdbId": "tt2258337",
+    "matchedTitle": "Eega",
+    "originalTitle": "ఈగ",
+    "releaseDate": "2012-07-05",
+    "posterPath": "/pX7fn4EZrg2YFlV4GNMIfHDOQZ6.jpg",
+    "backdropPath": "/fuCfQ0D2HtNa7kRLFDkPWl87Zs9.jpg",
+    "trailerKey": "x-1ZoU1xB4I",
+    "tagline": "The Ultimate Revenge Story.",
+    "certification": "UA",
+    "tmdbRating": 7.1,
+    "tmdbVotes": 257,
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Vaaraahi Chalana Chitram"
+    ],
+    "director": "S. S. Rajamouli",
+    "writers": [
+      "S. S. Rajamouli",
+      "Ashwin Gangaraju"
+    ],
+    "cast": [
+      {
+        "name": "Sudeepa",
+        "character": "Sudeep",
+        "profilePath": "/8c5TYgGwbkcQkvC3ZlTU41OfYBN.jpg"
+      },
+      {
+        "name": "Samantha Ruth Prabhu",
+        "character": "Bindhu",
+        "profilePath": "/zYhIHLwCYraQG7tgkvxUsrIg1Do.jpg"
+      },
+      {
+        "name": "Nani",
+        "character": "Nani",
+        "profilePath": "/jfOH4sUWs3VXuGUlo0VLMYNRBQ4.jpg"
+      },
+      {
+        "name": "Adithya Menon",
+        "character": "Sudeep's Business Partner",
+        "profilePath": "/5cmnhtj6npxjKQ8SwqopNfnHBYD.jpg"
+      },
+      {
+        "name": "Thagubothu Ramesh",
+        "character": "Thief",
+        "profilePath": "/1D510DdV5c4CnWkzl13zIwAshZQ.jpg"
+      },
+      {
+        "name": "Devadarshini",
+        "character": "Bindu's sister-in-law",
+        "profilePath": "/gSq4nM6z82LfI4yjL116P1RDkb0.jpg"
+      },
+      {
+        "name": "Chatrapathi Sekhar",
+        "character": "Tantra",
+        "profilePath": "/sLP6V1McdVPwp3smHzEzuXs8ubM.jpg"
+      },
+      {
+        "name": "Srinivasa Reddy",
+        "character": "Sudeep's Personal Assistant",
+        "profilePath": "/aUMNaDeskPGyDoEGwqvBxZPnzYR.jpg"
+      },
+      {
+        "name": "Noel Sean",
+        "character": "Nani's Friend",
+        "profilePath": null
+      },
+      {
+        "name": "Sivannarayana Naripeddi",
+        "character": "Priest",
+        "profilePath": "/nqG9wFjXEool9NLPRrUsnZbjm72.jpg"
+      },
+      {
+        "name": "Dhanraj Sukhram",
+        "character": "Thief's friend",
+        "profilePath": "/dPfCC00P3YT9VX6nfi9mlifEYaX.jpg"
+      },
+      {
+        "name": "Rajeev Kanakala",
+        "character": "Thief's Manager",
+        "profilePath": "/29Czs1esSU744TOe3ddDzCuCa0g.jpg"
+      }
+    ]
+  },
+  "pushpa": {
+    "tmdbId": 690957,
+    "tmdbType": "movie",
+    "imdbId": "tt9389998",
+    "matchedTitle": "Pushpa: The Rise",
+    "originalTitle": "పుష్పా - The Rise",
+    "releaseDate": "2021-12-16",
+    "posterPath": "/4DpNRjV7ITZ1GzCvrvCk86th0w.jpg",
+    "backdropPath": "/jQIcn51nsvMrpB9NFwEOb9QHhFt.jpg",
+    "trailerKey": "ou6h-22tMnA",
+    "tagline": null,
+    "certification": "UA",
+    "tmdbRating": 6.8,
+    "tmdbVotes": 198,
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "productionCompanies": [
+      "Mythri Movie Makers",
+      "Muttamsetty Media"
+    ],
+    "director": "Sukumar",
+    "writers": [
+      "Sukumar"
+    ],
+    "cast": [
+      {
+        "name": "Allu Arjun",
+        "character": "Pushpa Raj",
+        "profilePath": "/wHr3bKhYpiDiYVMZLZqebeauEVw.jpg"
+      },
+      {
+        "name": "Fahadh Faasil",
+        "character": "Bhanwar Singh Shekhawat",
+        "profilePath": "/wmkwZWFHqMptqdt4HacMIAe8OBP.jpg"
+      },
+      {
+        "name": "Rashmika Mandanna",
+        "character": "Srivalli",
+        "profilePath": "/6PpadmUs2Mz8nRw6rmKEiZZGcZ5.jpg"
+      },
+      {
+        "name": "Jagadeesh Bandari",
+        "character": "Kesava",
+        "profilePath": "/cntovFhpWby0XJdMszCJCTrLk2g.jpg"
+      },
+      {
+        "name": "Sunil Varma",
+        "character": "Mangalam Srinu",
+        "profilePath": "/ifmUCkLgpEzbfnRjIw62otrADpI.jpg"
+      },
+      {
+        "name": "Anasuya Bharadwaj",
+        "character": "Dakshayani",
+        "profilePath": "/adfyR0yHuTdj3sMiJQNDtBBXz9Q.jpg"
+      },
+      {
+        "name": "Dhananjay",
+        "character": "Jolly Reddy",
+        "profilePath": "/iP416IUdOjeFSVLWKiYoGBvY2Fu.jpg"
+      },
+      {
+        "name": "Ajay Ghosh",
+        "character": "Konda Reddy",
+        "profilePath": "/bvexSjSRhZM8ke753Sq1oZf5pxY.jpg"
+      },
+      {
+        "name": "Rao Ramesh",
+        "character": "Bhumireddy Siddappa Naidu",
+        "profilePath": "/jzO0wN21tEcmz0haekvliQU91JM.jpg"
+      },
+      {
+        "name": "Ajay",
+        "character": "Molleti Mohan Raj",
+        "profilePath": "/uByCHJa3eaCL0SgFGDYYLlsVggC.jpg"
+      },
+      {
+        "name": "Shanmukh",
+        "character": "Jakka Reddy",
+        "profilePath": null
+      },
+      {
+        "name": "Kalpalatha",
+        "character": "Parvathamma",
+        "profilePath": "/j3sKWeC05kHdnpOmCgbv1XBaQt8.jpg"
+      }
+    ]
+  },
+  "salaar": {
+    "tmdbId": 770906,
+    "tmdbType": "movie",
+    "imdbId": "tt13927994",
+    "matchedTitle": "Salaar: Part 1 - Ceasefire",
+    "originalTitle": "సలార్: పార్ట్‌ 1 – సీజ్‌ఫైర్‌",
+    "releaseDate": "2023-12-21",
+    "posterPath": "/nlu9WbcetNFRGXXPWITr30ob7W6.jpg",
+    "backdropPath": "/xtOCTmGemASooRkAxRorYODig1p.jpg",
+    "trailerKey": "9Im1q4gvk1M",
+    "tagline": null,
+    "certification": "A",
+    "tmdbRating": 6.7,
+    "tmdbVotes": 118,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Hombale Films"
+    ],
+    "director": "Prashanth Neel",
+    "writers": [
+      "Prashanth Neel"
+    ],
+    "cast": [
+      {
+        "name": "Prabhas",
+        "character": "Devaratha \"Deva\" Raisaar",
+        "profilePath": "/u6RVP8ukgLaymeoi5VmX0JRAcCn.jpg"
+      },
+      {
+        "name": "Prithviraj Sukumaran",
+        "character": "Vardharaja Mannar / Siva Mannar",
+        "profilePath": "/1xhG42QU8tMQRTDdP1Ed3y9GRvm.jpg"
+      },
+      {
+        "name": "Shruti Haasan",
+        "character": "Aadya Krishnakanth",
+        "profilePath": "/1zYJuSccSA45VVBdgozpRcL99Rd.jpg"
+      },
+      {
+        "name": "Easwari Rao",
+        "character": "Deva's Mother",
+        "profilePath": "/fjyvQ45YZcovy2Egj2eux8UiuHU.jpg"
+      },
+      {
+        "name": "Jagapati Babu",
+        "character": "Raja Mannar",
+        "profilePath": "/bm72k6FmDxhxtZsl1xvxoz88Hkm.jpg"
+      },
+      {
+        "name": "Bobby Simha",
+        "character": "Bhaarava",
+        "profilePath": "/4luN7NwlKvenAkSDwjzZeWpWuoP.jpg"
+      },
+      {
+        "name": "Sriya Reddy",
+        "character": "Radha Rama Mannar",
+        "profilePath": "/6AwGUf0uj7Dr6cwZkC53KNihPdj.jpg"
+      },
+      {
+        "name": "Ramachandra Raju",
+        "character": "Rudra Raja Mannar",
+        "profilePath": "/kU1a4H8o1IQA25Lyq3cW70aufhT.jpg"
+      },
+      {
+        "name": "Mime Gopi",
+        "character": "Bilal",
+        "profilePath": "/gglNAjJMlCb0p7ig3OVpgsXMkMD.jpg"
+      },
+      {
+        "name": "Tinnu Anand",
+        "character": "Gaikwad \"Baba\"",
+        "profilePath": "/6fkEiZKNp6jnOQmfQKEjVinhUeL.jpg"
+      },
+      {
+        "name": "Pramod Panju",
+        "character": "Baachi Raja Mannar",
+        "profilePath": "/2URHh4gn72VYlgrrZrNaEyXjpPh.jpg"
+      },
+      {
+        "name": "Ramana",
+        "character": "Rinda",
+        "profilePath": "/fQcMvPYyCr2FwAP4YwhElUsbgrZ.jpg"
+      }
+    ]
+  },
+  "arjun-reddy": {
+    "tmdbId": 473234,
+    "tmdbType": "movie",
+    "imdbId": "tt7294534",
+    "matchedTitle": "Arjun Reddy",
+    "originalTitle": "అర్జున్ రెడ్డి",
+    "releaseDate": "2017-08-25",
+    "posterPath": "/kHubDgL59I5hCn7ccBYvU7bKY1r.jpg",
+    "backdropPath": "/rhPJSfpy7s0x9jQPCGkqD2kvXAC.jpg",
+    "trailerKey": "aozErj9NqeE",
+    "tagline": null,
+    "certification": "A",
+    "tmdbRating": 7,
+    "tmdbVotes": 122,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "productionCompanies": [
+      "Bhadrakali Pictures"
+    ],
+    "director": "Sandeep Reddy Vanga",
+    "writers": [
+      "Sandeep Reddy Vanga"
+    ],
+    "cast": [
+      {
+        "name": "Vijay Deverakonda",
+        "character": "Arjun Reddy Deshmukh",
+        "profilePath": "/8oVIWyIoFUal8SJFnmCUtkkm1HP.jpg"
+      },
+      {
+        "name": "Shalini Pandey",
+        "character": "Preethi Shetty",
+        "profilePath": "/x0VLQqGuQocLALiauiZV2wge3OI.jpg"
+      },
+      {
+        "name": "Rahul Ramakrishna",
+        "character": "Shiva",
+        "profilePath": "/jsRbEXcUgR8zniBb3UTGOqrtxV9.jpg"
+      },
+      {
+        "name": "Kamal Kamaraju",
+        "character": "Gautham",
+        "profilePath": "/dzRe0pHRcBHTKJCGcMFjPJ0K8Fp.jpg"
+      },
+      {
+        "name": "Kanchana",
+        "character": "Arjun's Grandmother",
+        "profilePath": "/5MIFRK08ooRWugaZbhDKoWilmx6.jpg"
+      },
+      {
+        "name": "Sanjay Swaroop",
+        "character": "Arjun's Father",
+        "profilePath": "/zVErh5DAZyNbyGoaD5ZLHsKcdal.jpg"
+      },
+      {
+        "name": "Gopinath Bhat",
+        "character": "Devadas Shetty",
+        "profilePath": null
+      },
+      {
+        "name": "Priyadarshi Pullikonda",
+        "character": "Vipul",
+        "profilePath": "/tVsqnESLdGJSua54qZ47wtoLjCI.jpg"
+      },
+      {
+        "name": "Aditi Myakal",
+        "character": "Vidya",
+        "profilePath": "/2G3y4zOZLd69Hj8DOskZRRvIqb9.jpg"
+      },
+      {
+        "name": "Anisha Alla",
+        "character": "Keerthi",
+        "profilePath": "/pWg7b6wp1DCho8tUJegkoNFWUkG.jpg"
+      },
+      {
+        "name": "Sandhya Janak",
+        "character": "Arjun's Mother",
+        "profilePath": "/zJKewLyV1ONRl0y4nFoobrjpI25.jpg"
+      },
+      {
+        "name": "Jia Sharma",
+        "character": "Jia Sharma",
+        "profilePath": "/zxg99jsVpywoCNzuDQiTwmcYd0z.jpg"
+      }
+    ]
+  },
+  "jersey": {
+    "tmdbId": 592898,
+    "tmdbType": "movie",
+    "imdbId": "tt8948790",
+    "matchedTitle": "Jersey",
+    "originalTitle": "జెర్సీ",
+    "releaseDate": "2019-04-19",
+    "posterPath": "/bU9q9yVtxeBiC0Do27CekHXNE6D.jpg",
+    "backdropPath": "/53CsGhbXKhmzcOQntz7Qs0whQ6g.jpg",
+    "trailerKey": "AjAe_Q1WZ_8",
+    "tagline": null,
+    "certification": "U",
+    "tmdbRating": 8,
+    "tmdbVotes": 76,
+    "genres": [
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Sithara Entertainments"
+    ],
+    "director": "Gowtam Tinnanuri",
+    "writers": [
+      "Gowtam Tinnanuri"
+    ],
+    "cast": [
+      {
+        "name": "Nani",
+        "character": "Arjun",
+        "profilePath": "/jfOH4sUWs3VXuGUlo0VLMYNRBQ4.jpg"
+      },
+      {
+        "name": "Shraddha Srinath",
+        "character": "Sarah",
+        "profilePath": "/r3hD1OysyWkdld5OHbShQgJV2cu.jpg"
+      },
+      {
+        "name": "Ronit Kamra",
+        "character": "Nani",
+        "profilePath": "/A90xgEIR02s85z5SzMlOUZ8z0YB.jpg"
+      },
+      {
+        "name": "Harish Kalyan",
+        "character": "Senior Nani",
+        "profilePath": "/6MnxqZm2knYxzm4VqW36WuAsoHW.jpg"
+      },
+      {
+        "name": "Viswant Duddumpudi",
+        "character": "Nandu",
+        "profilePath": "/ld4D4X3Xk0YhcWPeln89tOqHhUX.jpg"
+      },
+      {
+        "name": "Sathyaraj",
+        "character": "Coach Murthy",
+        "profilePath": "/lnlBZ7V3K3Z3OIsjCd0zkKx26L3.jpg"
+      },
+      {
+        "name": "Sanusha Santhosh",
+        "character": "Ramya",
+        "profilePath": "/gQbjZL2dbQKICtgNRCHuhGvolMg.jpg"
+      },
+      {
+        "name": "Sampath Raj",
+        "character": "Gowda",
+        "profilePath": "/oQgoihP26Hyg6gMFVpACRAygZli.jpg"
+      },
+      {
+        "name": "Shishir Sharma",
+        "character": "Mumbai Coach",
+        "profilePath": "/fNyJckJRkWhMassWL6YlkPMFfvK.jpg"
+      },
+      {
+        "name": "Praveen",
+        "character": "Arjun's Friend",
+        "profilePath": "/aBegVOvddJViXAPBL5k8MXnZCYA.jpg"
+      },
+      {
+        "name": "Jayaprakash",
+        "character": "BCCI Director",
+        "profilePath": "/eyYfMqy7NsED7SYrAzaso9ZjLT5.jpg"
+      },
+      {
+        "name": "Rao Ramesh",
+        "character": "Lawyer",
+        "profilePath": "/jzO0wN21tEcmz0haekvliQU91JM.jpg"
+      }
+    ]
+  },
+  "ala-vaikunthapurramuloo": {
+    "tmdbId": 628241,
+    "tmdbType": "movie",
+    "imdbId": "tt9537292",
+    "matchedTitle": "Ala Vaikunthapurramuloo",
+    "originalTitle": "అల వైకుంఠపురములో",
+    "releaseDate": "2020-01-12",
+    "posterPath": "/50cWZdbrmptTRKCAIfx7lSTj12z.jpg",
+    "backdropPath": "/5SDMPORslLXaYPx7S1kRqsBJYI3.jpg",
+    "trailerKey": "SkENAjfVoNI",
+    "tagline": null,
+    "certification": "UA",
+    "tmdbRating": 6.6,
+    "tmdbVotes": 114,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "productionCompanies": [
+      "Geetha Arts",
+      "Haarika & Hassine Creations"
+    ],
+    "director": "Trivikram Srinivas",
+    "writers": [
+      "Trivikram Srinivas"
+    ],
+    "cast": [
+      {
+        "name": "Allu Arjun",
+        "character": "Devaraj / Bantu",
+        "profilePath": "/wHr3bKhYpiDiYVMZLZqebeauEVw.jpg"
+      },
+      {
+        "name": "Pooja Hegde",
+        "character": "Amulya",
+        "profilePath": "/t09lf8vem5MRk3KaALcdgehreXg.jpg"
+      },
+      {
+        "name": "Murali Sharma",
+        "character": "Valmiki",
+        "profilePath": "/8m4L7L9lK4Z2YK4Jg97pMbA0Le5.jpg"
+      },
+      {
+        "name": "Jayaram",
+        "character": "Ramachandra",
+        "profilePath": "/cc1SfVFctuYH353NgxXNBoAFX2d.jpg"
+      },
+      {
+        "name": "Sushanth",
+        "character": "Raj Manohar",
+        "profilePath": "/mN2TjZ3r5HIzMd67ObfxqpuRsqC.jpg"
+      },
+      {
+        "name": "Samuthirakani",
+        "character": "Appala Naidu",
+        "profilePath": "/hicCPOdDfSRCEYkeb9g53FOY19A.jpg"
+      },
+      {
+        "name": "Tabu",
+        "character": "Yasu",
+        "profilePath": "/cvt5nvCHr1ICf5u8A2mlzLQ8LsV.jpg"
+      },
+      {
+        "name": "Rajendra Prasad",
+        "character": "G.Prajapati (DIG of Police)",
+        "profilePath": "/zh6QJ85g5KbpkjL5fgqlOGddn5C.jpg"
+      },
+      {
+        "name": "Nivetha Pethuraj",
+        "character": "Nandu",
+        "profilePath": "/8OzmSIrwJ3zg7TGWtpKLLyawzt4.jpg"
+      },
+      {
+        "name": "Sunil Varma",
+        "character": "Seetharam",
+        "profilePath": "/ifmUCkLgpEzbfnRjIw62otrADpI.jpg"
+      },
+      {
+        "name": "Rahul Ramakrishna",
+        "character": "Ravindra",
+        "profilePath": "/jsRbEXcUgR8zniBb3UTGOqrtxV9.jpg"
+      },
+      {
+        "name": "Navdeep",
+        "character": "Shekhar",
+        "profilePath": "/zwkvWrtFNxflU3eQrX7xwXZEoZk.jpg"
+      }
+    ]
+  },
+  "rangasthalam": {
+    "tmdbId": 461126,
+    "tmdbType": "movie",
+    "imdbId": "tt7392212",
+    "matchedTitle": "Rangasthalam",
+    "originalTitle": "రంగస్థలం",
+    "releaseDate": "2018-03-29",
+    "posterPath": "/yiEzDgBBFC25Zd6z0r7sMngn5vr.jpg",
+    "backdropPath": "/6JdOkSgd8wkAQbT6Ncib4DrnyiS.jpg",
+    "trailerKey": "sueMmTm-M4Y",
+    "tagline": null,
+    "certification": "UA",
+    "tmdbRating": 7.1,
+    "tmdbVotes": 82,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Konidela Production Company",
+      "Mythri Movie Makers"
+    ],
+    "director": "Sukumar",
+    "writers": [
+      "Palnati Surya Pratap",
+      "Sukumar"
+    ],
+    "cast": [
+      {
+        "name": "Ram Charan",
+        "character": "Chelluboyina Chitti Babu",
+        "profilePath": "/twGqYUCR0Yh33j3TcgRTZRBRhTd.jpg"
+      },
+      {
+        "name": "Aadhi Pinisetty",
+        "character": "Chelluboyina Kumar Babu",
+        "profilePath": "/m5HrEYFIPaO73RCGLrPbpoqKRxt.jpg"
+      },
+      {
+        "name": "Samantha Ruth Prabhu",
+        "character": "Ramalakshmi",
+        "profilePath": "/zYhIHLwCYraQG7tgkvxUsrIg1Do.jpg"
+      },
+      {
+        "name": "Jagapati Babu",
+        "character": "Phanindra Bhupathi",
+        "profilePath": "/bm72k6FmDxhxtZsl1xvxoz88Hkm.jpg"
+      },
+      {
+        "name": "Prakash Raj",
+        "character": "Dakshina Murthy",
+        "profilePath": "/dJvFZOXmZdkYCOUcKTXQAhBcAoH.jpg"
+      },
+      {
+        "name": "Anasuya Bharadwaj",
+        "character": "Kolli Rangammatta",
+        "profilePath": "/adfyR0yHuTdj3sMiJQNDtBBXz9Q.jpg"
+      },
+      {
+        "name": "Mahesh Achanta",
+        "character": "Mahesh",
+        "profilePath": "/2TO7x9It2iSwd3nmWTnyyA7QECR.jpg"
+      },
+      {
+        "name": "Naresh",
+        "character": "Koteswara Rao",
+        "profilePath": "/yT9Sgp7y8h3xhlmgzafUwlIXy1H.jpg"
+      },
+      {
+        "name": "Rohini",
+        "character": "Gantham",
+        "profilePath": "/oeT5DXeqsTY17DtJLTGpQec91fr.jpg"
+      },
+      {
+        "name": "Annie",
+        "character": "Chittibabu's sister",
+        "profilePath": "/hnExzXREAdpvzHaHKo7ZrkE27hq.jpg"
+      },
+      {
+        "name": "Satya",
+        "character": "Veera Babu",
+        "profilePath": "/fWHqfjiqnORU6R2fqwiJnowujdP.jpg"
+      },
+      {
+        "name": "Ajay Ghosh",
+        "character": "Sheshu Naidu",
+        "profilePath": "/bvexSjSRhZM8ke753Sq1oZf5pxY.jpg"
+      }
+    ]
+  },
+  "mahanati": {
+    "tmdbId": 459713,
+    "tmdbType": "movie",
+    "imdbId": "tt7465992",
+    "matchedTitle": "Mahanati",
+    "originalTitle": "మహానటి",
+    "releaseDate": "2018-05-09",
+    "posterPath": "/5hwtlwoLdSpkoeusT0sf8qW5VFB.jpg",
+    "backdropPath": "/ankByTJkkTVGYRBZuHcW9SXoFU1.jpg",
+    "trailerKey": "OrnYMmWBuV4",
+    "tagline": "Come Be A Part of History",
+    "certification": "U",
+    "tmdbRating": 7.5,
+    "tmdbVotes": 63,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "productionCompanies": [
+      "Swapna Cinema",
+      "Vyjayanthi Movies"
+    ],
+    "director": "Nag Ashwin",
+    "writers": [
+      "Sai Madhav Burra"
+    ],
+    "cast": [
+      {
+        "name": "Keerthy Suresh",
+        "character": "Savitri",
+        "profilePath": "/fTdgSinsAitdujBBEUEA72GY0pv.jpg"
+      },
+      {
+        "name": "Dulquer Salmaan",
+        "character": "Gemini Ganesan",
+        "profilePath": "/8AT3qDRakZQSZ6HVj7sQFUzN07N.jpg"
+      },
+      {
+        "name": "Samantha Ruth Prabhu",
+        "character": "Madhura Vani",
+        "profilePath": "/zYhIHLwCYraQG7tgkvxUsrIg1Do.jpg"
+      },
+      {
+        "name": "Vijay Deverakonda",
+        "character": "Vijay Anthony",
+        "profilePath": "/8oVIWyIoFUal8SJFnmCUtkkm1HP.jpg"
+      },
+      {
+        "name": "Prakash Raj",
+        "character": "Aluri Chakrapani",
+        "profilePath": "/dJvFZOXmZdkYCOUcKTXQAhBcAoH.jpg"
+      },
+      {
+        "name": "Shalini Pandey",
+        "character": "Susheela",
+        "profilePath": "/x0VLQqGuQocLALiauiZV2wge3OI.jpg"
+      },
+      {
+        "name": "Mohan Babu",
+        "character": "S.V. Ranga Rao",
+        "profilePath": "/zwqcXtnk0ju0nhuhvZXSLL2nLIy.jpg"
+      },
+      {
+        "name": "Radha Krishna Jagarlamudi",
+        "character": "K. V. Reddy",
+        "profilePath": "/z6TskMu6oKRronDpPfYWluBNmxX.jpg"
+      },
+      {
+        "name": "Mahesh Achanta",
+        "character": "Satyam",
+        "profilePath": "/2TO7x9It2iSwd3nmWTnyyA7QECR.jpg"
+      },
+      {
+        "name": "Tharun Bhascker",
+        "character": "Singeetham Srinivasa Rao",
+        "profilePath": "/fNG54JOFz3gZfgu1E6tCI0cg3jE.jpg"
+      },
+      {
+        "name": "Malvika Nair",
+        "character": "Alamelu",
+        "profilePath": "/cc4SDmyEmQPq2L8LHNm3sGHIkDr.jpg"
+      },
+      {
+        "name": "Sai Madhav Burra",
+        "character": "Pingali Nagendra Rao",
+        "profilePath": "/fcfz3yN5fqZqS96gGSgKm3Gq7hm.jpg"
+      }
+    ]
+  },
+  "care-of-kancharapalem": {
+    "tmdbId": 544795,
+    "tmdbType": "movie",
+    "imdbId": "tt7391996",
+    "matchedTitle": "C/o Kancharapalem",
+    "originalTitle": "C/o కంచరపాలెం",
+    "releaseDate": "2018-09-07",
+    "posterPath": "/8bgyfPih4bORxtnFCwinqVElkYg.jpg",
+    "backdropPath": "/sJPdMcYbHok3ay8dcCTo8vTRCrO.jpg",
+    "trailerKey": "-YeQZwlNeaY",
+    "tagline": null,
+    "certification": "UA",
+    "tmdbRating": 7.4,
+    "tmdbVotes": 36,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "productionCompanies": [
+      "Paruchuri Vijaya Praveena Arts"
+    ],
+    "director": "Venkatesh Maha",
+    "writers": [
+      "Venkatesh Maha"
+    ],
+    "cast": [
+      {
+        "name": "Kancharapalem Raju",
+        "character": "Raju",
+        "profilePath": "/rUNSb0ki8La48mUbadTkZE7p9by.jpg"
+      },
+      {
+        "name": "Radha Bessy",
+        "character": "Radha",
+        "profilePath": null
+      },
+      {
+        "name": "Kesava Karri",
+        "character": "Sundaram",
+        "profilePath": null
+      },
+      {
+        "name": "Nitya Sri",
+        "character": "Sunitha",
+        "profilePath": "/vwItjMfmTNQH4guTiK8Bd868LBg.jpg"
+      },
+      {
+        "name": "Karthik Rathnam",
+        "character": "Joseph",
+        "profilePath": "/8JHWGonkkPTwayA3q6RPhAqkglD.jpg"
+      },
+      {
+        "name": "Praneeta Patnaik",
+        "character": "Bhargavi",
+        "profilePath": "/nr2YSpHV62s4LCcbj4fiKB9Nb6d.jpg"
+      },
+      {
+        "name": "Mohan Bhagath",
+        "character": "Geddam",
+        "profilePath": null
+      },
+      {
+        "name": "Praveena Paruchuri",
+        "character": "Saleema",
+        "profilePath": "/99RoUSDXgumrhaM2XihMG0SaxxV.jpg"
+      },
+      {
+        "name": "Kishore Kumar Polimera",
+        "character": "Ram Murthy",
+        "profilePath": "/ssgRFyOYAWBQSOohxvNoAEInxOs.jpg"
+      },
+      {
+        "name": "Sravani Bessy",
+        "character": "Leela",
+        "profilePath": null
+      },
+      {
+        "name": "Jeswanth Muppala",
+        "character": "Koti",
+        "profilePath": null
+      },
+      {
+        "name": "Nikita",
+        "character": "Indira",
+        "profilePath": null
+      }
+    ]
+  },
+  "sita-ramam": {
+    "tmdbId": 894803,
+    "tmdbType": "movie",
+    "imdbId": "tt20850406",
+    "matchedTitle": "Sita Ramam",
+    "originalTitle": "సీతా రామం",
+    "releaseDate": "2022-08-05",
+    "posterPath": "/t1O94ZBzsQXJihtVkrsStRLyUDR.jpg",
+    "backdropPath": "/28EqsZDeEAy4VMZfrYbiyJZznKn.jpg",
+    "trailerKey": "ZYl42EYOCNg",
+    "tagline": null,
+    "certification": "U",
+    "tmdbRating": 7.8,
+    "tmdbVotes": 114,
+    "genres": [
+      "History",
+      "Romance",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Vyjayanthi Movies",
+      "Swapna Cinema"
+    ],
+    "director": "Hanu Raghavapudi",
+    "writers": [
+      "Raj Kumar Kandamudi",
+      "Hanu Raghavapudi"
+    ],
+    "cast": [
+      {
+        "name": "Dulquer Salmaan",
+        "character": "Lieutenant Ram",
+        "profilePath": "/8AT3qDRakZQSZ6HVj7sQFUzN07N.jpg"
+      },
+      {
+        "name": "Mrunal Thakur",
+        "character": "Sita Mahalakshmi",
+        "profilePath": "/4ITqe6SrpQgwUFU52rkmZNffyrM.jpg"
+      },
+      {
+        "name": "Rashmika Mandanna",
+        "character": "Afreen",
+        "profilePath": "/6PpadmUs2Mz8nRw6rmKEiZZGcZ5.jpg"
+      },
+      {
+        "name": "Sumanth",
+        "character": "Brigadier Vishnu Sharma",
+        "profilePath": "/1KbLdhw6S9A3EBM1dUyGfSOpzXO.jpg"
+      },
+      {
+        "name": "Gautham Vasudev Menon",
+        "character": "Major Selvan",
+        "profilePath": "/qOFycWPpr3Hi4kVXKWnTTKCAnGk.jpg"
+      },
+      {
+        "name": "Tharun Bhascker",
+        "character": "Balaji",
+        "profilePath": "/fNG54JOFz3gZfgu1E6tCI0cg3jE.jpg"
+      },
+      {
+        "name": "Vennela Kishore",
+        "character": "Durjaya Sharma",
+        "profilePath": "/8a0mcxMPjD4KR15gyE5QmbDeTub.jpg"
+      },
+      {
+        "name": "Shatru",
+        "character": "Vikas Varma",
+        "profilePath": "/9VJhUHAh66pPsMUAgZ3Ik49lcRW.jpg"
+      },
+      {
+        "name": "Sachin Khedekar",
+        "character": "Abu Tariq",
+        "profilePath": "/jRSgXFTDAbAb4RsW9nvNYsdhxWo.jpg"
+      },
+      {
+        "name": "Prakash Raj",
+        "character": "Brigadier Y.K. Joshi",
+        "profilePath": "/dJvFZOXmZdkYCOUcKTXQAhBcAoH.jpg"
+      },
+      {
+        "name": "Ashwath Bhatt",
+        "character": "Ansari",
+        "profilePath": "/hSJyFIy8Mvj59YQlcluhd9Xf97F.jpg"
+      },
+      {
+        "name": "Bhumika Chawla",
+        "character": "Vishnu's Wife",
+        "profilePath": "/bHYS02elIbafREPXW77aTWgN58f.jpg"
+      }
+    ]
+  },
+  "karthikeya-2": {
+    "tmdbId": 894762,
+    "tmdbType": "movie",
+    "imdbId": "tt13664684",
+    "matchedTitle": "Karthikeya 2",
+    "originalTitle": "కార్తికేయ 2",
+    "releaseDate": "2022-08-13",
+    "posterPath": "/fKKoQndNfbDOLfYM1Zogt7miGF1.jpg",
+    "backdropPath": "/ej1bwcXrRdJNUG843KIosu8srCg.jpg",
+    "trailerKey": "UIYS4iyeXj4",
+    "tagline": "Krishna Is Truth",
+    "certification": "U/A 7+",
+    "tmdbRating": 6.2,
+    "tmdbVotes": 27,
+    "genres": [
+      "Mystery",
+      "Adventure",
+      "Thriller",
+      "Action"
+    ],
+    "productionCompanies": [
+      "Abhishek Agarwal Arts",
+      "People Media Factory"
+    ],
+    "director": "Chandoo Mondeti",
+    "writers": [
+      "Chandoo Mondeti"
+    ],
+    "cast": [
+      {
+        "name": "Nikhil Siddhartha",
+        "character": "Karthikeya",
+        "profilePath": "/rDWBNCcHMNRf7YDPi9qMDcdm2X3.jpg"
+      },
+      {
+        "name": "Anupama Parameswaran",
+        "character": "Mugdha",
+        "profilePath": "/nsSnHqa0q4mvJhxxVZPwBpRreRK.jpg"
+      },
+      {
+        "name": "Srinivasa Reddy",
+        "character": "Sadananda",
+        "profilePath": "/aUMNaDeskPGyDoEGwqvBxZPnzYR.jpg"
+      },
+      {
+        "name": "Harsha Chemudu",
+        "character": "Suleman",
+        "profilePath": "/be0atwoQTudy7WaVCNwWbQuxjvG.jpg"
+      },
+      {
+        "name": "Adithya Menon",
+        "character": "Dr. Shantanu Mukherjee",
+        "profilePath": "/5cmnhtj6npxjKQ8SwqopNfnHBYD.jpg"
+      },
+      {
+        "name": "Praveen",
+        "character": "Ravi",
+        "profilePath": "/aBegVOvddJViXAPBL5k8MXnZCYA.jpg"
+      },
+      {
+        "name": "Satya",
+        "character": "Satya",
+        "profilePath": "/fWHqfjiqnORU6R2fqwiJnowujdP.jpg"
+      },
+      {
+        "name": "Tulasi",
+        "character": "Karthikeya's Mother",
+        "profilePath": "/oETAXn9y9YZ6yvCZFvzOcHBImr0.jpg"
+      },
+      {
+        "name": "K.S. Sridhar",
+        "character": "Prof. Ranganatha rao",
+        "profilePath": null
+      },
+      {
+        "name": "Anupam Kher",
+        "character": "Dr. Dhanvanthri Vedpathak",
+        "profilePath": "/kgU5Ap1Kf9RnicB5DMcXEZqed2f.jpg"
+      },
+      {
+        "name": "Meena Vasu",
+        "character": "Shanti, Karthikeya's sister-in-law",
+        "profilePath": "/A7ERtas41T7XvF79R94glLdezBQ.jpg"
+      },
+      {
+        "name": "Venkatesh Mummudi",
+        "character": "Abheera",
+        "profilePath": null
+      }
+    ]
+  },
+  "magadheera": {
+    "tmdbId": 23790,
+    "tmdbType": "movie",
+    "imdbId": "tt1447500",
+    "matchedTitle": "Magadheera",
+    "originalTitle": "మగధీర",
+    "releaseDate": "2009-07-31",
+    "posterPath": "/xK7MEV56GF291VG0U5XnVJuvNv3.jpg",
+    "backdropPath": "/p2SvjtejMgiBDCLL3ugOmCxk3sY.jpg",
+    "trailerKey": "_LaejRruLKI",
+    "tagline": null,
+    "certification": "A",
+    "tmdbRating": 7.2,
+    "tmdbVotes": 146,
+    "genres": [
+      "Action"
+    ],
+    "productionCompanies": [
+      "Geetha Arts"
+    ],
+    "director": "S. S. Rajamouli",
+    "writers": [
+      "Vijayendra Prasad",
+      "S. S. Rajamouli"
+    ],
+    "cast": [
+      {
+        "name": "Ram Charan",
+        "character": "Kala Bhairava / Harsha",
+        "profilePath": "/twGqYUCR0Yh33j3TcgRTZRBRhTd.jpg"
+      },
+      {
+        "name": "Kajal Aggarwal",
+        "character": "Mitravinda / Indu",
+        "profilePath": "/hIV5HeHM9xUxhbDdhtM8q56AuXE.jpg"
+      },
+      {
+        "name": "Dev Gill",
+        "character": "Ranadev Bhilla / Raghubeer",
+        "profilePath": "/8Ta11Sdp6jCCbBEroTbnzoRxkvw.jpg"
+      },
+      {
+        "name": "Srihari",
+        "character": "Sher Khan / Solomon",
+        "profilePath": "/j0sMxR2Hq69iLCJKMcVHe4XuA17.jpg"
+      },
+      {
+        "name": "Sunil Varma",
+        "character": "Harsha's Friend",
+        "profilePath": "/ifmUCkLgpEzbfnRjIw62otrADpI.jpg"
+      },
+      {
+        "name": "Surya Bhagawan Das",
+        "character": "Indu's father",
+        "profilePath": "/fflRAfFuyvM4QIGkS3EVcqIjVm1.jpg"
+      },
+      {
+        "name": "Chatrapathi Sekhar",
+        "character": "Raghubeer's Sidekick",
+        "profilePath": "/sLP6V1McdVPwp3smHzEzuXs8ubM.jpg"
+      },
+      {
+        "name": "Sarath Babu",
+        "character": "Vikram Singh Maharaj",
+        "profilePath": "/giugWi2EV6GYxmrkn4XKgyvjRGp.jpg"
+      },
+      {
+        "name": "Saloni Aswani",
+        "character": "Solomon's Girlfriend",
+        "profilePath": "/gCNy6jJWoQFPgE3df9Tmw2sFKJI.jpg"
+      },
+      {
+        "name": "Hema",
+        "character": "Sasikala",
+        "profilePath": "/4s1Kiq09KI4p7RFjmclEelLnyV8.jpg"
+      },
+      {
+        "name": "Subbaraya Sharma",
+        "character": "Gurudevulu",
+        "profilePath": "/fFJb5oiyTzuc3BLs5NBsf1qgT15.jpg"
+      },
+      {
+        "name": "Brahmanandam",
+        "character": "Kittu",
+        "profilePath": "/zh6nWEIy3l1dsZA9EDuDezq867b.jpg"
+      }
+    ]
+  },
+  "sankranthiki-vasthunam": {
+    "tmdbId": 1380920,
+    "tmdbType": "movie",
+    "imdbId": "tt31226981",
+    "matchedTitle": "Sankranthiki Vasthunam",
+    "originalTitle": "సంక్రాంతికి వస్తున్నాం",
+    "releaseDate": "2025-01-14",
+    "posterPath": "/gFa07KuR3tWFI6YFTeGz930zeMo.jpg",
+    "backdropPath": "/34vhD3KFITH2Ymeh1wF73zZXYDZ.jpg",
+    "trailerKey": "yCkl2Z3PBs0",
+    "tagline": null,
+    "certification": "UA",
+    "tmdbRating": 5.4,
+    "tmdbVotes": 15,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "productionCompanies": [
+      "Sri Venkateswara Creations"
+    ],
+    "director": "Anil Ravipudi",
+    "writers": [
+      "Anil Ravipudi"
+    ],
+    "cast": [
+      {
+        "name": "Venkatesh",
+        "character": "Yadagari Damodara Raju",
+        "profilePath": "/t5PWjy177ZTUM6wdjaVjqp5FLJq.jpg"
+      },
+      {
+        "name": "Aishwarya Rajesh",
+        "character": "Bhagyalakshmi",
+        "profilePath": "/9xChl6zSGT9Svx5jghZg1yrW47w.jpg"
+      },
+      {
+        "name": "Meenakshi Chaudhary",
+        "character": "ACP C. Meenakshi",
+        "profilePath": "/3kI9sBIGcXyvlfocmfQwkmXO1zS.jpg"
+      },
+      {
+        "name": "Upendra Limaye",
+        "character": "Jailer George Antony",
+        "profilePath": "/vFELR5TiBfc6LkLvI5kC5lpEnHv.jpg"
+      },
+      {
+        "name": "Sai Kumar",
+        "character": "P. C. P. Manikya Rao",
+        "profilePath": "/Xq5VNf8rPgQF0tuQLjl5YwHPoc.jpg"
+      },
+      {
+        "name": "Srinivasa Reddy",
+        "character": "Kesava's Family Doctor",
+        "profilePath": "/aUMNaDeskPGyDoEGwqvBxZPnzYR.jpg"
+      },
+      {
+        "name": "Naresh",
+        "character": "Chief Minister Kesava",
+        "profilePath": "/yT9Sgp7y8h3xhlmgzafUwlIXy1H.jpg"
+      },
+      {
+        "name": "VTV Ganesh",
+        "character": "Party President",
+        "profilePath": "/5JomvpPx6PrExYcZAbHM1MoHjoZ.jpg"
+      },
+      {
+        "name": "Srinivas Avasarala",
+        "character": "Satya Akella/Prem",
+        "profilePath": "/y7gdtDJqvwPrWKLVmDbE9BtPdOY.jpg"
+      },
+      {
+        "name": "Vadlamani Srinivas",
+        "character": "Police IG",
+        "profilePath": "/AxSe41CKf4JdcN7DzaAFc8ymhV.jpg"
+      },
+      {
+        "name": "Bheemala Revanth Pavan Sai Subhash",
+        "character": "Bulli Raju",
+        "profilePath": null
+      },
+      {
+        "name": "Muralidhar Goud",
+        "character": "Bhagyam's Father",
+        "profilePath": "/3KldPSnn08WhuwoUR9GhZ9OnsI2.jpg"
+      }
+    ]
+  },
+  "hanu-man": {
+    "tmdbId": 869760,
+    "tmdbType": "movie",
+    "imdbId": "tt15433956",
+    "matchedTitle": "Hanu-Man",
+    "originalTitle": "హను-మాన్",
+    "releaseDate": "2024-01-11",
+    "posterPath": "/m1zq48rWSXxplzoJR8YtbXWnnHM.jpg",
+    "backdropPath": "/evUpfs4dw7AuZ5k8dkePVMFSg0T.jpg",
+    "trailerKey": "2IXNyRSXQuw",
+    "tagline": "The Most Powerful Superhero In The Universe",
+    "certification": "UA",
+    "tmdbRating": 6.4,
+    "tmdbVotes": 42,
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Comedy",
+      "Science Fiction"
+    ],
+    "productionCompanies": [
+      "Primeshow Entertainment"
+    ],
+    "director": "Prasanth Varma",
+    "writers": [
+      "Prasanth Varma",
+      "scriptsville"
+    ],
+    "cast": [
+      {
+        "name": "Teja Sajja",
+        "character": "Hanumanthu / Hanu-Man",
+        "profilePath": "/7MhRbb4VTRpk199CsX4vnYqQRd2.jpg"
+      },
+      {
+        "name": "Vinay Rai",
+        "character": "Michael / Mega-Man",
+        "profilePath": "/8xRUq54pt2p6SHc80ezhXnm9nnf.jpg"
+      },
+      {
+        "name": "Amritha Aiyer",
+        "character": "Meenakshi",
+        "profilePath": "/sjhXrtTkB9Nh8qyjrH4UwBEL4K7.jpg"
+      },
+      {
+        "name": "Varalaxmi Sarathkumar",
+        "character": "Anjamma",
+        "profilePath": "/vudH16iDpzft1uWIMMgcCRxBTXa.jpg"
+      },
+      {
+        "name": "Vennela Kishore",
+        "character": "Dr.Siri Vennela",
+        "profilePath": "/8a0mcxMPjD4KR15gyE5QmbDeTub.jpg"
+      },
+      {
+        "name": "Getup Srinu",
+        "character": "Kaasi",
+        "profilePath": "/xb2lJ213oU3DS6kMkDuqlf7EFeG.jpg"
+      },
+      {
+        "name": "Deepak Shetty",
+        "character": "Gajapathi",
+        "profilePath": "/bMJy4NbCLpamvJ7ooA8E4fx5znX.jpg"
+      },
+      {
+        "name": "Samuthirakani",
+        "character": "Vibhishana",
+        "profilePath": "/hicCPOdDfSRCEYkeb9g53FOY19A.jpg"
+      },
+      {
+        "name": "Satya",
+        "character": "Gunneswara Rao",
+        "profilePath": "/fWHqfjiqnORU6R2fqwiJnowujdP.jpg"
+      },
+      {
+        "name": "Rohini Reddy",
+        "character": "Meenakshi's Friend",
+        "profilePath": "/85ZKckTl36xMSZhmpgapAnvxcl0.jpg"
+      },
+      {
+        "name": "Rakesh Master",
+        "character": "Puli Raju",
+        "profilePath": "/v5NUldPnf2LUyhvDvXOBIBKOD38.jpg"
+      },
+      {
+        "name": "Meer",
+        "character": "Meenakshi's Grand Father",
+        "profilePath": "/r5YCroyGE92rKh7H6TPvTQo4sOa.jpg"
+      }
+    ]
+  },
+  "kalki-2898": {
+    "tmdbId": 801688,
+    "tmdbType": "movie",
+    "imdbId": "tt12735488",
+    "matchedTitle": "Kalki 2898-AD",
+    "originalTitle": "కల్కి 2898-ఎ.డి",
+    "releaseDate": "2024-06-26",
+    "posterPath": "/rstcAnBeCkxNQjNp3YXrF6IP1tW.jpg",
+    "backdropPath": "/o8XSR1SONnjcsv84NRu6Mwsl5io.jpg",
+    "trailerKey": "eWI9voiOt_k",
+    "tagline": "For a better Tomorrow",
+    "certification": "UA",
+    "tmdbRating": 6.4,
+    "tmdbVotes": 186,
+    "genres": [
+      "Drama",
+      "Action",
+      "Fantasy",
+      "Science Fiction"
+    ],
+    "productionCompanies": [
+      "Vyjayanthi Movies",
+      "Annapurna Studios"
+    ],
+    "director": "Nag Ashwin",
+    "writers": [
+      "Nag Ashwin"
+    ],
+    "cast": [
+      {
+        "name": "Amitabh Bachchan",
+        "character": "Ashwatthama",
+        "profilePath": "/u69PvpWqGkywSm0YjFiw77j9eqS.jpg"
+      },
+      {
+        "name": "Prabhas",
+        "character": "Bhairava",
+        "profilePath": "/u6RVP8ukgLaymeoi5VmX0JRAcCn.jpg"
+      },
+      {
+        "name": "Deepika Padukone",
+        "character": "SUM-80 \"Sumathi\"",
+        "profilePath": "/rzvvBQ0r6oiqDdzcsdTRB7jN4Rx.jpg"
+      },
+      {
+        "name": "Kamal Haasan",
+        "character": "Supreme Yaskin",
+        "profilePath": "/17zscZgz4wOlGDd3Gziw4YbI3G.jpg"
+      },
+      {
+        "name": "Saswata Chatterjee",
+        "character": "Manas",
+        "profilePath": "/cVJVLDy7BNzIbFMcJBPOWeN0Kb.jpg"
+      },
+      {
+        "name": "Shobana",
+        "character": "Mariam",
+        "profilePath": "/t6niRFC3xCV6hJSuyC9ACWLSVXu.jpg"
+      },
+      {
+        "name": "Rajendra Prasad",
+        "character": "Rumi",
+        "profilePath": "/zh6QJ85g5KbpkjL5fgqlOGddn5C.jpg"
+      },
+      {
+        "name": "Pasupathy",
+        "character": "Veeran",
+        "profilePath": "/luiNwyZPi2snUB7mA4MTyQ1tvU3.jpg"
+      },
+      {
+        "name": "Anna Ben",
+        "character": "Kyra",
+        "profilePath": "/d0vvDEO6MWeRnc6lj1d11TnIt5i.jpg"
+      },
+      {
+        "name": "Keya Nair",
+        "character": "Raia",
+        "profilePath": null
+      },
+      {
+        "name": "Harshith Malgireddy",
+        "character": "Luke",
+        "profilePath": null
+      },
+      {
+        "name": "Ayaz Pasha",
+        "character": "Ajju",
+        "profilePath": null
+      }
+    ]
+  },
+  "virupaksha": {
+    "tmdbId": 1034590,
+    "tmdbType": "movie",
+    "imdbId": "tt24059780",
+    "matchedTitle": "Virupaksha",
+    "originalTitle": "విరూపాక్ష",
+    "releaseDate": "2023-04-20",
+    "posterPath": "/fqMn4h9ctOyumII2nXDnm5mRTxQ.jpg",
+    "backdropPath": "/xfm3oNEyguquFMW3Yq4UNgnoVRL.jpg",
+    "trailerKey": "UcOpgGt06FE",
+    "tagline": null,
+    "certification": "A",
+    "tmdbRating": 6.7,
+    "tmdbVotes": 40,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "productionCompanies": [
+      "Sukumar Writings",
+      "Sri Venkateswara Cine Chitra"
+    ],
+    "director": "Karthik Varma Dandu",
+    "writers": [
+      "Sukumar",
+      "Karthik Varma Dandu"
+    ],
+    "cast": [
+      {
+        "name": "Sai Durgha Tej",
+        "character": "Surya",
+        "profilePath": "/lX3rI99DmyIXn8yaUW2i0wA1X4Q.jpg"
+      },
+      {
+        "name": "Samyuktha",
+        "character": "Nandini",
+        "profilePath": "/lyH5eDTwTTRzqaBaDd5qdUrlAmO.jpg"
+      },
+      {
+        "name": "Brahmaji",
+        "character": "RMP Doctor Koti",
+        "profilePath": "/xDTE7POq1bkyjLINxdy7rW4wQlg.jpg"
+      },
+      {
+        "name": "Rajeev Kanakala",
+        "character": "Harichandrasekar",
+        "profilePath": "/29Czs1esSU744TOe3ddDzCuCa0g.jpg"
+      },
+      {
+        "name": "Ravi Krishna",
+        "character": "Bhairava Kumar",
+        "profilePath": "/vtqotENMFoZa9ThHfVBGOxK9KdX.jpg"
+      },
+      {
+        "name": "Sai Chand",
+        "character": "Poojari",
+        "profilePath": "/1siMncMiqyu6zu8Xw1feVuVhbSy.jpg"
+      },
+      {
+        "name": "Sunil Varma",
+        "character": "Abbai Raju",
+        "profilePath": "/ifmUCkLgpEzbfnRjIw62otrADpI.jpg"
+      },
+      {
+        "name": "Ajay",
+        "character": "Aghora",
+        "profilePath": "/uByCHJa3eaCL0SgFGDYYLlsVggC.jpg"
+      },
+      {
+        "name": "Shyamala",
+        "character": "Parvati",
+        "profilePath": "/oMVU5ZiYQGhF64ItD2FLtZCWA5C.jpg"
+      },
+      {
+        "name": "Soniya Singh",
+        "character": "Sudha",
+        "profilePath": "/8KuEPyFcDOKFUzSlQ4txHUWbsP5.jpg"
+      },
+      {
+        "name": "Kamal Kamaraju",
+        "character": "Venkata Chalapathy",
+        "profilePath": "/dzRe0pHRcBHTKJCGcMFjPJ0K8Fp.jpg"
+      },
+      {
+        "name": "Kamakshi Bhaskarla",
+        "character": "Venkata Chalapathy's wife",
+        "profilePath": "/rS6eRKX0ZldriYdZjx6zf8faoHH.jpg"
+      }
+    ]
+  },
+  "sirivennela": {
+    "tmdbId": 30153,
+    "tmdbType": "movie",
+    "imdbId": "tt0086231",
+    "matchedTitle": "Sagara Sangamam",
+    "originalTitle": "సాగర సంగమం",
+    "releaseDate": "1983-06-03",
+    "posterPath": "/hdg47CcaBfLf0DttUoav45boYtL.jpg",
+    "backdropPath": "/tGy0Sob0T7fzcgD6dOmsUypqxxu.jpg",
+    "trailerKey": "59AejwbI41s",
+    "tagline": "In love with art, and each other.",
+    "certification": "U",
+    "tmdbRating": 7.7,
+    "tmdbVotes": 23,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Music"
+    ],
+    "productionCompanies": [
+      "Poornodaya Movie Creations"
+    ],
+    "director": "K. Viswanath",
+    "writers": [
+      "K. Viswanath"
+    ],
+    "cast": [
+      {
+        "name": "Kamal Haasan",
+        "character": "Balakrishna 'Balu'",
+        "profilePath": "/17zscZgz4wOlGDd3Gziw4YbI3G.jpg"
+      },
+      {
+        "name": "Jaya Prada",
+        "character": "Madhavi",
+        "profilePath": "/zuPoQYLBKYZXInHxvqwJ1ADrdEY.jpg"
+      },
+      {
+        "name": "Sarath Babu",
+        "character": "Ragupathy 'Raghu'",
+        "profilePath": "/giugWi2EV6GYxmrkn4XKgyvjRGp.jpg"
+      },
+      {
+        "name": "S.P. Sailaja",
+        "character": "Sailaja",
+        "profilePath": "/saFBDylbonCq0d6YhPo5fOEtc3J.jpg"
+      },
+      {
+        "name": "Saakshi Ranga Rao",
+        "character": "Balu's uncle",
+        "profilePath": "/uqolLMfArFuJzk0PEVPiDWXA2gb.jpg"
+      },
+      {
+        "name": "Janaki",
+        "character": "Balu's Mother",
+        "profilePath": "/8xGefQ0sVOQuOgp64FTojoReQJx.jpg"
+      },
+      {
+        "name": "Chakri Toleti",
+        "character": "Teen photographer",
+        "profilePath": "/1WMxmuwxv2NdsBDdg4hkNM85gsV.jpg"
+      },
+      {
+        "name": "Potti Prasad",
+        "character": "Sivayya",
+        "profilePath": null
+      },
+      {
+        "name": "Geetha",
+        "character": "Geeta",
+        "profilePath": "/lSLF837hWXPWAvMAmO157113r4j.jpg"
+      },
+      {
+        "name": "Manju Bhargavi",
+        "character": "Classical dancer",
+        "profilePath": "/2hWAF3kJHKhcXGdpcfDhihLl3ql.jpg"
+      },
+      {
+        "name": "Mohan Sharma",
+        "character": "Venugopala Rathnam",
+        "profilePath": "/k6YSmsli27fpceT3ymTNUry8T7A.jpg"
+      },
+      {
+        "name": "S. K. Misro",
+        "character": "Film choreographer",
+        "profilePath": null
+      }
+    ]
+  },
+  "shiva-1989": {
+    "tmdbId": 109001,
+    "tmdbType": "movie",
+    "imdbId": "tt14984074",
+    "matchedTitle": "Shiva",
+    "originalTitle": "शिवा",
+    "releaseDate": "1990-12-07",
+    "posterPath": "/4jWEsHBD1gaGn5Aa0CHHfPmJCQh.jpg",
+    "backdropPath": "/xAP1oRSgrTsi33ijsa5G3zkE8pn.jpg",
+    "trailerKey": null,
+    "tagline": null,
+    "certification": "A",
+    "tmdbRating": 6.5,
+    "tmdbVotes": 12,
+    "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "productionCompanies": [
+      "Annapurna Studios",
+      "S.S. Creations"
+    ],
+    "director": "Ram Gopal Varma",
+    "writers": [
+      "Ram Gopal Varma"
+    ],
+    "cast": [
+      {
+        "name": "Nagarjuna Akkineni",
+        "character": "Shiva",
+        "profilePath": "/y6A79KaYhxRZ7OUsDm2dq2MFSm2.jpg"
+      },
+      {
+        "name": "Amala Akkineni",
+        "character": "Asha",
+        "profilePath": "/fyBWFzUTya2GVIx74NX9cX7ZtfL.jpg"
+      },
+      {
+        "name": "Raghuvaran",
+        "character": "Bhavani",
+        "profilePath": "/z6IJ61kEaU6cjBHVX2eqxL2nnMx.jpg"
+      },
+      {
+        "name": "Paresh Rawal",
+        "character": "Tilak Dhari",
+        "profilePath": "/xFVHMvDC8s4Ab2sLXrdVxMxZ33b.jpg"
+      },
+      {
+        "name": "J. D. Chakravarthi",
+        "character": "JD (Jagdish Dave)",
+        "profilePath": "/4sRwxgggTEhsaJzwZRZbxbLRzUA.jpg"
+      },
+      {
+        "name": "Tanikella Bharani",
+        "character": "Nanaji",
+        "profilePath": "/zRjr0F64Eznbliz1RvN9icj3Lq1.jpg"
+      },
+      {
+        "name": "Rohini Hattangadi",
+        "character": "Prakash's Mother",
+        "profilePath": "/ApgSi1vZg0b0tl9ir3fERHhZUIU.jpg"
+      },
+      {
+        "name": "Goga Kapoor",
+        "character": "Kanta Prasad",
+        "profilePath": "/il7Csz0XZxdcaH4fyPTD0PLReYr.jpg"
+      },
+      {
+        "name": "Iftekhar",
+        "character": "College Principal",
+        "profilePath": "/xDtJUtXtibzMMh7FXxP9qmyM3gc.jpg"
+      },
+      {
+        "name": "Chandrashekhar Vaidya",
+        "character": "Lecturer (as Chandrasekar)",
+        "profilePath": "/zEWqNyfWpOuJnp62cSuTQvQQE1P.jpg"
+      },
+      {
+        "name": "Beena Banerjee",
+        "character": "Shiva's Sister-in-law (as Bina Banerji)",
+        "profilePath": "/bpz1mRlbVEYtIgRVoGHC5oGZ9Lt.jpg"
+      },
+      {
+        "name": "Raj Zutshi",
+        "character": "Prakash",
+        "profilePath": "/aJmWL08uj2oVGd2cJmBuzNSO2LY.jpg"
+      }
+    ]
+  },
+  "nuvve-kavali": {
+    "tmdbId": 82200,
+    "tmdbType": "movie",
+    "imdbId": "tt0348691",
+    "matchedTitle": "Nuvve Kavali",
+    "originalTitle": "నువ్వే కావాలి",
+    "releaseDate": "2000-10-13",
+    "posterPath": "/wHkRhP7FCEai9fZ3VMCBaQPfea5.jpg",
+    "backdropPath": null,
+    "trailerKey": null,
+    "tagline": null,
+    "certification": null,
+    "tmdbRating": 7,
+    "tmdbVotes": 5,
+    "genres": [
+      "Drama",
+      "Family",
+      "Romance"
+    ],
+    "productionCompanies": [],
+    "director": "K. Vijaya Bhaskar",
+    "writers": [
+      "Trivikram Srinivas",
+      "Iqbal Kuttippuram"
+    ],
+    "cast": [
+      {
+        "name": "Tarun",
+        "character": null,
+        "profilePath": "/nv8fB5YH0nvgrA2eM9klpN707eP.jpg"
+      },
+      {
+        "name": "Richa Pallod",
+        "character": null,
+        "profilePath": "/2yo80bulfWF963ELDznsgfaMyGR.jpg"
+      },
+      {
+        "name": "Sai Kiran",
+        "character": null,
+        "profilePath": null
+      },
+      {
+        "name": "Sunil Varma",
+        "character": null,
+        "profilePath": "/ifmUCkLgpEzbfnRjIw62otrADpI.jpg"
+      },
+      {
+        "name": "Prema",
+        "character": null,
+        "profilePath": "/96TTnxdUQToLziNr7Qw1caByRGD.jpg"
+      },
+      {
+        "name": "Giri Babu",
+        "character": null,
+        "profilePath": "/rOwTKoZGqAnh1jPCpPnn7ccAT0i.jpg"
+      },
+      {
+        "name": "M. S. Narayana",
+        "character": null,
+        "profilePath": "/1XRTmhRSOtHBVmoPfz45WxbLfFQ.jpg"
+      },
+      {
+        "name": "Laila",
+        "character": null,
+        "profilePath": "/yYflGhx9UiJ5aHA3k45BeTb5M12.jpg"
+      },
+      {
+        "name": "Chalapathi Rao",
+        "character": null,
+        "profilePath": "/51zzAobEchxSwHI1b4tUxrVpQaz.jpg"
+      },
+      {
+        "name": "Kovai Sarala",
+        "character": null,
+        "profilePath": "/rujbfPg6rp9DOphQZYUjll7KNPz.jpg"
+      },
+      {
+        "name": "Dharmavarupu Subramanyam",
+        "character": null,
+        "profilePath": "/hIFs97t4snTwfnXqxZ61F3sC7I5.jpg"
+      },
+      {
+        "name": "Delhi Rajeshwari",
+        "character": null,
+        "profilePath": "/d6sGEt3xUOHgmYWC1je9FeSC6Zi.jpg"
+      }
+    ]
+  },
+  "kshana-kshanam": {
+    "tmdbId": 81072,
+    "tmdbType": "movie",
+    "imdbId": "tt0187115",
+    "matchedTitle": "Kshana Kshanam",
+    "originalTitle": "క్షణ క్షణం",
+    "releaseDate": "1991-10-09",
+    "posterPath": "/9qQyvepQkpPeeNFk04tea2vLTuY.jpg",
+    "backdropPath": "/lcmfVMnKKp6FGQxupOoVGS6afMM.jpg",
+    "trailerKey": "oJqEujLBYuU",
+    "tagline": null,
+    "certification": "U",
+    "tmdbRating": 5.7,
+    "tmdbVotes": 20,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Crime",
+      "Action",
+      "Comedy"
+    ],
+    "productionCompanies": [
+      "Sri Durga Arts"
+    ],
+    "director": "Ram Gopal Varma",
+    "writers": [
+      "Ram Gopal Varma"
+    ],
+    "cast": [
+      {
+        "name": "Sridevi",
+        "character": "Satya",
+        "profilePath": "/6wxquADm0CMYMon04uEI48ZiBBf.jpg"
+      },
+      {
+        "name": "Venkatesh",
+        "character": "Chandu",
+        "profilePath": "/t5PWjy177ZTUM6wdjaVjqp5FLJq.jpg"
+      },
+      {
+        "name": "Paresh Rawal",
+        "character": "Nayar",
+        "profilePath": "/xFVHMvDC8s4Ab2sLXrdVxMxZ33b.jpg"
+      },
+      {
+        "name": "Rami Reddy",
+        "character": "Inspector Yadav",
+        "profilePath": "/nZsxImJ2EBtLzmvCuymoXyuvevh.jpg"
+      },
+      {
+        "name": "Brahmanandam",
+        "character": "Store Manager",
+        "profilePath": "/zh6nWEIy3l1dsZA9EDuDezq867b.jpg"
+      },
+      {
+        "name": "Narsing Yadav",
+        "character": "Narsing",
+        "profilePath": "/6XXilySySycI5Zf6jhGQgHzHgEz.jpg"
+      },
+      {
+        "name": "Hema",
+        "character": "Sarala",
+        "profilePath": "/4s1Kiq09KI4p7RFjmclEelLnyV8.jpg"
+      },
+      {
+        "name": "Horse Babu",
+        "character": "Narayana",
+        "profilePath": null
+      },
+      {
+        "name": "Jack Gaud",
+        "character": "Ungan",
+        "profilePath": "/q4glEhX2i7gy743hRUXzwWBaa8Z.jpg"
+      },
+      {
+        "name": "Krishna Rao",
+        "character": "Apartment Resident",
+        "profilePath": null
+      },
+      {
+        "name": "Sobhan",
+        "character": "Goon",
+        "profilePath": null
+      },
+      {
+        "name": "Manik Irani",
+        "character": "Goon",
+        "profilePath": "/g8QVlAySOtSVVMVGA7JNNvr2v5l.jpg"
+      }
+    ]
+  },
+  "committee-kurrollu": {
+    "tmdbId": 1327213,
+    "tmdbType": "movie",
+    "imdbId": "tt29959142",
+    "matchedTitle": "Committee Kurrollu",
+    "originalTitle": "కమిటీ కుర్రోళ్లు",
+    "releaseDate": "2024-08-09",
+    "posterPath": "/xKiYjm8sOYYQbr2CefFaTThjFAT.jpg",
+    "backdropPath": "/zEO5onnXV4Hh12CdubpBYoCOlGy.jpg",
+    "trailerKey": null,
+    "tagline": null,
+    "certification": "U/A 13+",
+    "tmdbRating": 6.6,
+    "tmdbVotes": 4,
+    "genres": [
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Pink Elephant Pictures"
+    ],
+    "director": "Yadu Vamsi",
+    "writers": [
+      "Yadu Vamsi",
+      "Kondalrao addagalla",
+      "Venkat Subash Cheerala"
+    ],
+    "cast": [
+      {
+        "name": "Raadhya",
+        "character": null,
+        "profilePath": null
+      },
+      {
+        "name": "Sai Kumar",
+        "character": null,
+        "profilePath": "/Xq5VNf8rPgQF0tuQLjl5YwHPoc.jpg"
+      },
+      {
+        "name": "Goparaju Ramana",
+        "character": null,
+        "profilePath": "/vRQKXftT1PXokqcfOKL9JjoiBht.jpg"
+      },
+      {
+        "name": "Sharanya suresh",
+        "character": null,
+        "profilePath": null
+      },
+      {
+        "name": "Prasad Behara",
+        "character": "Peddodu",
+        "profilePath": null
+      },
+      {
+        "name": "Tinu Shravya",
+        "character": null,
+        "profilePath": "/5b1gEcOFitvzsgiBRIRGISuU4E9.jpg"
+      }
+    ]
+  },
+  "kantara": {
+    "tmdbId": 858485,
+    "tmdbType": "movie",
+    "imdbId": "tt15327088",
+    "matchedTitle": "Kantara",
+    "originalTitle": "ಕಾಂತಾರ",
+    "releaseDate": "2022-09-30",
+    "posterPath": "/jIsKmkxMzdCZ0Ux1GVSnu8m6Na6.jpg",
+    "backdropPath": "/kXElm7wt2kAXEVwJqW4cFhP43nW.jpg",
+    "trailerKey": "MTECjlKUgEE",
+    "tagline": "A Legend",
+    "certification": "UA",
+    "tmdbRating": 7.2,
+    "tmdbVotes": 148,
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "productionCompanies": [
+      "Hombale Films"
+    ],
+    "director": "Rishab Shetty",
+    "writers": [
+      "Rishab Shetty"
+    ],
+    "cast": [
+      {
+        "name": "Rishab Shetty",
+        "character": "Kaadubettu Shiva / Shiva's Father",
+        "profilePath": "/eRaOUg2B02XH1l6P4juGzaPDr3u.jpg"
+      },
+      {
+        "name": "Sapthami Gowda",
+        "character": "Leela",
+        "profilePath": "/kmWJZ7Fz2RCvOcMTuaqIxOhzKGd.jpg"
+      },
+      {
+        "name": "Kishore",
+        "character": "Murali",
+        "profilePath": "/njLrsTMxiUfnqOvWegFT3e2Sj6T.jpg"
+      },
+      {
+        "name": "Achyuth Kumar",
+        "character": "Devendra Suttooru",
+        "profilePath": "/zO1MoCgaz0RxILjga8VYXguROMp.jpg"
+      },
+      {
+        "name": "Pramod Shetty",
+        "character": "Sudhakar",
+        "profilePath": "/86EdpeMO9V7tQt1tgIk3MpnKSTH.jpg"
+      },
+      {
+        "name": "Prakash Tuminadu",
+        "character": "Raampa",
+        "profilePath": null
+      },
+      {
+        "name": "Manasi Sudhir",
+        "character": "Shiva's Mother",
+        "profilePath": null
+      },
+      {
+        "name": "Naveen D. Padil",
+        "character": "Lawyer",
+        "profilePath": null
+      },
+      {
+        "name": "Suchan Shetty",
+        "character": "Ravi",
+        "profilePath": null
+      },
+      {
+        "name": "Swaraj Shetty",
+        "character": "Guruva",
+        "profilePath": "/fwGFT3i72k1P0gdlWdTuXgBPzhH.jpg"
+      },
+      {
+        "name": "Deepak Rai Panaje",
+        "character": "Sundara",
+        "profilePath": "/sKDSBchwG85XdhUulFzDVsxopIz.jpg"
+      },
+      {
+        "name": "Shanil Guru",
+        "character": "Bulla",
+        "profilePath": null
+      }
+    ]
+  },
+  "vikram": {
+    "tmdbId": 743563,
+    "tmdbType": "movie",
+    "imdbId": "tt9179430",
+    "matchedTitle": "Vikram",
+    "originalTitle": "விக்ரம்",
+    "releaseDate": "2022-06-02",
+    "posterPath": "/774UV1aCURb4s4JfEFg3IEMu5Zj.jpg",
+    "backdropPath": "/dkIX4dSMuVqjfrPGunBJUR7K3LQ.jpg",
+    "trailerKey": "jJf35tEkW9E",
+    "tagline": "Once upon a time there lived a ghost...",
+    "certification": "UA",
+    "tmdbRating": 7.5,
+    "tmdbVotes": 174,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "productionCompanies": [
+      "Raajkamal Films International"
+    ],
+    "director": "Lokesh Kanagaraj",
+    "writers": [
+      "Lokesh Kanagaraj",
+      "Rathna Kumar"
+    ],
+    "cast": [
+      {
+        "name": "Kamal Haasan",
+        "character": "Karnan / Arun Kumar Vikram",
+        "profilePath": "/17zscZgz4wOlGDd3Gziw4YbI3G.jpg"
+      },
+      {
+        "name": "Fahadh Faasil",
+        "character": "Amar",
+        "profilePath": "/wmkwZWFHqMptqdt4HacMIAe8OBP.jpg"
+      },
+      {
+        "name": "Vijay Sethupathi",
+        "character": "Sandhanam",
+        "profilePath": "/a3HWdfCAbplrvoMNEJCjnkbqqOo.jpg"
+      },
+      {
+        "name": "Suriya",
+        "character": "Rolex (special appearance)",
+        "profilePath": "/hIFXv3gIjlNS78gJmaguEOxvfPH.jpg"
+      },
+      {
+        "name": "Narain",
+        "character": "Bejoy",
+        "profilePath": "/d0ApUGeFuGXpBkODIc6eLbBkb7B.jpg"
+      },
+      {
+        "name": "Chemban Vinod Jose",
+        "character": "Police Chief Jose",
+        "profilePath": "/4bCAqhHMcPeoI41Emi4BBSXwZaj.jpg"
+      },
+      {
+        "name": "Santhana Bharathi",
+        "character": "Uppiliappan",
+        "profilePath": "/vdPEpOZTY5CyqWVOO6W7LwgzQjn.jpg"
+      },
+      {
+        "name": "Elango Kumaravel",
+        "character": "Lawrence",
+        "profilePath": "/8LtXDdacaCA7Gk4B8ACxTs430EO.jpg"
+      },
+      {
+        "name": "Vasanthi Guru",
+        "character": "Tina",
+        "profilePath": "/t0H6I4j1nU3moXN3qfMe2Q2zwio.jpg"
+      },
+      {
+        "name": "Kalidas Jayaram",
+        "character": "ACP Prabhanjan",
+        "profilePath": "/hwGNxY71w6MWmULoHvhPBWtgmVw.jpg"
+      },
+      {
+        "name": "Gayathrie Shankar",
+        "character": "Gayathri Amar",
+        "profilePath": "/bJgZlSd5WCIi7kp3IZKS0FDjIL2.jpg"
+      },
+      {
+        "name": "Swathishta Krishnan",
+        "character": "Prabhanjan's wife",
+        "profilePath": "/pDgnxMubPzgcIFoELyRRIAjafZf.jpg"
+      }
+    ]
+  },
+  "drishyam": {
+    "tmdbId": 244049,
+    "tmdbType": "movie",
+    "imdbId": "tt3417422",
+    "matchedTitle": "Drishyam",
+    "originalTitle": "ദൃശ്യം",
+    "releaseDate": "2013-12-19",
+    "posterPath": "/7d8GLneJkF81q1POdK7VUrjWafX.jpg",
+    "backdropPath": "/uqcM9eRqUyZCJCGDkLozP9TGAHn.jpg",
+    "trailerKey": "eMASubc1y_k",
+    "tagline": "Visuals can be deceiving",
+    "certification": "U",
+    "tmdbRating": 7.5,
+    "tmdbVotes": 232,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Aashirvad Cinemas"
+    ],
+    "director": "Jeethu Joseph",
+    "writers": [
+      "Jeethu Joseph"
+    ],
+    "cast": [
+      {
+        "name": "Mohanlal",
+        "character": "Georgekutty",
+        "profilePath": "/wvoBULQimwguAGPOHZ8TDoy7jBJ.jpg"
+      },
+      {
+        "name": "Meena",
+        "character": "Rani",
+        "profilePath": "/vMawuuT7VCeeJuBqpkm5siuWPij.jpg"
+      },
+      {
+        "name": "Asha Sarath",
+        "character": "IG Geetha Prabhakar",
+        "profilePath": "/1Bun1cGDrA14XOr7iHPk3w5bzAX.jpg"
+      },
+      {
+        "name": "Kalabhavan Shajon",
+        "character": "Constable Sahadevan",
+        "profilePath": "/AeiCzOHp0lo426jJGpwJ2CWwISy.jpg"
+      },
+      {
+        "name": "Ansiba Hassan",
+        "character": "Anju",
+        "profilePath": "/dh55iMR1ablDwrowT9UaKxEgNHZ.jpg"
+      },
+      {
+        "name": "Esther Anil",
+        "character": "Anumol",
+        "profilePath": "/nXsLQHAtGT9GnScga3Aju5ObgR3.jpg"
+      },
+      {
+        "name": "Siddique",
+        "character": "Prabhakar",
+        "profilePath": "/tMv7QsmYlXAXtP75D3eIxXHpgTv.jpg"
+      },
+      {
+        "name": "Roshan Basheer",
+        "character": "Varun Prabhakar",
+        "profilePath": "/n5gJB61TUJLR98NcAyZdUkA1bAV.jpg"
+      },
+      {
+        "name": "Neeraj Madhav",
+        "character": "Monichan",
+        "profilePath": "/vzFN3yyUEzEstVkMRnaI4lImrOp.jpg"
+      },
+      {
+        "name": "Aneesh G Menon",
+        "character": "Rani's Brother",
+        "profilePath": "/4Tvm8g8fcmGE69AkX3ALJoZmYoQ.jpg"
+      },
+      {
+        "name": "Irshad",
+        "character": "SI Suresh Babu",
+        "profilePath": "/fQNMwd91fjYETkiWe8QDD8wNdV.jpg"
+      },
+      {
+        "name": "Kunchan",
+        "character": "Madhavan Nair",
+        "profilePath": "/oQlqtWhBt2Bj6vqGwGxHqhOfpdv.jpg"
+      }
+    ]
+  },
+  "3-idiots": {
+    "tmdbId": 20453,
+    "tmdbType": "movie",
+    "imdbId": "tt1187043",
+    "matchedTitle": "3 Idiots",
+    "originalTitle": "3 Idiots",
+    "releaseDate": "2009-12-23",
+    "posterPath": "/66A9MqXOyVFCssoloscw79z8Tew.jpg",
+    "backdropPath": "/8gT3UKtglLVpu0YfccwbmXZ5Eis.jpg",
+    "trailerKey": "zIKu9k50SDo",
+    "tagline": "Aal Izz Well!",
+    "certification": "UA",
+    "tmdbRating": 8,
+    "tmdbVotes": 2785,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "productionCompanies": [
+      "Vidhu Vinod Chopra Productions",
+      "Vinod Chopra Films"
+    ],
+    "director": "Rajkumar Hirani",
+    "writers": [
+      "Rajkumar Hirani",
+      "Vidhu Vinod Chopra",
+      "Abhijat Joshi"
+    ],
+    "cast": [
+      {
+        "name": "Aamir Khan",
+        "character": "Ranchoddas \"Rancho\" Chanchad",
+        "profilePath": "/6uiZSwi2kvd1jZ7X7Xz9W9VGuV4.jpg"
+      },
+      {
+        "name": "R. Madhavan",
+        "character": "Farhan Qureshi",
+        "profilePath": "/gaDrAdXxIrbBRCd9cX8YvJDEuLb.jpg"
+      },
+      {
+        "name": "Sharman Joshi",
+        "character": "Raju Rastogi",
+        "profilePath": "/mQr8ynFFVq08qgQ4aSNl5B0ko8v.jpg"
+      },
+      {
+        "name": "Kareena Kapoor Khan",
+        "character": "Pia Sahastrabudhhe",
+        "profilePath": "/kp9xnwDALUt6nuPBGuJHlvnxGnM.jpg"
+      },
+      {
+        "name": "Boman Irani",
+        "character": "Viru \"Virus\" Sahastrabudhhe",
+        "profilePath": "/5J7GiiNar9bg9rGYeA2L30JXE2W.jpg"
+      },
+      {
+        "name": "Omi Vaidya",
+        "character": "Chatur \"Silencer\" Ramalingam",
+        "profilePath": "/G37HGmfBM8b6pTczZrpJmTFIGl.jpg"
+      },
+      {
+        "name": "Mona Singh",
+        "character": "Mona Sahastrabuddhe",
+        "profilePath": "/fBl5KYnlKY8HDUqlTs64xbDZtU8.jpg"
+      },
+      {
+        "name": "Rahul Kumar",
+        "character": "Millimeter",
+        "profilePath": "/pYw7c1T0ifdvWMUtUJl3GMkx4aP.jpg"
+      },
+      {
+        "name": "Parikshat Sahni",
+        "character": "Mr. Qureshi",
+        "profilePath": "/wQs7zYQNahLrntjqd7aIrajnbpM.jpg"
+      },
+      {
+        "name": "Farida Dadi",
+        "character": "Mrs. Qureshi",
+        "profilePath": "/uriqyktmJedfF7LHkiWhKh4IXe1.jpg"
+      },
+      {
+        "name": "Amardeep Jha",
+        "character": "Mrs. Rastogi",
+        "profilePath": "/elvrWT75OcIK45N6rd9KkEM34Pe.jpg"
+      },
+      {
+        "name": "Mukund Bhatt",
+        "character": "Mr. Rastogi",
+        "profilePath": null
+      }
+    ]
+  },
+  "andhadhun": {
+    "tmdbId": 534780,
+    "tmdbType": "movie",
+    "imdbId": "tt8108198",
+    "matchedTitle": "Andhadhun",
+    "originalTitle": "अंधाधुन",
+    "releaseDate": "2018-10-05",
+    "posterPath": "/dy3K6hNvwE05siGgiLJcEiwgpdO.jpg",
+    "backdropPath": "/ArvKQJv3nEpnBoVyjWDUT7TtJOL.jpg",
+    "trailerKey": "2iVYI99VGaw",
+    "tagline": "Every artist has a secret.",
+    "certification": "UA",
+    "tmdbRating": 7.6,
+    "tmdbVotes": 643,
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller",
+      "Comedy"
+    ],
+    "productionCompanies": [
+      "Viacom18 Studios",
+      "Matchbox Pictures"
+    ],
+    "director": "Sriram Raghavan",
+    "writers": [
+      "Arijit Biswas",
+      "Sriram Raghavan",
+      "Pooja Ladha Surti",
+      "Hemanth M. Rao"
+    ],
+    "cast": [
+      {
+        "name": "Ayushmann Khurrana",
+        "character": "Akash Sarraf",
+        "profilePath": "/qbdclvnDkJxPX7OQqmMY7w9ekBP.jpg"
+      },
+      {
+        "name": "Tabu",
+        "character": "Simi Sinha",
+        "profilePath": "/cvt5nvCHr1ICf5u8A2mlzLQ8LsV.jpg"
+      },
+      {
+        "name": "Radhika Apte",
+        "character": "Sophie",
+        "profilePath": "/wKPybRcSYcbgDiJZwELudrRNf0r.jpg"
+      },
+      {
+        "name": "Manav Vij",
+        "character": "Inspector Manohar Jawanda",
+        "profilePath": "/qBGYyDNhHB8Gt2gKQUs0VdsWutJ.jpg"
+      },
+      {
+        "name": "Zakir Hussain",
+        "character": "Dr. Swami",
+        "profilePath": "/etiL0ANjzBhTiyvUblZl6vwIog9.jpg"
+      },
+      {
+        "name": "Anil Dhawan",
+        "character": "Pramod Sinha",
+        "profilePath": "/oApALmbgo0FzKYy2vJj4TFGkc71.jpg"
+      },
+      {
+        "name": "Ashwini Kalsekar",
+        "character": "Rasika Jawanda",
+        "profilePath": "/mS2nPxyyplKNvwbc5TSCLAEgdvP.jpg"
+      },
+      {
+        "name": "Rashmi Agdekar",
+        "character": "Daani",
+        "profilePath": "/ogQkne7JFLlbSrBYw2JRUAj5khx.jpg"
+      },
+      {
+        "name": "Chhaya Kadam",
+        "character": "Sakhu Kaur",
+        "profilePath": "/umOPkpPA4JUWLkVziYU5GF6gELD.jpg"
+      },
+      {
+        "name": "Pawan Singh",
+        "character": "Murli",
+        "profilePath": null
+      },
+      {
+        "name": "Kabir Sajid Shaikh",
+        "character": "Bandu",
+        "profilePath": null
+      },
+      {
+        "name": "Mohini Kewalramani",
+        "character": "Mrs. D'SA",
+        "profilePath": null
+      }
+    ]
+  },
+  "interstellar": {
+    "tmdbId": 157336,
+    "tmdbType": "movie",
+    "imdbId": "tt0816692",
+    "matchedTitle": "Interstellar",
+    "originalTitle": "Interstellar",
+    "releaseDate": "2014-11-05",
+    "posterPath": "/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
+    "backdropPath": "/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg",
+    "trailerKey": "LY19rHKAaAg",
+    "tagline": "Mankind was born on Earth. It was never meant to die here.",
+    "certification": "UA",
+    "tmdbRating": 8.5,
+    "tmdbVotes": 40685,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Science Fiction"
+    ],
+    "productionCompanies": [
+      "Legendary Pictures",
+      "Syncopy",
+      "Lynda Obst Productions"
+    ],
+    "director": "Christopher Nolan",
+    "writers": [
+      "Jonathan Nolan",
+      "Christopher Nolan"
+    ],
+    "cast": [
+      {
+        "name": "Matthew McConaughey",
+        "character": "Cooper",
+        "profilePath": "/lCySuYjhXix3FzQdS4oceDDrXKI.jpg"
+      },
+      {
+        "name": "Anne Hathaway",
+        "character": "Brand",
+        "profilePath": "/nbccV2pMoyLTCeg5DQip24Eq0Jp.jpg"
+      },
+      {
+        "name": "Michael Caine",
+        "character": "Professor Brand",
+        "profilePath": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg"
+      },
+      {
+        "name": "Jessica Chastain",
+        "character": "Murph",
+        "profilePath": "/eQKnihReJeB9vQEa5gySzAlKfZt.jpg"
+      },
+      {
+        "name": "Casey Affleck",
+        "character": "Tom",
+        "profilePath": "/304ilSygaCRWykoBWAL67TOw8g9.jpg"
+      },
+      {
+        "name": "Wes Bentley",
+        "character": "Doyle",
+        "profilePath": "/voD93lzFZrr9xfAggwFcPRBi84i.jpg"
+      },
+      {
+        "name": "Topher Grace",
+        "character": "Getty",
+        "profilePath": "/oJQxl4DG0KSCtOGrpWNhYz9gUZA.jpg"
+      },
+      {
+        "name": "Mackenzie Foy",
+        "character": "Murph (10 Yrs.)",
+        "profilePath": "/wzH60SrqWp2XMkBfLgdBhx5EJ82.jpg"
+      },
+      {
+        "name": "Ellen Burstyn",
+        "character": "Murph (older)",
+        "profilePath": "/zGihSIVRzwmCqilnA4PmNM4C2RT.jpg"
+      },
+      {
+        "name": "John Lithgow",
+        "character": "Donald",
+        "profilePath": "/ajfuBSm1HuVqFJlbTmAlza62Xxr.jpg"
+      },
+      {
+        "name": "Bill Irwin",
+        "character": "TARS (voice)",
+        "profilePath": "/bAV5qsljgiHQkn3QluB5clVYC13.jpg"
+      },
+      {
+        "name": "David Gyasi",
+        "character": "Romilly",
+        "profilePath": "/1382u2e4jiGhuDKgeK9UZtXXqfh.jpg"
+      }
+    ]
+  },
+  "inception": {
+    "tmdbId": 27205,
+    "tmdbType": "movie",
+    "imdbId": "tt1375666",
+    "matchedTitle": "Inception",
+    "originalTitle": "Inception",
+    "releaseDate": "2010-07-15",
+    "posterPath": "/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+    "backdropPath": "/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+    "trailerKey": "JE9z-gy4De4",
+    "tagline": "Your mind is the scene of the crime.",
+    "certification": "UA",
+    "tmdbRating": 8.4,
+    "tmdbVotes": 39833,
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "productionCompanies": [
+      "Legendary Pictures",
+      "Syncopy",
+      "Warner Bros. Pictures"
+    ],
+    "director": "Christopher Nolan",
+    "writers": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      {
+        "name": "Leonardo DiCaprio",
+        "character": "Dom Cobb",
+        "profilePath": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg"
+      },
+      {
+        "name": "Joseph Gordon-Levitt",
+        "character": "Arthur",
+        "profilePath": "/z2FA8js799xqtfiFjBTicFYdfk.jpg"
+      },
+      {
+        "name": "Ken Watanabe",
+        "character": "Saito",
+        "profilePath": "/psAXOYp9SBOXvg6AXzARDedNQ9P.jpg"
+      },
+      {
+        "name": "Tom Hardy",
+        "character": "Eames",
+        "profilePath": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg"
+      },
+      {
+        "name": "Elliot Page",
+        "character": "Ariadne",
+        "profilePath": "/nXO8DE4biVXY4UDYP0NdIY1zvXS.jpg"
+      },
+      {
+        "name": "Dileep Rao",
+        "character": "Yusuf",
+        "profilePath": "/jRNn8SZqFXuI5wOOlHwYsWh0hXs.jpg"
+      },
+      {
+        "name": "Cillian Murphy",
+        "character": "Robert Fischer, Jr.",
+        "profilePath": "/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg"
+      },
+      {
+        "name": "Tom Berenger",
+        "character": "Peter Browning",
+        "profilePath": "/zLxzAdAfu7y02yEx29JSLDgXJZ4.jpg"
+      },
+      {
+        "name": "Marion Cotillard",
+        "character": "Mal Cobb",
+        "profilePath": "/biitzOF0GffIqFYLyOPkoiaOngQ.jpg"
+      },
+      {
+        "name": "Pete Postlethwaite",
+        "character": "Maurice Fischer",
+        "profilePath": "/2gpa75Ci4y2OKmOc8WXnaeGgyKF.jpg"
+      },
+      {
+        "name": "Michael Caine",
+        "character": "Stephen Miles",
+        "profilePath": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg"
+      },
+      {
+        "name": "Lukas Haas",
+        "character": "Nash",
+        "profilePath": "/6LNGu3o2aBiYNTDkbXMDIGyQtBh.jpg"
+      }
+    ]
+  },
+  "the-dark-knight": {
+    "tmdbId": 155,
+    "tmdbType": "movie",
+    "imdbId": "tt0468569",
+    "matchedTitle": "The Dark Knight",
+    "originalTitle": "The Dark Knight",
+    "releaseDate": "2008-07-16",
+    "posterPath": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "backdropPath": "/dqK9Hag1054tghRQSqLSfrkvQnA.jpg",
+    "trailerKey": "jXAYAN6jO5k",
+    "tagline": "Some men just want to watch the world burn.",
+    "certification": "UA ",
+    "tmdbRating": 8.5,
+    "tmdbVotes": 36339,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "productionCompanies": [
+      "Warner Bros. Pictures",
+      "Legendary Pictures",
+      "Syncopy",
+      "DC"
+    ],
+    "director": "Christopher Nolan",
+    "writers": [
+      "Christopher Nolan",
+      "David S. Goyer",
+      "Jonathan Nolan"
+    ],
+    "cast": [
+      {
+        "name": "Christian Bale",
+        "character": "Bruce Wayne",
+        "profilePath": "/7Pxez9J8fuPd2Mn9kex13YALrCQ.jpg"
+      },
+      {
+        "name": "Heath Ledger",
+        "character": "Joker",
+        "profilePath": "/AdWKVqyWpkYSfKE5Gb2qn8JzHni.jpg"
+      },
+      {
+        "name": "Aaron Eckhart",
+        "character": "Harvey Dent",
+        "profilePath": "/u5JjnRMr9zKEVvOP7k3F6gdcwT6.jpg"
+      },
+      {
+        "name": "Michael Caine",
+        "character": "Alfred",
+        "profilePath": "/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg"
+      },
+      {
+        "name": "Maggie Gyllenhaal",
+        "character": "Rachel",
+        "profilePath": "/vsfkWdYWmA9CpzMHTJzrFxlDnEZ.jpg"
+      },
+      {
+        "name": "Gary Oldman",
+        "character": "Gordon",
+        "profilePath": "/yhaSM5habNNI1Tf4ALRwRk3VvSZ.jpg"
+      },
+      {
+        "name": "Morgan Freeman",
+        "character": "Lucius Fox",
+        "profilePath": "/905k0RFzH0Kd6gx8oSxRdnr6FL.jpg"
+      },
+      {
+        "name": "Monique Gabriela Curnen",
+        "character": "Ramirez",
+        "profilePath": "/lJgLQs7cfM49m8VzVviwxIByz76.jpg"
+      },
+      {
+        "name": "Ron Dean",
+        "character": "Wuertz",
+        "profilePath": "/mgqdr4VFrTVZatkki2suNLYxeDG.jpg"
+      },
+      {
+        "name": "Cillian Murphy",
+        "character": "Scarecrow",
+        "profilePath": "/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg"
+      },
+      {
+        "name": "Chin Han",
+        "character": "Lau",
+        "profilePath": "/3XJXmYm6r4Hvm3izOArU58fhQrT.jpg"
+      },
+      {
+        "name": "Nestor Carbonell",
+        "character": "Mayor",
+        "profilePath": "/4Xn03t2qDEMR2ecM7BtLwpvs3J0.jpg"
+      }
+    ]
+  },
+  "the-green-mile": {
+    "tmdbId": 497,
+    "tmdbType": "movie",
+    "imdbId": "tt0120689",
+    "matchedTitle": "The Green Mile",
+    "originalTitle": "The Green Mile",
+    "releaseDate": "1999-12-10",
+    "posterPath": "/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg",
+    "backdropPath": "/amZavErrjrdgDwhsIdpWxHNenIx.jpg",
+    "trailerKey": "Bg7epsq0OIQ",
+    "tagline": "Paul Edgecomb didn't believe in miracles. Until the day he met one.",
+    "certification": "R",
+    "tmdbRating": 8.5,
+    "tmdbVotes": 19579,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Crime"
+    ],
+    "productionCompanies": [
+      "Castle Rock Entertainment",
+      "Darkwoods Productions"
+    ],
+    "director": "Frank Darabont",
+    "writers": [
+      "Frank Darabont"
+    ],
+    "cast": [
+      {
+        "name": "Tom Hanks",
+        "character": "Paul Edgecomb",
+        "profilePath": "/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+      },
+      {
+        "name": "David Morse",
+        "character": "Brutus 'Brutal' Howell",
+        "profilePath": "/A6zGbkFjM3uajIakgsSeNTmSKqY.jpg"
+      },
+      {
+        "name": "Bonnie Hunt",
+        "character": "Jan Edgecomb",
+        "profilePath": "/tT9C6uLztgN8OxJULq6F9iEzqlA.jpg"
+      },
+      {
+        "name": "Michael Clarke Duncan",
+        "character": "John Coffey",
+        "profilePath": "/3RX8OBqt3gbvFwKYZqiom4O3Ta6.jpg"
+      },
+      {
+        "name": "James Cromwell",
+        "character": "Warden Hal Moores",
+        "profilePath": "/vpNQQbM5PtxsYmVm4oh79SGFyUK.jpg"
+      },
+      {
+        "name": "Michael Jeter",
+        "character": "Eduard Delacroix",
+        "profilePath": "/pNBf8X56wCOHH7cArsMYJuke4fO.jpg"
+      },
+      {
+        "name": "Graham Greene",
+        "character": "Arlen Bitterbuck",
+        "profilePath": "/ubX9pwrzQqnR41gAGyY1GoSZr1G.jpg"
+      },
+      {
+        "name": "Doug Hutchison",
+        "character": "Percy Wetmore",
+        "profilePath": "/a32hLANC5LIqT0Pk2nyV7dGdh23.jpg"
+      },
+      {
+        "name": "Sam Rockwell",
+        "character": "'Wild Bill' Wharton",
+        "profilePath": "/afYhNpLwpa65Yy0Q0g00FNFhzx5.jpg"
+      },
+      {
+        "name": "Barry Pepper",
+        "character": "Dean Stanton",
+        "profilePath": "/xBvW4dMoz496rItLQU6TGteYCEP.jpg"
+      },
+      {
+        "name": "Jeffrey DeMunn",
+        "character": "Harry Terwilliger",
+        "profilePath": "/70bkLdlkBB7x2NztuJAh4pjdyxy.jpg"
+      },
+      {
+        "name": "Patricia Clarkson",
+        "character": "Melinda Moores",
+        "profilePath": "/rHHM9G83fpBAcFathbSyV4Tot5j.jpg"
+      }
+    ]
+  },
+  "parasite": {
+    "tmdbId": 496243,
+    "tmdbType": "movie",
+    "imdbId": "tt6751668",
+    "matchedTitle": "Parasite",
+    "originalTitle": "기생충",
+    "releaseDate": "2019-05-30",
+    "posterPath": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "backdropPath": "/vbC0rzdrb7Ohc2TkbEbxtOABECe.jpg",
+    "trailerKey": "hb1iOVvkykY",
+    "tagline": "Act like you own the place.",
+    "certification": "A",
+    "tmdbRating": 8.5,
+    "tmdbVotes": 21049,
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Barunson E&A"
+    ],
+    "director": "Bong Joon Ho",
+    "writers": [
+      "Bong Joon Ho",
+      "Han Jin-won"
+    ],
+    "cast": [
+      {
+        "name": "Song Kang-ho",
+        "character": "Kim Ki-taek",
+        "profilePath": "/kBM9UTPYXUA2RNk210DXhztLFns.jpg"
+      },
+      {
+        "name": "Lee Sun-kyun",
+        "character": "Park Dong-ik",
+        "profilePath": "/nHFBbSFohzOUOvMxPVwe3Es2nJw.jpg"
+      },
+      {
+        "name": "Cho Yeo-jeong",
+        "character": "Yeon-kyo",
+        "profilePath": "/5MgWM8pkUiYkj9MEaEpO0Ir1FD9.jpg"
+      },
+      {
+        "name": "Choi Woo-shik",
+        "character": "Ki-woo",
+        "profilePath": "/hRDiuKWwe156zRjEu826eci7H3r.jpg"
+      },
+      {
+        "name": "Park So-dam",
+        "character": "Ki-jung",
+        "profilePath": "/fGVOikpvivopeATDy6ZzLdKYXDu.jpg"
+      },
+      {
+        "name": "Lee Jung-eun",
+        "character": "Moon-gwang",
+        "profilePath": "/4r3K47UpSmzZ5t9cyTRRqRl9rdz.jpg"
+      },
+      {
+        "name": "Jang Hye-jin",
+        "character": "Chung-sook",
+        "profilePath": "/pZiQXSWwo9F4gncHfa1yw0CQjxk.jpg"
+      },
+      {
+        "name": "Park Myung-hoon",
+        "character": "Geun-se",
+        "profilePath": "/5SucrxkigHss7UuJKrkfAZX5MXz.jpg"
+      },
+      {
+        "name": "Jung Zi-so",
+        "character": "Da-hye",
+        "profilePath": "/jsUPFmY1HlML92ubVtSE8L8ovz6.jpg"
+      },
+      {
+        "name": "Jung Hyeon-jun",
+        "character": "Da-song",
+        "profilePath": "/vZadA6ip6V2kh0VZW9RwnLcYFgW.jpg"
+      },
+      {
+        "name": "Park Keun-rok",
+        "character": "Driver Yoon",
+        "profilePath": "/j3AEOJskfSm7nhR8RnDm6njRN3W.jpg"
+      },
+      {
+        "name": "Jung Yi-seo",
+        "character": "Pizza Manager",
+        "profilePath": "/o6Nfe0BiZs6CCSm8BigPshbu0px.jpg"
+      }
+    ]
+  },
+  "oldboy": {
+    "tmdbId": 670,
+    "tmdbType": "movie",
+    "imdbId": "tt0364569",
+    "matchedTitle": "Oldboy",
+    "originalTitle": "올드보이",
+    "releaseDate": "2003-11-21",
+    "posterPath": "/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
+    "backdropPath": "/sdwjQEM869JFwMytTmvr6ggvaUl.jpg",
+    "trailerKey": "tAaBkFChaRg",
+    "tagline": "15 years of imprisonment, five days of vengeance.",
+    "certification": "R",
+    "tmdbRating": 8.2,
+    "tmdbVotes": 10056,
+    "genres": [
+      "Thriller",
+      "Mystery"
+    ],
+    "productionCompanies": [
+      "Show East",
+      "Egg Film",
+      "Cineclick Asia"
+    ],
+    "director": "Park Chan-wook",
+    "writers": [
+      "Lim Joon-hyung",
+      "Hwang Jo-yoon",
+      "Park Chan-wook"
+    ],
+    "cast": [
+      {
+        "name": "Choi Min-sik",
+        "character": "Oh Dae-su",
+        "profilePath": "/sd7gIA6nEkq6zumkDCfxSE0YSSV.jpg"
+      },
+      {
+        "name": "Yoo Ji-tae",
+        "character": "Lee Woo-jin",
+        "profilePath": "/gGGV2gc0orgssYJ0Q9MSomdYo2I.jpg"
+      },
+      {
+        "name": "Kang Hye-jung",
+        "character": "Mi-do",
+        "profilePath": "/1MYnPxhU9GnhkitxVoWuR9kNiqu.jpg"
+      },
+      {
+        "name": "Kim Byeong-ok",
+        "character": "Mr. Han",
+        "profilePath": "/oGVs2OmYTyXR0KT9xvzVWCAKx8t.jpg"
+      },
+      {
+        "name": "Ji Dae-han",
+        "character": "No Joo-hwan",
+        "profilePath": "/9aoOX8p2oxUAwOaT8jT6GWfjs01.jpg"
+      },
+      {
+        "name": "Oh Dal-su",
+        "character": "Park Cheol-woong",
+        "profilePath": "/hd72oGjq0YKYdgZKMnqtV00MV28.jpg"
+      },
+      {
+        "name": "Lee Seung-shin",
+        "character": "Hypnotist",
+        "profilePath": "/w9d73Yl1LFPyKAnLyd1gGCD3SYM.jpg"
+      },
+      {
+        "name": "Yoon Jin-seo",
+        "character": "Lee Soo-ah",
+        "profilePath": "/5br9jHiVLUTmiNxqswpmDg7Zowb.jpg"
+      },
+      {
+        "name": "Oh Tae-kyung",
+        "character": "Young Dae-su",
+        "profilePath": "/xde1lSXPGhqEHL8DzLIn3YtuLhb.jpg"
+      },
+      {
+        "name": "Yoo Yeon-seok",
+        "character": "Young Woo-jin",
+        "profilePath": "/cB95no6uPnMu5FdlVWK3cO9k5xR.jpg"
+      },
+      {
+        "name": "You Il-han",
+        "character": "Young Joo-hwan",
+        "profilePath": null
+      },
+      {
+        "name": "Lee Young-hee",
+        "character": "Clock Store Lady",
+        "profilePath": "/pQRbuB9LNPOnct1JElZldZsJqbk.jpg"
+      }
+    ]
+  },
+  "train-to-busan": {
+    "tmdbId": 396535,
+    "tmdbType": "movie",
+    "imdbId": "tt5700672",
+    "matchedTitle": "Train to Busan",
+    "originalTitle": "부산행",
+    "releaseDate": "2016-07-20",
+    "posterPath": "/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
+    "backdropPath": "/brnfCYyz8EMbBrHgmh8sCwBi5i1.jpg",
+    "trailerKey": "2sAe-x2XBH0",
+    "tagline": "Life-or-death survival begins.",
+    "certification": "NR",
+    "tmdbRating": 7.8,
+    "tmdbVotes": 8570,
+    "genres": [
+      "Action",
+      "Horror",
+      "Thriller"
+    ],
+    "productionCompanies": [
+      "Next Entertainment World",
+      "RedPeter Films",
+      "Contents Panda",
+      "Union Investment Partners"
+    ],
+    "director": "Yeon Sang-ho",
+    "writers": [
+      "Park Joo-suk"
+    ],
+    "cast": [
+      {
+        "name": "Gong Yoo",
+        "character": "Seok-woo",
+        "profilePath": "/ocGoFb6TrK3uWGXt4WnuibUG1vD.jpg"
+      },
+      {
+        "name": "Kim Su-an",
+        "character": "Soo-ahn",
+        "profilePath": "/hmPZhhoeUY89Rys6LrsjpTMeoEN.jpg"
+      },
+      {
+        "name": "Jung Yu-mi",
+        "character": "Sung-gyeong",
+        "profilePath": "/9QB7pIW08nDcSqXbVvGw40jRtmx.jpg"
+      },
+      {
+        "name": "Don Lee",
+        "character": "Sang-hwa",
+        "profilePath": "/ckxoXz3l4mCcHEIRaqUc7oGoIFg.jpg"
+      },
+      {
+        "name": "Choi Woo-shik",
+        "character": "Yeong-gook",
+        "profilePath": "/hRDiuKWwe156zRjEu826eci7H3r.jpg"
+      },
+      {
+        "name": "An So-hee",
+        "character": "Jin-hee",
+        "profilePath": "/phQLXdKnWggfiqlvUKj86Kq0T1q.jpg"
+      },
+      {
+        "name": "Kim Eui-sung",
+        "character": "Yong-suk",
+        "profilePath": "/y7T2LJyorTK2NDk10yeTINWKrWR.jpg"
+      },
+      {
+        "name": "Ye Su-jeong",
+        "character": "In-gil",
+        "profilePath": "/rwGPhu8Ge36eMkrOlzfdKKFargw.jpg"
+      },
+      {
+        "name": "Park Myung-shin",
+        "character": "Jong-gil",
+        "profilePath": "/4VXJXafwdzVMugBeTtTHf6RtDKS.jpg"
+      },
+      {
+        "name": "Choi Gwi-hwa",
+        "character": "Homeless Man",
+        "profilePath": "/aYiS6jQNNmOSfzcobDs12pLOOjj.jpg"
+      },
+      {
+        "name": "Jeong Seok-yong",
+        "character": "Captain of KTX",
+        "profilePath": "/tyTSdGaVKotPmJXGNtz6fXoj8Tc.jpg"
+      },
+      {
+        "name": "Kim Chang-hwan",
+        "character": "Kim Jin-mo",
+        "profilePath": "/8c9u3ziEgdSuuD9gHWFjcBevywg.jpg"
+      }
+    ]
+  },
+  "spirited-away": {
+    "tmdbId": 129,
+    "tmdbType": "movie",
+    "imdbId": "tt0245429",
+    "matchedTitle": "Spirited Away",
+    "originalTitle": "千と千尋の神隠し",
+    "releaseDate": "2001-07-20",
+    "posterPath": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+    "backdropPath": "/dyJvKsNs2KP8qQnAXbRwDjblViy.jpg",
+    "trailerKey": "GAp2_0JJskk",
+    "tagline": "Beyond the tunnel was a mysterious town.",
+    "certification": "PG",
+    "tmdbRating": 8.5,
+    "tmdbVotes": 18666,
+    "genres": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "productionCompanies": [
+      "Studio Ghibli",
+      "Tokuma Shoten",
+      "Nippon Television Network Corporation",
+      "Mitsubishi"
+    ],
+    "director": "Hayao Miyazaki",
+    "writers": [
+      "Hayao Miyazaki"
+    ],
+    "cast": [
+      {
+        "name": "Rumi Hiiragi",
+        "character": "Chihiro (voice)",
+        "profilePath": "/nTKM4GgfkrZvAOFL55uhEuckt7M.jpg"
+      },
+      {
+        "name": "Miyu Irino",
+        "character": "Haku (voice)",
+        "profilePath": "/8qEEhHUObNvGQr4e6eqLu5z4qTz.jpg"
+      },
+      {
+        "name": "Mari Natsuki",
+        "character": "Yubaba / Zeniba (voice)",
+        "profilePath": "/MIFzUc77Sx57FQOZsoiGWEbpH2.jpg"
+      },
+      {
+        "name": "Takashi Naito",
+        "character": "Father (voice)",
+        "profilePath": "/xwsm0ygjG79jLIogutwo6r64igy.jpg"
+      },
+      {
+        "name": "Yasuko Sawaguchi",
+        "character": "Mother (voice)",
+        "profilePath": "/rWspusb13VeJowmctnniXYYTcqq.jpg"
+      },
+      {
+        "name": "Tatsuya Gashuin",
+        "character": "Aogaeru (voice)",
+        "profilePath": "/fLqIdkShknsJmZy4EfBWuWyHN4C.jpg"
+      },
+      {
+        "name": "Ryunosuke Kamiki",
+        "character": "Boh (voice)",
+        "profilePath": "/ut7ewXjdgUmgkhJ1EtbOo9tbc7s.jpg"
+      },
+      {
+        "name": "Yumi Tamai",
+        "character": "Rin (voice)",
+        "profilePath": "/x9Td7e5F21cK9S1FCkobfqiJZ1c.jpg"
+      },
+      {
+        "name": "Yo Oizumi",
+        "character": "Bandai Frog (voice)",
+        "profilePath": "/qw5KLuww2AEAk6JEssEkJY3wBn1.jpg"
+      },
+      {
+        "name": "Koba Hayashi",
+        "character": "River Spirit (voice)",
+        "profilePath": "/ceQ58tRgqMZ9gePHg8xkKarZm0M.jpg"
+      },
+      {
+        "name": "Tsunehiko Kamijô",
+        "character": "Chichiyaku (voice)",
+        "profilePath": "/v2poQi0qYEWdTaMf2pVTWmcdwZp.jpg"
+      },
+      {
+        "name": "Takehiko Ono",
+        "character": "Aniyaku (voice)",
+        "profilePath": "/8gcT8znk0l3YVZKvL7eVxYublTl.jpg"
+      }
+    ]
+  },
+  "your-name": {
+    "tmdbId": 372058,
+    "tmdbType": "movie",
+    "imdbId": "tt5311514",
+    "matchedTitle": "Your Name.",
+    "originalTitle": "君の名は。",
+    "releaseDate": "2016-07-01",
+    "posterPath": "/vfJFJPepRKapMd5G2ro7klIRysq.jpg",
+    "backdropPath": "/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
+    "trailerKey": "RuyHIkXdYf8",
+    "tagline": "Separated by distance, connected by fate.",
+    "certification": "U/A 13+",
+    "tmdbRating": 8.5,
+    "tmdbVotes": 12817,
+    "genres": [
+      "Animation",
+      "Romance",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "CoMix Wave Films",
+      "TOHO",
+      "KADOKAWA",
+      "jeki"
+    ],
+    "director": "Makoto Shinkai",
+    "writers": [
+      "Makoto Shinkai"
+    ],
+    "cast": [
+      {
+        "name": "Ryunosuke Kamiki",
+        "character": "Taki Tachibana (voice)",
+        "profilePath": "/ut7ewXjdgUmgkhJ1EtbOo9tbc7s.jpg"
+      },
+      {
+        "name": "Mone Kamishiraishi",
+        "character": "Mitsuha Miyamizu (voice)",
+        "profilePath": "/cPydoy2sSqFDsbXeBPmzQGPmq0R.jpg"
+      },
+      {
+        "name": "Ryo Narita",
+        "character": "Katsuhiko Teshigawara (voice)",
+        "profilePath": "/2EFimbwi4lf9B19cgu2bJaNJiVq.jpg"
+      },
+      {
+        "name": "Aoi Yuuki",
+        "character": "Sayaka Natori (voice)",
+        "profilePath": "/a5Mkd66GV1l3c9bZZtnvjUf33T2.jpg"
+      },
+      {
+        "name": "Nobunaga Shimazaki",
+        "character": "Tsukasa Fujii (voice)",
+        "profilePath": "/qke5rZusHsjSlvB0NKlJ5dQF5D.jpg"
+      },
+      {
+        "name": "Kaito Ishikawa",
+        "character": "Shinta Takagi (voice)",
+        "profilePath": "/fzjIkotjUHHs3wgftM9tqdsG8ph.jpg"
+      },
+      {
+        "name": "Kanon Tani",
+        "character": "Yotsuha Miyamizu (voice)",
+        "profilePath": "/udR4Cax2EecH3ZkATE4h6ejiGD9.jpg"
+      },
+      {
+        "name": "Masaki Terasoma",
+        "character": "Toshiki Miyamizu (voice)",
+        "profilePath": "/eol7Ul4buAam9SmJDuFIWln0Cd3.jpg"
+      },
+      {
+        "name": "Sayaka Ohara",
+        "character": "Futaha Miyamizu (voice)",
+        "profilePath": "/4WQXLzj0gjYqkYFcTTxAkIwedvr.jpg"
+      },
+      {
+        "name": "Kazuhiko Inoue",
+        "character": "Taki's Father (voice)",
+        "profilePath": "/3BpYtYRiLAmTNbCm2LXlXnkMRit.jpg"
+      },
+      {
+        "name": "Chafurin",
+        "character": "Teshigawara's Father (voice)",
+        "profilePath": "/kiPG7EtYWxkj78US35gnTIMq5Dn.jpg"
+      },
+      {
+        "name": "Yuka Kato",
+        "character": "Teshigawara's Mother (voice)",
+        "profilePath": "/xrjrGsb0yQYg0mf7KWQ8zWgeGYs.jpg"
+      }
+    ]
+  },
+  "amelie": {
+    "tmdbId": 194,
+    "tmdbType": "movie",
+    "imdbId": "tt0211915",
+    "matchedTitle": "Amélie",
+    "originalTitle": "Le Fabuleux Destin d'Amélie Poulain",
+    "releaseDate": "2001-04-25",
+    "posterPath": "/nSxDa3M9aMvGVLoItzWTepQ5h5d.jpg",
+    "backdropPath": "/6n53UI4mX9QMfe2S0Pgt8mGebY1.jpg",
+    "trailerKey": "555A7T_kmIc",
+    "tagline": "She’ll change your life.",
+    "certification": "R",
+    "tmdbRating": 7.9,
+    "tmdbVotes": 12541,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "productionCompanies": [
+      "Victoires Productions",
+      "Tapioca Films",
+      "France 3 Cinéma",
+      "MMC Independent"
+    ],
+    "director": "Jean-Pierre Jeunet",
+    "writers": [
+      "Guillaume Laurant",
+      "Jean-Pierre Jeunet"
+    ],
+    "cast": [
+      {
+        "name": "Audrey Tautou",
+        "character": "Amélie Poulain",
+        "profilePath": "/d1HVrV8zXy1FJVptmOCkHWG8Jf2.jpg"
+      },
+      {
+        "name": "Mathieu Kassovitz",
+        "character": "Nino Quincampoix",
+        "profilePath": "/3FRBEdKKlxhvPWPt0jzgmSjeHwn.jpg"
+      },
+      {
+        "name": "Rufus",
+        "character": "Raphaël Poulain",
+        "profilePath": "/aC6rEJrBgCNjeG6vetJPBdgj5h3.jpg"
+      },
+      {
+        "name": "Serge Merlin",
+        "character": "Raymond Dufayel",
+        "profilePath": "/90Kwb8hfORDXcEeA1lzikAubcQe.jpg"
+      },
+      {
+        "name": "Jamel Debbouze",
+        "character": "Lucien",
+        "profilePath": "/aiqWSWbRJ6rrjxxVE6y2Xb3KdSp.jpg"
+      },
+      {
+        "name": "Clotilde Mollet",
+        "character": "Gina",
+        "profilePath": "/pu1sHxq0mvv61gTJGRhYGfMbZ18.jpg"
+      },
+      {
+        "name": "Claire Maurier",
+        "character": "Suzanne",
+        "profilePath": "/rlMYKpiTIzZCw2ee3YGENJZQKPC.jpg"
+      },
+      {
+        "name": "Isabelle Nanty",
+        "character": "Georgette",
+        "profilePath": "/9EQOZfhnqTL8enSFGFHMVU99q2P.jpg"
+      },
+      {
+        "name": "Dominique Pinon",
+        "character": "Joseph",
+        "profilePath": "/rIPUhNwGSglgKLgMQWz0JNCqIzf.jpg"
+      },
+      {
+        "name": "Artus de Penguern",
+        "character": "Hipolito",
+        "profilePath": "/aSiprhwozCkCe4hHfQ34YVM6lIo.jpg"
+      },
+      {
+        "name": "Yolande Moreau",
+        "character": "Madeleine Wallace",
+        "profilePath": "/hh5gwfxXuvAqljjiJ3IsJlFO0QU.jpg"
+      },
+      {
+        "name": "Urbain Cancelier",
+        "character": "Collignon",
+        "profilePath": "/zN1V9NmbaX6uNTjSgu1ilURaN3b.jpg"
+      }
+    ]
+  },
+  "pans-labyrinth": {
+    "tmdbId": 1417,
+    "tmdbType": "movie",
+    "imdbId": "tt0457430",
+    "matchedTitle": "Pan's Labyrinth",
+    "originalTitle": "El laberinto del fauno",
+    "releaseDate": "2006-10-11",
+    "posterPath": "/z7xXihu5wHuSMWymq5VAulPVuvg.jpg",
+    "backdropPath": "/6G6nqSW9S7EHA9HrYl0Z8uo2H7f.jpg",
+    "trailerKey": "OBGKGm3RYos",
+    "tagline": "Innocence has a power evil cannot imagine.",
+    "certification": "R",
+    "tmdbRating": 7.8,
+    "tmdbVotes": 11623,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "War"
+    ],
+    "productionCompanies": [
+      "Estudios Picasso",
+      "Esperanto Filmoj",
+      "Tequila Gang",
+      "Telecinco"
+    ],
+    "director": "Guillermo del Toro",
+    "writers": [
+      "Guillermo del Toro"
+    ],
+    "cast": [
+      {
+        "name": "Ivana Baquero",
+        "character": "Ofelia",
+        "profilePath": "/eW8TJGcg5Lx0rTs3WF8s0GKgkDD.jpg"
+      },
+      {
+        "name": "Sergi López",
+        "character": "Capitán Vidal",
+        "profilePath": "/n3HcmUflYYaHUiQmzaayi0yqcRf.jpg"
+      },
+      {
+        "name": "Maribel Verdú",
+        "character": "Mercedes",
+        "profilePath": "/7hxTsW5CKi2lkz5yGMWShki7DOo.jpg"
+      },
+      {
+        "name": "Doug Jones",
+        "character": "Fauno / Pale Man",
+        "profilePath": "/rpvvWATYWHGjedJea0G97XufOwU.jpg"
+      },
+      {
+        "name": "Ariadna Gil",
+        "character": "Carmen",
+        "profilePath": "/4g5IyK6br9UCRqLLlW8z5ZLFtYf.jpg"
+      },
+      {
+        "name": "Álex Angulo",
+        "character": "Dr. Ferreiro",
+        "profilePath": null
+      },
+      {
+        "name": "Roger Casamajor",
+        "character": "Pedro",
+        "profilePath": "/1UQozr5Y4C9HlFAWvsjsLPvThLF.jpg"
+      },
+      {
+        "name": "Manolo Solo",
+        "character": "Garcés",
+        "profilePath": "/hp422wUkCWW2lsitzJrANv4N92u.jpg"
+      },
+      {
+        "name": "César Vea",
+        "character": "Serrano",
+        "profilePath": "/enhEGXx4GD2vnUB1PBW7DLPPP8x.jpg"
+      },
+      {
+        "name": "Ivan Massagué",
+        "character": "El Tarta",
+        "profilePath": "/dmnJo2sGlfFjtKb8FDPlNjRhfyc.jpg"
+      },
+      {
+        "name": "Gonzalo Uriarte",
+        "character": "Francés",
+        "profilePath": "/7pfGi6txdu0GYwjZ4CME7fEfsSe.jpg"
+      },
+      {
+        "name": "Eusebio Lázaro",
+        "character": "Padre",
+        "profilePath": "/m8wiRQ0sbinNWA1BaEsW1jdTFt3.jpg"
+      }
+    ]
+  },
+  "whiplash": {
+    "tmdbId": 244786,
+    "tmdbType": "movie",
+    "imdbId": "tt2582802",
+    "matchedTitle": "Whiplash",
+    "originalTitle": "Whiplash",
+    "releaseDate": "2014-10-10",
+    "posterPath": "/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+    "backdropPath": "/wbQa0EnWUyRzQ5d1pHLNRlmsCUP.jpg",
+    "trailerKey": "Q7kZy3T6vRM",
+    "tagline": "The road to greatness can take you to the edge.",
+    "certification": "R",
+    "tmdbRating": 8.4,
+    "tmdbVotes": 16899,
+    "genres": [
+      "Drama",
+      "Music",
+      "Thriller"
+    ],
+    "productionCompanies": [
+      "Bold Films",
+      "Blumhouse Productions",
+      "Right of Way Films"
+    ],
+    "director": "Damien Chazelle",
+    "writers": [
+      "Damien Chazelle"
+    ],
+    "cast": [
+      {
+        "name": "Miles Teller",
+        "character": "Andrew",
+        "profilePath": "/kDf3sW3USjEBDQ3Ua7lbwOfwty6.jpg"
+      },
+      {
+        "name": "J.K. Simmons",
+        "character": "Fletcher",
+        "profilePath": "/ScmKoJ9eiSUOthAt1PDNLi8Fkw.jpg"
+      },
+      {
+        "name": "Paul Reiser",
+        "character": "Jim",
+        "profilePath": "/rGryzG00uSk8LsidacSBXVgo3iv.jpg"
+      },
+      {
+        "name": "Melissa Benoist",
+        "character": "Nicole",
+        "profilePath": "/1F0fCPNhb5W0WyFe8Tszfbx1DEp.jpg"
+      },
+      {
+        "name": "Austin Stowell",
+        "character": "Ryan",
+        "profilePath": "/At09XQpVXnChgedNsxu4ceR5W9i.jpg"
+      },
+      {
+        "name": "Nate Lang",
+        "character": "Carl",
+        "profilePath": "/6TC0gKxJIttIhXLnCttANV9gd1G.jpg"
+      },
+      {
+        "name": "Chris Mulkey",
+        "character": "Uncle Frank",
+        "profilePath": "/kpJid21QcIBGvwP0Bddvw0p8wEl.jpg"
+      },
+      {
+        "name": "Damon Gupton",
+        "character": "Mr. Kramer",
+        "profilePath": "/bbbJiEx01uvOCKwiEHv9OmPI4r8.jpg"
+      },
+      {
+        "name": "Suanne Spoke",
+        "character": "Aunt Emma",
+        "profilePath": "/c3eHskplBRwuORgUWSwnsi6KZpV.jpg"
+      },
+      {
+        "name": "Max Kasch",
+        "character": "Dorm Neighbor",
+        "profilePath": "/7BvCZldRpYB4UxJv5IxNSMSYgoe.jpg"
+      },
+      {
+        "name": "Charlie Ian",
+        "character": "Dustin",
+        "profilePath": "/5ondXm5m2LoC7sdXhTziNAmuDfw.jpg"
+      },
+      {
+        "name": "Jayson Blair",
+        "character": "Travis",
+        "profilePath": "/zUMEMibklFznVD2kkpbNTs63UVX.jpg"
+      }
+    ]
+  },
+  "mad-max-fury-road": {
+    "tmdbId": 76341,
+    "tmdbType": "movie",
+    "imdbId": "tt1392190",
+    "matchedTitle": "Mad Max: Fury Road",
+    "originalTitle": "Mad Max: Fury Road",
+    "releaseDate": "2015-05-13",
+    "posterPath": "/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+    "backdropPath": "/uT895WNwm0aIJRtGizcQhrejWUo.jpg",
+    "trailerKey": "hEJnMQG9ev8",
+    "tagline": "The future belongs to the mad.",
+    "certification": "A",
+    "tmdbRating": 7.6,
+    "tmdbVotes": 24380,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "productionCompanies": [
+      "Warner Bros. Pictures",
+      "Village Roadshow Pictures",
+      "Kennedy Miller Mitchell",
+      "RatPac Entertainment"
+    ],
+    "director": "George Miller",
+    "writers": [
+      "George Miller",
+      "Nico Lathouris",
+      "Brendan McCarthy"
+    ],
+    "cast": [
+      {
+        "name": "Tom Hardy",
+        "character": "Max Rockatansky",
+        "profilePath": "/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg"
+      },
+      {
+        "name": "Charlize Theron",
+        "character": "Imperator Furiosa",
+        "profilePath": "/9coVbqj35Fa5dWxlX5K9pDCqKfa.jpg"
+      },
+      {
+        "name": "Nicholas Hoult",
+        "character": "Nux",
+        "profilePath": "/pXm8GWTm9eIA8pUGOjvmYjlxamu.jpg"
+      },
+      {
+        "name": "Hugh Keays-Byrne",
+        "character": "Immortan Joe",
+        "profilePath": "/7XSPjKNwmyEPMnmoVSQ42ykMz6M.jpg"
+      },
+      {
+        "name": "Josh Helman",
+        "character": "Slit",
+        "profilePath": "/1thwLjrgvFv7ifjyVtTKQh23OCh.jpg"
+      },
+      {
+        "name": "Nathan Jones",
+        "character": "Rictus Erectus",
+        "profilePath": "/hlu4qYy9JGPxGn0wT8Ea6mTWR8R.jpg"
+      },
+      {
+        "name": "Zoë Kravitz",
+        "character": "Toast the Knowing",
+        "profilePath": "/n0mhAgmY6eJQmA7kaugsTZEJgHo.jpg"
+      },
+      {
+        "name": "Rosie Huntington-Whiteley",
+        "character": "The Splendid Angharad",
+        "profilePath": "/oq5iX2VoLGF41P5DmNDNJcczESR.jpg"
+      },
+      {
+        "name": "Riley Keough",
+        "character": "Capable",
+        "profilePath": "/wsodGduU4frFdMy1roqeDmj4kZ.jpg"
+      },
+      {
+        "name": "Abbey Lee",
+        "character": "The Dag",
+        "profilePath": "/y4ZIuFjtglTjSLxhGTkzsCPFMQZ.jpg"
+      },
+      {
+        "name": "Courtney Eaton",
+        "character": "Cheedo the Fragile",
+        "profilePath": "/rluUCxqPhrtvXHDGVSqWulfSBZ3.jpg"
+      },
+      {
+        "name": "John Howard",
+        "character": "The People Eater",
+        "profilePath": "/2XwZDmoeoSiLKDjmmXxQK4m5kHM.jpg"
+      }
+    ]
+  },
+  "spider-verse": {
+    "tmdbId": 324857,
+    "tmdbType": "movie",
+    "imdbId": "tt4633694",
+    "matchedTitle": "Spider-Man: Into the Spider-Verse",
+    "originalTitle": "Spider-Man: Into the Spider-Verse",
+    "releaseDate": "2018-12-06",
+    "posterPath": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+    "backdropPath": "/8mnXR9rey5uQ08rZAvzojKWbDQS.jpg",
+    "trailerKey": "tg52up16eq0",
+    "tagline": "Enter a universe where more than one wears the mask.",
+    "certification": "U",
+    "tmdbRating": 8.4,
+    "tmdbVotes": 17589,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "productionCompanies": [
+      "Columbia Pictures",
+      "Lord Miller",
+      "Pascal Pictures",
+      "Sony Pictures Animation"
+    ],
+    "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+    "writers": [
+      "Phil Lord",
+      "Rodney Rothman"
+    ],
+    "cast": [
+      {
+        "name": "Shameik Moore",
+        "character": "Miles Morales (voice)",
+        "profilePath": "/ovUKfVOwJ7CadEHaG3NDsfA5xRq.jpg"
+      },
+      {
+        "name": "Jake Johnson",
+        "character": "Peter B. Parker (voice)",
+        "profilePath": "/3UNfW2qZgRkW81neNVfQvaRC92K.jpg"
+      },
+      {
+        "name": "Hailee Steinfeld",
+        "character": "Gwen Stacy (voice)",
+        "profilePath": "/qDInsG0cxWNxS1X4t59TBZ5S6x5.jpg"
+      },
+      {
+        "name": "Mahershala Ali",
+        "character": "Uncle Aaron (voice)",
+        "profilePath": "/oId1ulmetuWr3lFFsSb81KS5LJS.jpg"
+      },
+      {
+        "name": "Brian Tyree Henry",
+        "character": "Jefferson Davis (voice)",
+        "profilePath": "/2MsJh0bpyzwvOUnXOltHp3j85Pb.jpg"
+      },
+      {
+        "name": "Lily Tomlin",
+        "character": "Aunt May (voice)",
+        "profilePath": "/eoFMSqRykiaXMGCiz7Kxehfqy1W.jpg"
+      },
+      {
+        "name": "Luna Lauren Vélez",
+        "character": "Rio Morales (voice)",
+        "profilePath": "/98BvmTJCZHx0jPv0oNcv04Jkmfb.jpg"
+      },
+      {
+        "name": "Zoë Kravitz",
+        "character": "Mary Jane (voice)",
+        "profilePath": "/n0mhAgmY6eJQmA7kaugsTZEJgHo.jpg"
+      },
+      {
+        "name": "John Mulaney",
+        "character": "Spider-Ham (voice)",
+        "profilePath": "/i3dGv3WoIONVLSlOpW4NIaT8Fs2.jpg"
+      },
+      {
+        "name": "Kimiko Glenn",
+        "character": "Peni Parker (voice)",
+        "profilePath": "/6QnVIyHKbzx0ZsUr3BmIwnZxujL.jpg"
+      },
+      {
+        "name": "Nicolas Cage",
+        "character": "Spider-Man Noir (voice)",
+        "profilePath": "/y1RtezurZYveYkVNRht7CwEgSYY.jpg"
+      },
+      {
+        "name": "Kathryn Hahn",
+        "character": "Doc Ock (voice)",
+        "profilePath": "/9sVllAKfEls3SJD3GoPm2JEZoa5.jpg"
+      }
+    ]
+  },
+  "the-conjuring": {
+    "tmdbId": 138843,
+    "tmdbType": "movie",
+    "imdbId": "tt1457767",
+    "matchedTitle": "The Conjuring",
+    "originalTitle": "The Conjuring",
+    "releaseDate": "2013-07-18",
+    "posterPath": "/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+    "backdropPath": "/ecKQlAEG95k62SMGhvX83oEqANK.jpg",
+    "trailerKey": "k10ETZ41q5o",
+    "tagline": "Based on the true case files of the Warrens.",
+    "certification": "A",
+    "tmdbRating": 7.5,
+    "tmdbVotes": 12923,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "productionCompanies": [
+      "Evergreen Media Group",
+      "The Safran Company",
+      "New Line Cinema"
+    ],
+    "director": "James Wan",
+    "writers": [
+      "Chad Hayes",
+      "Carey Hayes"
+    ],
+    "cast": [
+      {
+        "name": "Vera Farmiga",
+        "character": "Lorraine Warren",
+        "profilePath": "/5Vs7huBmTKftwlsc2BPAntyaQYj.jpg"
+      },
+      {
+        "name": "Patrick Wilson",
+        "character": "Ed Warren",
+        "profilePath": "/oym6H2QD9esk4yABjCHaUoNAOa8.jpg"
+      },
+      {
+        "name": "Lili Taylor",
+        "character": "Carolyn Perron",
+        "profilePath": "/vWcMUi3QyvCr3QuFbjtwyPx7WtU.jpg"
+      },
+      {
+        "name": "Ron Livingston",
+        "character": "Roger Perron",
+        "profilePath": "/pr5CjWnkaf5WKTIYh8wtNufjmyb.jpg"
+      },
+      {
+        "name": "Hayley McFarland",
+        "character": "Nancy",
+        "profilePath": "/mapxc0eyuNFqj9IybLmMIofhuzF.jpg"
+      },
+      {
+        "name": "Sterling Jerins",
+        "character": "Judy Warren",
+        "profilePath": "/10kkqqbO8Ct58DqsBPSQIsG9ve4.jpg"
+      },
+      {
+        "name": "Shanley Caswell",
+        "character": "Andrea",
+        "profilePath": "/yySEoaskedLZKKHSAOOZ5cr7HHo.jpg"
+      },
+      {
+        "name": "Mackenzie Foy",
+        "character": "Cindy",
+        "profilePath": "/wzH60SrqWp2XMkBfLgdBhx5EJ82.jpg"
+      },
+      {
+        "name": "Joey King",
+        "character": "Christine",
+        "profilePath": "/94c69mPYSK9jFsAEu0OKB7Qs684.jpg"
+      },
+      {
+        "name": "Kyla Deaver",
+        "character": "April",
+        "profilePath": "/yK2pAqrhei8N49ZOHL8u6ccaSPr.jpg"
+      },
+      {
+        "name": "Shannon Kook",
+        "character": "Drew",
+        "profilePath": "/rCTdLWbrqsGbMml8TNfGD94jPpp.jpg"
+      },
+      {
+        "name": "John Brotherton",
+        "character": "Brad",
+        "profilePath": "/9LX6rRtiCjkTMT30PJh1dg1jx56.jpg"
+      }
+    ]
+  },
+  "la-la-land": {
+    "tmdbId": 313369,
+    "tmdbType": "movie",
+    "imdbId": "tt3783958",
+    "matchedTitle": "La La Land",
+    "originalTitle": "La La Land",
+    "releaseDate": "2016-12-01",
+    "posterPath": "/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
+    "backdropPath": "/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
+    "trailerKey": "_oBwwSXdO_E",
+    "tagline": "Here's to the fools who dream.",
+    "certification": "A",
+    "tmdbRating": 7.9,
+    "tmdbVotes": 18316,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "productionCompanies": [
+      "Summit Entertainment",
+      "Gilbert Films",
+      "Impostor Pictures",
+      "Marc Platt Productions"
+    ],
+    "director": "Damien Chazelle",
+    "writers": [
+      "Damien Chazelle"
+    ],
+    "cast": [
+      {
+        "name": "Ryan Gosling",
+        "character": "Sebastian",
+        "profilePath": "/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
+      },
+      {
+        "name": "Emma Stone",
+        "character": "Mia",
+        "profilePath": "/cZ8a3QvAnj2cgcgVL6g4XaqPzpL.jpg"
+      },
+      {
+        "name": "John Legend",
+        "character": "Keith",
+        "profilePath": "/cCv0YBy2YFFWp9h3kvNPmwWwrCD.jpg"
+      },
+      {
+        "name": "Rosemarie DeWitt",
+        "character": "Laura",
+        "profilePath": "/44sxIdGtYN24R14OmnZbCpcd8J8.jpg"
+      },
+      {
+        "name": "Finn Wittrock",
+        "character": "Greg",
+        "profilePath": "/gwGMGTmli0uBF7eAhhXePWhYNFJ.jpg"
+      },
+      {
+        "name": "Callie Hernandez",
+        "character": "Tracy",
+        "profilePath": "/doMXlhTAYCy8gH43yYA6m9ymxhd.jpg"
+      },
+      {
+        "name": "Sonoya Mizuno",
+        "character": "Caitlin",
+        "profilePath": "/WVROOHuk6G6QgVe0pU8R2i1fsE.jpg"
+      },
+      {
+        "name": "Jessica Rothe",
+        "character": "Alexis",
+        "profilePath": "/lJdHeTxiE0bvPhl8IrBskoaKmfN.jpg"
+      },
+      {
+        "name": "Tom Everett Scott",
+        "character": "David",
+        "profilePath": "/nVDihOvsSm7kmeyHLtAcEzrrSYC.jpg"
+      },
+      {
+        "name": "Josh Pence",
+        "character": "Josh",
+        "profilePath": "/tkDFl0BEVCUcwKR30ICeG3yCTbr.jpg"
+      },
+      {
+        "name": "J.K. Simmons",
+        "character": "Bill",
+        "profilePath": "/ScmKoJ9eiSUOthAt1PDNLi8Fkw.jpg"
+      },
+      {
+        "name": "Amiée Conn",
+        "character": "Famous Actress",
+        "profilePath": "/wAcmKIkZOfuS3gKnUTUW9Epu6Yy.jpg"
+      }
+    ]
+  },
+  "grand-budapest": {
+    "tmdbId": 120467,
+    "tmdbType": "movie",
+    "imdbId": "tt2278388",
+    "matchedTitle": "The Grand Budapest Hotel",
+    "originalTitle": "The Grand Budapest Hotel",
+    "releaseDate": "2014-02-26",
+    "posterPath": "/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+    "backdropPath": "/9udCLTxTFl28RxnK8Q05E154ZGa.jpg",
+    "trailerKey": "G1jG8HUY4zI",
+    "tagline": "A murder case of Madam D. with enormous wealth and the most outrageous events surrounding her sudden death!",
+    "certification": "R",
+    "tmdbRating": 8,
+    "tmdbVotes": 16339,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Fox Searchlight Pictures",
+      "Studio Babelsberg",
+      "Indian Paintbrush",
+      "TSG Entertainment"
+    ],
+    "director": "Wes Anderson",
+    "writers": [
+      "Wes Anderson",
+      "Hugo Guinness"
+    ],
+    "cast": [
+      {
+        "name": "Ralph Fiennes",
+        "character": "M. Gustave",
+        "profilePath": "/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg"
+      },
+      {
+        "name": "F. Murray Abraham",
+        "character": "Mr. Moustafa",
+        "profilePath": "/p2RYVGdrcP0m70BkkiKcwyrDeim.jpg"
+      },
+      {
+        "name": "Mathieu Amalric",
+        "character": "Serge X.",
+        "profilePath": "/fMhfoTbjlXQy2Iojp7oYx49hLQl.jpg"
+      },
+      {
+        "name": "Adrien Brody",
+        "character": "Dmitri",
+        "profilePath": "/qBc7ahQrpVpcllaZ5hkivsOEb3C.jpg"
+      },
+      {
+        "name": "Willem Dafoe",
+        "character": "Jopling",
+        "profilePath": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg"
+      },
+      {
+        "name": "Jeff Goldblum",
+        "character": "Deputy Kovacs",
+        "profilePath": "/kcyEPgYtBP5Pm6LLeLGfXKjYovL.jpg"
+      },
+      {
+        "name": "Harvey Keitel",
+        "character": "Ludwig",
+        "profilePath": "/7P30hza1neYWW3r7rSQOC736K2Z.jpg"
+      },
+      {
+        "name": "Jude Law",
+        "character": "Young Author",
+        "profilePath": "/6UadpSbfC39WMChAcdnNunzwDxv.jpg"
+      },
+      {
+        "name": "Bill Murray",
+        "character": "M. Ivan",
+        "profilePath": "/nnCsJc9x3ZiG3AFyiyc3FPehppy.jpg"
+      },
+      {
+        "name": "Edward Norton",
+        "character": "Henckels",
+        "profilePath": "/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg"
+      },
+      {
+        "name": "Saoirse Ronan",
+        "character": "Agatha",
+        "profilePath": "/w88uhQ5f8CXw9pQx5HtDrDpzQ4x.jpg"
+      },
+      {
+        "name": "Jason Schwartzman",
+        "character": "M. Jean",
+        "profilePath": "/gCjMdmW1DiPAClHVl4zHEIffIsE.jpg"
+      }
+    ]
+  },
+  "coco": {
+    "tmdbId": 354912,
+    "tmdbType": "movie",
+    "imdbId": "tt2380307",
+    "matchedTitle": "Coco",
+    "originalTitle": "Coco",
+    "releaseDate": "2017-10-27",
+    "posterPath": "/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg",
+    "backdropPath": "/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg",
+    "trailerKey": "Rvr68u6k5sI",
+    "tagline": "The celebration of a lifetime.",
+    "certification": "U",
+    "tmdbRating": 8.2,
+    "tmdbVotes": 21223,
+    "genres": [
+      "Family",
+      "Animation",
+      "Music",
+      "Adventure"
+    ],
+    "productionCompanies": [
+      "Pixar"
+    ],
+    "director": "Lee Unkrich",
+    "writers": [
+      "Adrian Molina",
+      "Matthew Aldrich"
+    ],
+    "cast": [
+      {
+        "name": "Anthony Gonzalez",
+        "character": "Miguel Rivera (voice)",
+        "profilePath": "/WF7bn6t0LkxwBWyDMWvomVujn7.jpg"
+      },
+      {
+        "name": "Gael García Bernal",
+        "character": "Héctor (voice)",
+        "profilePath": "/7uEO29wtdyY9bjt2JN43gVpE6vt.jpg"
+      },
+      {
+        "name": "Benjamin Bratt",
+        "character": "Ernesto de la Cruz (voice)",
+        "profilePath": "/hBenHPT4iJEG2kt5z2TOGnkRZwh.jpg"
+      },
+      {
+        "name": "Alanna Ubach",
+        "character": "Mamá Imelda (voice)",
+        "profilePath": "/p2sIpgftEIkhPrrpgu8wW8XEpDg.jpg"
+      },
+      {
+        "name": "Renée Victor",
+        "character": "Abuelita (voice)",
+        "profilePath": "/wAVDqwFhQsRQgO6VIYq6T9Wbbx8.jpg"
+      },
+      {
+        "name": "Jaime Camil",
+        "character": "Papá (voice)",
+        "profilePath": "/njvdXEGN3bSSXpsyVnyKQTXdf1V.jpg"
+      },
+      {
+        "name": "Alfonso Arau",
+        "character": "Papá Julio (voice)",
+        "profilePath": "/5ishPim5akWXSnMbwOWSc3KxDx8.jpg"
+      },
+      {
+        "name": "Herbert Siguenza",
+        "character": "Tío Oscar / Tío Felipe (voice)",
+        "profilePath": "/aVLX3sRMZp1qIfqCRHgjjy2NfGI.jpg"
+      },
+      {
+        "name": "Gabriel Iglesias",
+        "character": "Clerk (voice)",
+        "profilePath": "/8Bjy3RZ5TfNs3oUOUpxTv84G01f.jpg"
+      },
+      {
+        "name": "Lombardo Boyar",
+        "character": "Plaza Mariachi / Gustavo (voice)",
+        "profilePath": "/wwWs0u2QDz1XOakR05C0BYJCfM1.jpg"
+      },
+      {
+        "name": "Ana Ofelia Murguía",
+        "character": "Mamá Coco (voice)",
+        "profilePath": "/rjlxNNR3t2BXDm1yjXLHx5489cV.jpg"
+      },
+      {
+        "name": "Natalia Cordova-Buckley",
+        "character": "Frida Kahlo (voice)",
+        "profilePath": "/sWqzbY7xgw9dPhFQJOcging3QMu.jpg"
+      }
+    ]
+  },
+  "arrival": {
+    "tmdbId": 329865,
+    "tmdbType": "movie",
+    "imdbId": "tt2543164",
+    "matchedTitle": "Arrival",
+    "originalTitle": "Arrival",
+    "releaseDate": "2016-11-10",
+    "posterPath": "/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg",
+    "backdropPath": "/8MUZz7oPXQftFTslZpRP3CVMOoq.jpg",
+    "trailerKey": "7W1m5ER3I1Y",
+    "tagline": "Why are they here?",
+    "certification": "UA",
+    "tmdbRating": 7.6,
+    "tmdbVotes": 19661,
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery"
+    ],
+    "productionCompanies": [
+      "FilmNation Entertainment",
+      "Lava Bear Films",
+      "21 Laps Entertainment"
+    ],
+    "director": "Denis Villeneuve",
+    "writers": [
+      "Eric Heisserer"
+    ],
+    "cast": [
+      {
+        "name": "Amy Adams",
+        "character": "Louise Banks",
+        "profilePath": "/1h2r2VTpoFb5QefAaBYYQgQzL9z.jpg"
+      },
+      {
+        "name": "Jeremy Renner",
+        "character": "Ian Donnelly",
+        "profilePath": "/yB84D1neTYXfWBaV0QOE9RF2VCu.jpg"
+      },
+      {
+        "name": "Forest Whitaker",
+        "character": "Colonel Weber",
+        "profilePath": "/4w7l5JUwnwFNBy7J93ZwYN1nihm.jpg"
+      },
+      {
+        "name": "Michael Stuhlbarg",
+        "character": "Agent Halpern",
+        "profilePath": "/aYB3SQm3h6ZyAdlbGyiNfakjx56.jpg"
+      },
+      {
+        "name": "Mark O'Brien",
+        "character": "Captain Marks",
+        "profilePath": "/8ckgltvlife4BBJcBpHEQWXfQ9p.jpg"
+      },
+      {
+        "name": "Tzi Ma",
+        "character": "General Shang",
+        "profilePath": "/x4fz0LCIiBNGdil3nBYO22W7QJ0.jpg"
+      },
+      {
+        "name": "Abigail Pniowsky",
+        "character": "8-Year-Old Hannah",
+        "profilePath": "/eFjFSNghr04PT6eBHzqLCvCUiXm.jpg"
+      },
+      {
+        "name": "Julia Scarlett Dan",
+        "character": "12-Year-Old Hannah",
+        "profilePath": "/5keIOToJhdil2uaTOXq5JX4e3OR.jpg"
+      },
+      {
+        "name": "Jadyn Malone",
+        "character": "6-Year-Old Hannah",
+        "profilePath": "/pVcseEB0gNjmkGRbvmnV8XAsPae.jpg"
+      },
+      {
+        "name": "Frank Schorpion",
+        "character": "Dr. Kettler",
+        "profilePath": "/aYHpKplVgIeuN8VoJq5R1Im9QKi.jpg"
+      },
+      {
+        "name": "Lucas Chartier-Dessert",
+        "character": "Private Lasky",
+        "profilePath": "/fi3OjPClyiHFom5dmtWVEaByvRY.jpg"
+      },
+      {
+        "name": "Christian Jadah",
+        "character": "Private Combs",
+        "profilePath": "/mIyyQ8maFwGv4s4can7c0mwN9UX.jpg"
+      }
+    ]
+  },
+  "dune-2": {
+    "tmdbId": 693134,
+    "tmdbType": "movie",
+    "imdbId": "tt15239678",
+    "matchedTitle": "Dune: Part Two",
+    "originalTitle": "Dune: Part Two",
+    "releaseDate": "2024-02-27",
+    "posterPath": "/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+    "backdropPath": "/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+    "trailerKey": "U2Qp5pL3ovA",
+    "tagline": "Long live the fighters.",
+    "certification": "PG-13",
+    "tmdbRating": 8.1,
+    "tmdbVotes": 8324,
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "productionCompanies": [
+      "Legendary Pictures"
+    ],
+    "director": "Denis Villeneuve",
+    "writers": [
+      "Denis Villeneuve",
+      "Jon Spaihts"
+    ],
+    "cast": [
+      {
+        "name": "Timothée Chalamet",
+        "character": "Paul Atreides",
+        "profilePath": "/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg"
+      },
+      {
+        "name": "Zendaya",
+        "character": "Chani",
+        "profilePath": "/3WdOloHpjtjL96uVOhFRRCcYSwq.jpg"
+      },
+      {
+        "name": "Rebecca Ferguson",
+        "character": "Jessica",
+        "profilePath": "/ty8ZPzaCBBlqIr5qzpOXI24iC8j.jpg"
+      },
+      {
+        "name": "Javier Bardem",
+        "character": "Stilgar",
+        "profilePath": "/zfRID0jx8DKBluPGU9xtk9sZWUt.jpg"
+      },
+      {
+        "name": "Josh Brolin",
+        "character": "Gurney Halleck",
+        "profilePath": "/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+      },
+      {
+        "name": "Austin Butler",
+        "character": "Feyd-Rautha",
+        "profilePath": "/atdAs4pFGjUQ4m2W8kJYly7N6cC.jpg"
+      },
+      {
+        "name": "Florence Pugh",
+        "character": "Princess Irulan",
+        "profilePath": "/1Uvfh7xL4U2evkhs0M3C7BbBYFf.jpg"
+      },
+      {
+        "name": "Dave Bautista",
+        "character": "Beast Rabban",
+        "profilePath": "/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg"
+      },
+      {
+        "name": "Christopher Walken",
+        "character": "Emperor",
+        "profilePath": "/ApgDL7nudR9T2GpjCG4vESgymO2.jpg"
+      },
+      {
+        "name": "Léa Seydoux",
+        "character": "Lady Margot Fenring",
+        "profilePath": "/xcYZOScYqziWjPcf3xIfQUMBYlZ.jpg"
+      },
+      {
+        "name": "Stellan Skarsgård",
+        "character": "Baron Harkonnen",
+        "profilePath": "/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg"
+      },
+      {
+        "name": "Charlotte Rampling",
+        "character": "Reverend Mother Mohiam",
+        "profilePath": "/Htvl9mN6mlf2a18RAFzNXF3RiG.jpg"
+      }
+    ]
+  },
+  "everything-everywhere": {
+    "tmdbId": 545611,
+    "tmdbType": "movie",
+    "imdbId": "tt6710474",
+    "matchedTitle": "Everything Everywhere All at Once",
+    "originalTitle": "Everything Everywhere All at Once",
+    "releaseDate": "2022-03-24",
+    "posterPath": "/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
+    "backdropPath": "/ss0Os3uWJfQAENILHZUdX8Tt1OC.jpg",
+    "trailerKey": "wxN1T1uxQ2g",
+    "tagline": "The universe is so much bigger than you realize.",
+    "certification": "A",
+    "tmdbRating": 7.7,
+    "tmdbVotes": 8235,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "productionCompanies": [
+      "IAC Films",
+      "AGBO",
+      "Ley Line Entertainment",
+      "Year of the Rat"
+    ],
+    "director": "Daniel Scheinert, Daniel Kwan",
+    "writers": [
+      "Daniel Scheinert",
+      "Daniel Kwan"
+    ],
+    "cast": [
+      {
+        "name": "Michelle Yeoh",
+        "character": "Evelyn Wang",
+        "profilePath": "/i6fHvGt7Rb8oVyjjdQVV6vEHB94.jpg"
+      },
+      {
+        "name": "Stephanie Hsu",
+        "character": "Joy Wang / Jobu Tupaki",
+        "profilePath": "/8gb3lfIHKQAGOQyeC4ynQPsCiHr.jpg"
+      },
+      {
+        "name": "Ke Huy Quan",
+        "character": "Waymond Wang",
+        "profilePath": "/iestHyn7PLuVowj5Jaa1SGPboQ4.jpg"
+      },
+      {
+        "name": "James Hong",
+        "character": "Gong Gong",
+        "profilePath": "/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+      },
+      {
+        "name": "Jamie Lee Curtis",
+        "character": "Deirdre Beaubeirdre",
+        "profilePath": "/eWKubKAAssRzmFwCZKh1mdYqGCH.jpg"
+      },
+      {
+        "name": "Tallie Medel",
+        "character": "Becky Sregor",
+        "profilePath": "/8IiG5GcOfYr9tz2uC9DyFTgm8uZ.jpg"
+      },
+      {
+        "name": "Jenny Slate",
+        "character": "Big Nose",
+        "profilePath": "/iNpXig5Djkh5moYG4TCekIATs5B.jpg"
+      },
+      {
+        "name": "Harry Shum Jr.",
+        "character": "Chad",
+        "profilePath": "/xFQsThmdyuOk9jt3zgZL08ixf2b.jpg"
+      },
+      {
+        "name": "Biff Wiff",
+        "character": "Rick",
+        "profilePath": "/hfXXxpwugRUHX4sxEP7njAnYXTy.jpg"
+      },
+      {
+        "name": "Sunita Mani",
+        "character": "TV Musical - Queen",
+        "profilePath": "/xQo4rkMEphSAt8F9D1OyWv0GBLx.jpg"
+      },
+      {
+        "name": "Aaron Lazar",
+        "character": "TV Musical - Soldier",
+        "profilePath": "/87xfF3QmQtYtlENybOvFL3bfMcr.jpg"
+      },
+      {
+        "name": "Brian Le",
+        "character": "Alpha Jumper - Trophy",
+        "profilePath": "/cdtKmPpmBrnVAiqFQVE4urxu0ko.jpg"
+      }
+    ]
+  },
+  "hero-2002": {
+    "tmdbId": 79,
+    "tmdbType": "movie",
+    "imdbId": "tt0299977",
+    "matchedTitle": "Hero",
+    "originalTitle": "英雄",
+    "releaseDate": "2002-12-19",
+    "posterPath": "/vxgZto2Cz7ILHAlmRXt50I2brB2.jpg",
+    "backdropPath": "/jDz6RYN3nKYtlo7J9IMvGoJit7B.jpg",
+    "trailerKey": "MgsddFEe9Oc",
+    "tagline": "One man's strength will unite an empire.",
+    "certification": "PG-13",
+    "tmdbRating": 7.5,
+    "tmdbVotes": 2556,
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Action",
+      "History"
+    ],
+    "productionCompanies": [
+      "Beijing New Picture Film Co. Ltd.",
+      "China Film Co-Production",
+      "Elite Group Enterprises",
+      "Edko Films"
+    ],
+    "director": "Zhang Yimou",
+    "writers": [
+      "Feng Li",
+      "Zhang Yimou",
+      "Wang Bin"
+    ],
+    "cast": [
+      {
+        "name": "Jet Li",
+        "character": "Nameless",
+        "profilePath": "/c4s8INzU0ZAujCQ1YmphCmcsNzl.jpg"
+      },
+      {
+        "name": "Tony Leung Chiu-wai",
+        "character": "Broken Sword",
+        "profilePath": "/nQbSQAws5BdakPEB5MtiqWVeaMV.jpg"
+      },
+      {
+        "name": "Maggie Cheung",
+        "character": "Flying Snow",
+        "profilePath": "/hre6xmoDbh67YN7wR5nhUazPTlb.jpg"
+      },
+      {
+        "name": "Donnie Yen",
+        "character": "Sky",
+        "profilePath": "/hTlhrrZMj8hZVvD17j4KyAFWBHc.jpg"
+      },
+      {
+        "name": "Zhang Ziyi",
+        "character": "Moon",
+        "profilePath": "/AeM8e72StFIoEe7wcPQgnQsHtyf.jpg"
+      },
+      {
+        "name": "Chen Daoming",
+        "character": "King of Qin",
+        "profilePath": "/xu5PRp6umslrXMvnq0pWsa5LnQh.jpg"
+      },
+      {
+        "name": "Liu Zhongyuan",
+        "character": "Old Scholar",
+        "profilePath": "/5UTxOhZjuzX9mEJKz0LJg5cW986.jpg"
+      },
+      {
+        "name": "Zheng Tianyong",
+        "character": "Old Servant",
+        "profilePath": "/be9oyoZS4R5LBQSTUz4pZXiejwX.jpg"
+      },
+      {
+        "name": "Qin Yan",
+        "character": "Prime Minister",
+        "profilePath": "/2tBQDNiO7zMZCLl8l5j6RyZz1Qz.jpg"
+      },
+      {
+        "name": "Zhang Yakun",
+        "character": "The Qin Guards' Commander",
+        "profilePath": "/bnSbwh9ow3dolwH7cv54EtiqXiQ.jpg"
+      },
+      {
+        "name": "Chang Xiao Yang",
+        "character": "General",
+        "profilePath": "/kZkZPYnbozKda2elIbUXYcDvcSN.jpg"
+      },
+      {
+        "name": "Jin Ming",
+        "character": "Eunuch",
+        "profilePath": "/6q3GfQbioyulGdljp0YseIaSRCz.jpg"
+      }
+    ]
+  },
+  "breaking-bad": {
+    "tmdbId": 1396,
+    "tmdbType": "tv",
+    "imdbId": "tt0903747",
+    "matchedTitle": "Breaking Bad",
+    "originalTitle": "Breaking Bad",
+    "releaseDate": "2008-01-20",
+    "posterPath": "/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+    "backdropPath": "/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
+    "trailerKey": null,
+    "tagline": "Change the equation.",
+    "certification": "A",
+    "tmdbRating": 8.9,
+    "tmdbVotes": 18346,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "productionCompanies": [
+      "Sony Pictures Television",
+      "High Bridge Productions",
+      "Gran Via Productions"
+    ],
+    "director": "Vince Gilligan",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Bryan Cranston",
+        "character": "Walter White",
+        "profilePath": "/npIIZJGSrcJIJ6yHdmbqO6Jzo5I.jpg"
+      },
+      {
+        "name": "Aaron Paul",
+        "character": "Jesse Pinkman",
+        "profilePath": "/8Ac9uuoYwZoYVAIJfRLzzLsGGJn.jpg"
+      },
+      {
+        "name": "Anna Gunn",
+        "character": "Skyler White",
+        "profilePath": "/adppyeu1a4REN3khtgmXusrapFi.jpg"
+      },
+      {
+        "name": "RJ Mitte",
+        "character": "Walter White Jr.",
+        "profilePath": "/sNPA92ZrssYhlaB1UA2pWcLD9db.jpg"
+      },
+      {
+        "name": "Dean Norris",
+        "character": "Hank Schrader",
+        "profilePath": "/mKRrEbsxAX3ro700HsViFArRM7l.jpg"
+      },
+      {
+        "name": "Betsy Brandt",
+        "character": "Marie Schrader",
+        "profilePath": "/xAnuzyjdMbQq9L1c4JNwXL52Wm4.jpg"
+      },
+      {
+        "name": "Bob Odenkirk",
+        "character": "Saul Goodman",
+        "profilePath": "/rF0Lb6SBhGSTvjRffmlKRSeI3jE.jpg"
+      },
+      {
+        "name": "Jonathan Banks",
+        "character": "Mike Ehrmantraut",
+        "profilePath": "/bswk26L13PvY4iMTwUTAsepXCLv.jpg"
+      }
+    ]
+  },
+  "dark": {
+    "tmdbId": 70523,
+    "tmdbType": "tv",
+    "imdbId": "tt5753856",
+    "matchedTitle": "Dark",
+    "originalTitle": "Dark",
+    "releaseDate": "2017-12-01",
+    "posterPath": "/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg",
+    "backdropPath": "/3jDXL4Xvj3AzDOF6UH1xeyHW8MH.jpg",
+    "trailerKey": "ESEUoa-mz2c",
+    "tagline": "Everything is connected.",
+    "certification": "A",
+    "tmdbRating": 8.4,
+    "tmdbVotes": 7751,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Mystery"
+    ],
+    "productionCompanies": [
+      "Wiedemann & Berg Television"
+    ],
+    "director": "Baran bo Odar, Jantje Friese",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Louis Hofmann",
+        "character": "Jonas Kahnwald",
+        "profilePath": "/m3Mo38afbKmy9EOsfmUagvTFM9q.jpg"
+      }
+    ]
+  },
+  "stranger-things": {
+    "tmdbId": 66732,
+    "tmdbType": "tv",
+    "imdbId": "tt4574334",
+    "matchedTitle": "Stranger Things",
+    "originalTitle": "Stranger Things",
+    "releaseDate": "2016-07-15",
+    "posterPath": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+    "backdropPath": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+    "trailerKey": "b9EkMc79ZSU",
+    "tagline": "It only gets stranger...",
+    "certification": "U/A 16+",
+    "tmdbRating": 8.6,
+    "tmdbVotes": 21612,
+    "genres": [
+      "Action & Adventure",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "productionCompanies": [
+      "21 Laps Entertainment",
+      "Monkey Massacre Productions",
+      "Upside Down Pictures"
+    ],
+    "director": "Ross Duffer, Matt Duffer",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Winona Ryder",
+        "character": "Joyce Byers",
+        "profilePath": "/8RVrlgtua8b53wmK7oZAAkm0N5O.jpg"
+      },
+      {
+        "name": "David Harbour",
+        "character": "Jim Hopper",
+        "profilePath": "/qMFtMWlYVtFVyBoBhX5IoA5sN5a.jpg"
+      },
+      {
+        "name": "Millie Bobby Brown",
+        "character": "Eleven / Jane Hopper",
+        "profilePath": "/kHO7hdNEVuTnQ0OjjrxP1RcAa0e.jpg"
+      },
+      {
+        "name": "Finn Wolfhard",
+        "character": "Mike Wheeler",
+        "profilePath": "/vgjd34eWfVL6GsLHwiwcAsjWLmo.jpg"
+      },
+      {
+        "name": "Gaten Matarazzo",
+        "character": "Dustin Henderson",
+        "profilePath": "/alVT7oDp8N5G9WLIApI9jqeuqHq.jpg"
+      },
+      {
+        "name": "Caleb McLaughlin",
+        "character": "Lucas Sinclair",
+        "profilePath": "/4jVS3EziBn7bf97ErxkW7jsdiLM.jpg"
+      },
+      {
+        "name": "Noah Schnapp",
+        "character": "Will Byers",
+        "profilePath": "/f8Gk3MUuz3xDNtcaErYB2RLgyPO.jpg"
+      },
+      {
+        "name": "Sadie Sink",
+        "character": "Max Mayfield",
+        "profilePath": "/92FddzBfK50XOUbtwjqHPraoGHy.jpg"
+      },
+      {
+        "name": "Natalia Dyer",
+        "character": "Nancy Wheeler",
+        "profilePath": "/cQaa3XEiUTgJxp85VeFYFyblJIH.jpg"
+      },
+      {
+        "name": "Charlie Heaton",
+        "character": "Jonathan Byers",
+        "profilePath": "/8Se6WZuvRmoB990bT29OPgVAyBo.jpg"
+      },
+      {
+        "name": "Joe Keery",
+        "character": "Steve Harrington",
+        "profilePath": "/ayIAVLMfZGEGIFwAo3pPnY7p59.jpg"
+      },
+      {
+        "name": "Maya Hawke",
+        "character": "Robin Buckley",
+        "profilePath": "/evjbbHM1bzA6Ma5Ptjwa4WkYkkj.jpg"
+      }
+    ]
+  },
+  "squid-game": {
+    "tmdbId": 93405,
+    "tmdbType": "tv",
+    "imdbId": "tt10919420",
+    "matchedTitle": "Squid Game",
+    "originalTitle": "오징어 게임",
+    "releaseDate": "2021-09-17",
+    "posterPath": "/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
+    "backdropPath": "/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
+    "trailerKey": "oqxAJKy0ii4",
+    "tagline": "The final games begin.",
+    "certification": "A",
+    "tmdbRating": 7.9,
+    "tmdbVotes": 17636,
+    "genres": [
+      "Action & Adventure",
+      "Mystery",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Siren Pictures",
+      "Firstman Studio"
+    ],
+    "director": "Hwang Dong-hyuk",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Lee Jung-jae",
+        "character": "Seong Gi-hun / Player 456",
+        "profilePath": "/lx8oiTXL9lIx78KOXlrlvNfoz43.jpg"
+      },
+      {
+        "name": "Yim Si-wan",
+        "character": "Lee Myung-gi / Player 333",
+        "profilePath": "/8XbMzvYE3KUNDW1jEHSCjM9t89n.jpg"
+      },
+      {
+        "name": "Wi Ha-jun",
+        "character": "Detective Hwang Jun-ho",
+        "profilePath": "/tEZuIaMESdBw4LfNq3vshGR4VlP.jpg"
+      },
+      {
+        "name": "Jo Yu-ri",
+        "character": "Kim Jun-hee / Player 222",
+        "profilePath": "/4GwoDQFPwpaKldOTpGrIJUzBa9h.jpg"
+      },
+      {
+        "name": "Lee Byung-hun",
+        "character": "Front Man / Hwang In-ho",
+        "profilePath": "/j7SUd9Qi8iOxgrQGb3nQyEYcXur.jpg"
+      },
+      {
+        "name": "Park Gyu-young",
+        "character": "Kang No-eul / Guard 011",
+        "profilePath": "/gnn2As1yZsive7Kxnx24NEN3GfC.jpg"
+      },
+      {
+        "name": "Kang Ae-sim",
+        "character": "Jang Geum-ja / Player 149",
+        "profilePath": "/mnUozozJf3VUpgi91ysfyxlRqs1.jpg"
+      },
+      {
+        "name": "Lee Jin-uk",
+        "character": "Park Gyeong-seok / Player 246",
+        "profilePath": "/uqzreNzDqiiSFCMv8bhzfSttHyk.jpg"
+      },
+      {
+        "name": "Yang Dong-geun",
+        "character": "Park Yong-sik / Player 007",
+        "profilePath": "/jlUJ6i91HYBs2QmcVKe1x3ByuaD.jpg"
+      },
+      {
+        "name": "Park Sung-hoon",
+        "character": "Cho Hyun-ju / Player 120",
+        "profilePath": "/nSF8VW2IoZcAA910gKQxbu01umk.jpg"
+      },
+      {
+        "name": "David Lee",
+        "character": "Park Min-su / Player 125",
+        "profilePath": "/qWGDFlr47d2AJLtJsOEmfmaC21l.jpg"
+      },
+      {
+        "name": "Kang Ha-neul",
+        "character": "Kang Dae-ho / Player 388",
+        "profilePath": "/wkSSMlvNNH4uAy3wcQ9xVZ4yHfW.jpg"
+      }
+    ]
+  },
+  "money-heist": {
+    "tmdbId": 71446,
+    "tmdbType": "tv",
+    "imdbId": "tt6468322",
+    "matchedTitle": "Money Heist",
+    "originalTitle": "La casa de papel",
+    "releaseDate": "2017-05-02",
+    "posterPath": "/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+    "backdropPath": "/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg",
+    "trailerKey": "_InqQJRqGW4",
+    "tagline": "The perfect robbery.",
+    "certification": "A",
+    "tmdbRating": 8.2,
+    "tmdbVotes": 19602,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Vancouver Media"
+    ],
+    "director": "Álex Pina",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Úrsula Corberó",
+        "character": "Tokio",
+        "profilePath": "/cmH8Z459tw9YkR61QfxlCSlZw9P.jpg"
+      },
+      {
+        "name": "Itziar Ituño",
+        "character": "Raquel Murillo",
+        "profilePath": "/l7XfYka8XxPj0fYjq22lvyxkJ7S.jpg"
+      },
+      {
+        "name": "Álvaro Morte",
+        "character": "Profesor",
+        "profilePath": "/2TGPhdpRC5wjdFEJqnLYiN5kbwg.jpg"
+      },
+      {
+        "name": "Pedro Alonso",
+        "character": "Berlín",
+        "profilePath": "/38HeVKeOBztVYrLJOWzAtEZiB02.jpg"
+      },
+      {
+        "name": "Miguel Herrán",
+        "character": "Río",
+        "profilePath": "/eFNlbsaMODCHys35ZQOkMQNh0Jq.jpg"
+      },
+      {
+        "name": "Jaime Lorente",
+        "character": "Denver",
+        "profilePath": "/nLaxzU92z14FIbe25sE8jDMIThZ.jpg"
+      },
+      {
+        "name": "Esther Acebo",
+        "character": "Estocolmo",
+        "profilePath": "/d7N6RWdMQmTI7wL44Ys4uvuSIoQ.jpg"
+      },
+      {
+        "name": "Najwa Nimri",
+        "character": "Alicia Sierra",
+        "profilePath": "/qwFICDukwvAepZmtd0G5mH1lniU.jpg"
+      },
+      {
+        "name": "Enrique Arce",
+        "character": "Arturo Román",
+        "profilePath": "/1lACQepfukuZ0l6FnUpMO03WxcJ.jpg"
+      },
+      {
+        "name": "Rodrigo de la Serna",
+        "character": "Palermo",
+        "profilePath": "/hArSCSwj92ItqVMni7D8ehInnU5.jpg"
+      },
+      {
+        "name": "Darko Perić",
+        "character": "Helsinki",
+        "profilePath": "/u3WigKj7tUriLC9Z5XbHuTNk4Wx.jpg"
+      },
+      {
+        "name": "Hovik Keuchkerian",
+        "character": "Bogotá",
+        "profilePath": "/o5cGKWHlZl4RFROYlT2hD95j0lN.jpg"
+      }
+    ]
+  },
+  "sacred-games": {
+    "tmdbId": 79352,
+    "tmdbType": "tv",
+    "imdbId": "tt6077448",
+    "matchedTitle": "Sacred Games",
+    "originalTitle": "Sacred Games",
+    "releaseDate": "2018-07-06",
+    "posterPath": "/uEbNtFbK4At9WBDGap23lt1qO9n.jpg",
+    "backdropPath": "/qtac9X9lSLqZFbxS71347N8MiID.jpg",
+    "trailerKey": "w-Xe8gLBc5I",
+    "tagline": "The Righteous. The Ruthless. Everyone wants to play.",
+    "certification": "A",
+    "tmdbRating": 7.8,
+    "tmdbVotes": 257,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Action & Adventure"
+    ],
+    "productionCompanies": [
+      "Phantom Films"
+    ],
+    "director": "Neeraj Ghaywan, Anurag Kashyap",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Saif Ali Khan",
+        "character": "Sartaj Singh",
+        "profilePath": "/85uKiFDEcIqzLh0GwqYvecXw4uA.jpg"
+      },
+      {
+        "name": "Nawazuddin Siddiqui",
+        "character": "Ganesh Gaitonde",
+        "profilePath": "/w1eXF7T60QlEC2gNfr99J3n8CgX.jpg"
+      },
+      {
+        "name": "Pankaj Tripathi",
+        "character": "Guruji",
+        "profilePath": "/f3Vxz0QB7PHeyPcXrfJX14Xkxnu.jpg"
+      },
+      {
+        "name": "Kalki Koechlin",
+        "character": "Batya Abelman",
+        "profilePath": "/4m81jxAeWJ1h1T6265pGBZoCC10.jpg"
+      },
+      {
+        "name": "Chittaranjan Tripathy",
+        "character": "Trivedi",
+        "profilePath": "/mthWq1JgVtlw1BmWWJkO7iGOOZ.jpg"
+      }
+    ]
+  },
+  "the-family-man": {
+    "tmdbId": 93352,
+    "tmdbType": "tv",
+    "imdbId": "tt9544034",
+    "matchedTitle": "The Family Man",
+    "originalTitle": "द फ़ैमिली मैन",
+    "releaseDate": "2019-09-20",
+    "posterPath": "/tE1NUJqw9gV6AVjQ1GTK78LbWJ9.jpg",
+    "backdropPath": "/eEzKigDI64OomZV6VTJvoPGmVu1.jpg",
+    "trailerKey": "jsauQx_Fwrg",
+    "tagline": null,
+    "certification": "TV-PG",
+    "tmdbRating": 7.7,
+    "tmdbVotes": 197,
+    "genres": [
+      "Drama",
+      "Action & Adventure"
+    ],
+    "productionCompanies": [
+      "D2R Films"
+    ],
+    "director": "Suman Kumar, Tushar Seth, Raj Nidimoru, Krishna D.K.",
+    "writers": [
+      "Krishna D.K.",
+      "Raj Nidimoru",
+      "Suman Kumar"
+    ],
+    "cast": [
+      {
+        "name": "Manoj Bajpayee",
+        "character": "Srikant Tiwari",
+        "profilePath": "/hBiAldG2BGMVoZUPbvK3FNDSw22.jpg"
+      },
+      {
+        "name": "Priyamani",
+        "character": "Suchitra Tiwari",
+        "profilePath": "/i1sZtQcphZWJij3LoR9M6QY9i4z.jpg"
+      },
+      {
+        "name": "Sharib Hashmi",
+        "character": "JK Talpade",
+        "profilePath": "/S3J1QbSDE7wqvlQjVKVF5jLHT.jpg"
+      },
+      {
+        "name": "Vedant Sinha",
+        "character": "Atharv Tiwari",
+        "profilePath": "/vPzVMeiMYKRH9tpeDZXVYB3tk5i.jpg"
+      },
+      {
+        "name": "Ashlesha Thakur",
+        "character": "Dhriti Tiwari",
+        "profilePath": "/cu3uUco7xRa4UZnMvP6dtrQnOby.jpg"
+      },
+      {
+        "name": "Shreya Dhanwanthary",
+        "character": "Zoya",
+        "profilePath": "/kzLK1i4bQeajhzRAMPZAonAM6b7.jpg"
+      },
+      {
+        "name": "Darshan Kumaar",
+        "character": "Major Sameer",
+        "profilePath": "/aKDYD0wDq7BRwdJmSjoqfOPleOf.jpg"
+      },
+      {
+        "name": "Vipin Sharma",
+        "character": "Sambit",
+        "profilePath": "/3TZHbQ1Zi3z1B721jwwTKxAMXqI.jpg"
+      },
+      {
+        "name": "Jaideep Ahlawat",
+        "character": "Rukma",
+        "profilePath": "/uILn4y8EWbMdeu71laMsh8zHY0M.jpg"
+      },
+      {
+        "name": "Nimrat Kaur",
+        "character": "Meera Eston",
+        "profilePath": "/7tJoyJygnKOweIlirFCWoOcuSzq.jpg"
+      },
+      {
+        "name": "Gul Panag",
+        "character": "Saloni",
+        "profilePath": "/1gv67t45wR65ROaaH2ujz3vNjL9.jpg"
+      },
+      {
+        "name": "Seema Biswas",
+        "character": "PM Basu",
+        "profilePath": "/nRd9anbVgvsRrWbH3G09nWTThHp.jpg"
+      }
+    ]
+  },
+  "mirzapur": {
+    "tmdbId": 84105,
+    "tmdbType": "tv",
+    "imdbId": "tt6473300",
+    "matchedTitle": "Mirzapur",
+    "originalTitle": "Mirzapur",
+    "releaseDate": "2018-11-15",
+    "posterPath": "/1rxLUFVrtTo82OxhbDXJDiJVkwL.jpg",
+    "backdropPath": "/3dV7pWAdwIPKR2lMIACMfObXdgK.jpg",
+    "trailerKey": "33o3s4Vs4Sw",
+    "tagline": null,
+    "certification": "A",
+    "tmdbRating": 8,
+    "tmdbVotes": 192,
+    "genres": [
+      "Crime",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Excel Entertainment"
+    ],
+    "director": "Karan Anshuman, Puneet Krishna, Vineet Krishnan",
+    "writers": [
+      "Avinash Singh Tomar",
+      "Vijay Narayan Verma",
+      "Apurva Dhar Badgaiyann"
+    ],
+    "cast": [
+      {
+        "name": "Ali Fazal",
+        "character": "Govind Pandit / Guddu",
+        "profilePath": "/lLDmx3RDuMXObASvdFXeUh1GOgd.jpg"
+      },
+      {
+        "name": "Pankaj Tripathi",
+        "character": "Akhanda Tripathi / Kaleen Bhaiya",
+        "profilePath": "/f3Vxz0QB7PHeyPcXrfJX14Xkxnu.jpg"
+      },
+      {
+        "name": "Shweta Tripathi Sharma",
+        "character": "Gajgamini Gupta / Golu",
+        "profilePath": "/xZ0pk5qKzfK1oB54Mmfo1lUSSEu.jpg"
+      },
+      {
+        "name": "Rasika Dugal",
+        "character": "Beena Tripathi",
+        "profilePath": "/cMJP2OEOrKwF05BFh3zI3TyS5Ft.jpg"
+      },
+      {
+        "name": "Harshita Gaur",
+        "character": "Dimpy Pandit",
+        "profilePath": "/rYO4VrYRiCWrEq5MgM0fZnlAMwX.jpg"
+      },
+      {
+        "name": "Sheeba Chaddha",
+        "character": "Vasudha Pandit",
+        "profilePath": "/yWBQeR47GmnGJn33w4c8QzakkSh.jpg"
+      },
+      {
+        "name": "Rajesh Tailang",
+        "character": "Ramakant Pandit",
+        "profilePath": "/ou1zcrNfhXBKcpnPgtKs64SRGXm.jpg"
+      },
+      {
+        "name": "Anjum Sharma",
+        "character": "Sharad Shukla",
+        "profilePath": "/75uWNWhYgYxRlXw4Hhrl5R86mpK.jpg"
+      },
+      {
+        "name": "Isha Talwar",
+        "character": "Madhuri Tripathi",
+        "profilePath": "/dVRrb9aLf6s1XmtIkpSbzuMl0Uv.jpg"
+      },
+      {
+        "name": "Vijay Varma",
+        "character": "Bharat Tyagi",
+        "profilePath": "/A46ekiPFC3vA1442FJmiIudpxX1.jpg"
+      },
+      {
+        "name": "Priyanshu Painyuli",
+        "character": "Robin Agarwal",
+        "profilePath": "/r1o22IMlSU9KQfG6qBTb0HUXPFe.jpg"
+      }
+    ]
+  },
+  "chernobyl": {
+    "tmdbId": 87108,
+    "tmdbType": "tv",
+    "imdbId": "tt7366338",
+    "matchedTitle": "Chernobyl",
+    "originalTitle": "Chernobyl",
+    "releaseDate": "2019-05-06",
+    "posterPath": "/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg",
+    "backdropPath": "/3URK0z9PzpVNJrGE7XOuyy6KFzk.jpg",
+    "trailerKey": "s9APLXM9Ei8",
+    "tagline": "What is the cost of lies?",
+    "certification": "U/A 16+",
+    "tmdbRating": 8.7,
+    "tmdbVotes": 8141,
+    "genres": [
+      "Drama"
+    ],
+    "productionCompanies": [
+      "SISTER",
+      "The Mighty Mint",
+      "Word Games",
+      "HBO"
+    ],
+    "director": "Craig Mazin",
+    "writers": [
+      "Svetlana Alexievich"
+    ],
+    "cast": [
+      {
+        "name": "Jared Harris",
+        "character": "Valery Legasov",
+        "profilePath": "/jAyPWkmge3BqXtgxIG9MfXBzOGj.jpg"
+      },
+      {
+        "name": "Stellan Skarsgård",
+        "character": "Boris Shcherbina",
+        "profilePath": "/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg"
+      },
+      {
+        "name": "Emily Watson",
+        "character": "Ulana Khomyuk",
+        "profilePath": "/bd0qiJXHoLNpkCqABsh67AKRtjC.jpg"
+      },
+      {
+        "name": "Paul Ritter",
+        "character": "Anatoly Dyatlov",
+        "profilePath": "/hYRSjC5vxrIFZ5sx1rM6V4ZEI8G.jpg"
+      },
+      {
+        "name": "Jessie Buckley",
+        "character": "Lyudmilla Ignatenko",
+        "profilePath": "/qbz9175DERSqsCQeYWGJWwqb38z.jpg"
+      },
+      {
+        "name": "Adam Nagaitis",
+        "character": "Vasily Ignatenko",
+        "profilePath": "/e05YxtScfLCI723ZFU6WOzLiJ6u.jpg"
+      },
+      {
+        "name": "Sam Troughton",
+        "character": "Alexandr Akimov",
+        "profilePath": "/7Gnt2TblEvlj0Nrzc5mQyOcHtPF.jpg"
+      },
+      {
+        "name": "Robert Emms",
+        "character": "Leonid Toptunov",
+        "profilePath": "/yqXBUz5WMcuicfyp6GlKSLBdBJH.jpg"
+      },
+      {
+        "name": "Con O'Neill",
+        "character": "Viktor Bryukhanov",
+        "profilePath": "/7Fnj1dB9kStTuy29eEVK4IuOxWO.jpg"
+      },
+      {
+        "name": "Adrian Rawlins",
+        "character": "Nikolai Fomin",
+        "profilePath": "/G0PGZqTjenuVTAQiib4ScU7vAI.jpg"
+      },
+      {
+        "name": "Alan Williams",
+        "character": "KGB Chairman Charkov",
+        "profilePath": "/hvfjcPUtKkbBewvJdJ6uGutwS51.jpg"
+      },
+      {
+        "name": "David Dencik",
+        "character": "Mikhail Gorbachev",
+        "profilePath": "/2BPsGhw8lGhe6HNs1aLu4Q1XeVn.jpg"
+      }
+    ]
+  },
+  "game-of-thrones": {
+    "tmdbId": 1399,
+    "tmdbType": "tv",
+    "imdbId": "tt0944947",
+    "matchedTitle": "Game of Thrones",
+    "originalTitle": "Game of Thrones",
+    "releaseDate": "2011-04-17",
+    "posterPath": "/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
+    "backdropPath": "/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg",
+    "trailerKey": "KPLWWIOCOOQ",
+    "tagline": "Winter is coming.",
+    "certification": "A",
+    "tmdbRating": 8.5,
+    "tmdbVotes": 27462,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "productionCompanies": [
+      "Revolution Sun Studios",
+      "Television 360",
+      "Generator Entertainment",
+      "Bighead Littlehead"
+    ],
+    "director": "David Benioff, D. B. Weiss",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Peter Dinklage",
+        "character": "Tyrion 'The Halfman' Lannister",
+        "profilePath": "/9CAd7wr8QZyIN0E7nm8v1B6WkGn.jpg"
+      },
+      {
+        "name": "Kit Harington",
+        "character": "Jon Snow",
+        "profilePath": "/iGXlJbExWwZmo9sUDsYuzf4Sv4y.jpg"
+      },
+      {
+        "name": "Nikolaj Coster-Waldau",
+        "character": "Sir Jaime 'Kingslayer' Lannister",
+        "profilePath": "/rpFOERbHkj7GWxkinUNiQ76sSGk.jpg"
+      },
+      {
+        "name": "Lena Headey",
+        "character": "Cersei Lannister",
+        "profilePath": "/cDyZLf8ddz0EgoUjpv4jjzy7qxA.jpg"
+      },
+      {
+        "name": "Emilia Clarke",
+        "character": "Daenerys Targaryen",
+        "profilePath": "/iFY6t7Ux9r70WB7Sp0TTVz6eGtm.jpg"
+      },
+      {
+        "name": "Liam Cunningham",
+        "character": "Davos Seaworth",
+        "profilePath": "/y27shwpEYGq4vhdEajcmqucuq9x.jpg"
+      },
+      {
+        "name": "Maisie Williams",
+        "character": "Arya Stark",
+        "profilePath": "/5RjD4dDpRDAhalFtvcUj7zdLWYB.jpg"
+      },
+      {
+        "name": "Isaac Hempstead Wright",
+        "character": "Brandon 'Bran' Stark",
+        "profilePath": "/g6ZreLmGrrOzaUCGVFRNPAWfcso.jpg"
+      },
+      {
+        "name": "Sophie Turner",
+        "character": "Sansa Stark",
+        "profilePath": "/8ur4aHFakVCinWk0cvrGO8qAUhv.jpg"
+      },
+      {
+        "name": "John Bradley",
+        "character": "Samwell 'Sam' Tarly",
+        "profilePath": "/lQuxVtH8GkSLSZQhpmSdIi88DSF.jpg"
+      },
+      {
+        "name": "Rory McCann",
+        "character": "Sandor 'The Hound' Clegane",
+        "profilePath": "/meEHyiCRXTTCiYQMzP4VEdvEuD0.jpg"
+      },
+      {
+        "name": "Joe Dempsie",
+        "character": "Gendry",
+        "profilePath": "/47XNLVxbLsEBFgGYgbHAIYE5ja9.jpg"
+      }
+    ]
+  },
+  "kota-factory": {
+    "tmdbId": 89113,
+    "tmdbType": "tv",
+    "imdbId": "tt9432978",
+    "matchedTitle": "Kota Factory",
+    "originalTitle": "कोटा फ़ैक्ट्री",
+    "releaseDate": "2019-04-16",
+    "posterPath": "/fMBookmwL6HjIgIVTjQ6EMr3pCH.jpg",
+    "backdropPath": "/mQEmKXSFlzBlSoYgut0VfjxAzoA.jpg",
+    "trailerKey": "pNZQ6msbOvM",
+    "tagline": null,
+    "certification": "TV-14",
+    "tmdbRating": 8.1,
+    "tmdbVotes": 120,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Contagious Online Media Network",
+      "The Viral Fever"
+    ],
+    "director": "Pratish Mehta, Raghav Subbu",
+    "writers": [
+      "Puneet Batra",
+      "Pravin Yadav"
+    ],
+    "cast": [
+      {
+        "name": "Jitendra Kumar",
+        "character": "Jeetu Bhaiya",
+        "profilePath": "/562Mucw9YaDHUlFBqK5aot3H2lJ.jpg"
+      },
+      {
+        "name": "Mayur More",
+        "character": "Vaibhav Pandey",
+        "profilePath": "/rJDNKSQZ8dlp26D8QW3ExKc8abw.jpg"
+      },
+      {
+        "name": "Ranjan Raj",
+        "character": "Balmukund Meena",
+        "profilePath": "/nqVHCwVLUrARq4DtFKRbzHhvMZq.jpg"
+      },
+      {
+        "name": "Alam Khan",
+        "character": "Uday Gupta",
+        "profilePath": "/qI9VLzGq4DDCjTdBLQI2bBM9la3.jpg"
+      },
+      {
+        "name": "Ahsaas Channa",
+        "character": "Shivangi Ranawat",
+        "profilePath": "/qFOpBSn7qMVaU621ueNdoNKcCz5.jpg"
+      },
+      {
+        "name": "Revathi Pillai",
+        "character": "Vartika Ratawal",
+        "profilePath": "/6jLLEPheLuB1NMNtNCm3uvSwtoh.jpg"
+      }
+    ]
+  },
+  "gangs-of-godavari-series": {
+    "tmdbId": 224744,
+    "tmdbType": "tv",
+    "imdbId": "tt27412343",
+    "matchedTitle": "Save the Tigers",
+    "originalTitle": "Save the Tigers",
+    "releaseDate": "2023-04-27",
+    "posterPath": "/5uyNd8UjItEU2M5W0YKULaxzWFm.jpg",
+    "backdropPath": "/cVLkAieF4FcnxBHpWEUUBB4XrEv.jpg",
+    "trailerKey": "VpJbvKrDCSI",
+    "tagline": null,
+    "certification": "U/A 16+",
+    "tmdbRating": 7,
+    "tmdbVotes": 4,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Three Autumn Leaves"
+    ],
+    "director": "Mahi V. Raghav, Pradeep Advaitham",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Chaitanya Krishna",
+        "character": "Vikram",
+        "profilePath": "/gGzQ1fzidW97X3GrpcG3OspcLSz.jpg"
+      },
+      {
+        "name": "Priyadarshi Pullikonda",
+        "character": "Ganta Ravi",
+        "profilePath": "/tVsqnESLdGJSua54qZ47wtoLjCI.jpg"
+      },
+      {
+        "name": "Abhinav Gomatam",
+        "character": "Rahul",
+        "profilePath": "/vRBY5Xw1aBaYmj61NfiYvS3Vbfb.jpg"
+      },
+      {
+        "name": "Pavani Gangireddy",
+        "character": "Madhuri",
+        "profilePath": "/r454n0MTbEQq9OOlphJWQrd1ADb.jpg"
+      },
+      {
+        "name": "Jordaar Sujatha",
+        "character": "Hymavathi",
+        "profilePath": "/pnzqZKdClMCE7nN4tAwLZtLa5fb.jpg"
+      },
+      {
+        "name": "Deviyyani Sharma",
+        "character": "Rekha",
+        "profilePath": "/eG8ZMpQJGmuNU8sxDXGpWpsaj0h.jpg"
+      },
+      {
+        "name": "Jayasri Rachakonda",
+        "character": "Arundhati",
+        "profilePath": "/jUnRQIR5Ju31ntlHT7er4uVeVvD.jpg"
+      },
+      {
+        "name": "Harsha Vardhan",
+        "character": "Ram Mohan",
+        "profilePath": "/A6mdUVQBu565oz20DzlxjGUWIZr.jpg"
+      },
+      {
+        "name": "Gangavva",
+        "character": "Poshavva",
+        "profilePath": "/fpHfFGjdoGvvS3rXHLCH67uURGn.jpg"
+      },
+      {
+        "name": "Venu",
+        "character": "Vijaykanth",
+        "profilePath": "/m367s4YmY92g3Woi3LpU6ahbOtm.jpg"
+      },
+      {
+        "name": "Satya Krishnan",
+        "character": "Spandhana",
+        "profilePath": "/8ymNkVGuJuAQkYcVc2ZZuxw6xov.jpg"
+      }
+    ]
+  },
+  "loser-series": {
+    "tmdbId": 103501,
+    "tmdbType": "tv",
+    "imdbId": "tt11893070",
+    "matchedTitle": "Loser",
+    "originalTitle": "Loser(2020)",
+    "releaseDate": "2020-05-15",
+    "posterPath": "/jW5BI2oOvGU9Urw6wvlw7DtSvpE.jpg",
+    "backdropPath": "/uRjZebd3oiJHckCYWA2BCee4kpP.jpg",
+    "trailerKey": null,
+    "tagline": null,
+    "certification": null,
+    "tmdbRating": null,
+    "tmdbVotes": 0,
+    "genres": [
+      "Drama"
+    ],
+    "productionCompanies": [],
+    "director": null,
+    "writers": [],
+    "cast": [
+      {
+        "name": "Shashank",
+        "character": null,
+        "profilePath": "/eLdlMsttFqKpN2D0f5Ij0qrR0b9.jpg"
+      },
+      {
+        "name": "Priyadarshi Pullikonda",
+        "character": null,
+        "profilePath": "/tVsqnESLdGJSua54qZ47wtoLjCI.jpg"
+      },
+      {
+        "name": "Kalpika Ganesh",
+        "character": null,
+        "profilePath": "/7q7UPxKI3Kuw9hC3QpNBxULzBuh.jpg"
+      },
+      {
+        "name": "Keshav Deepak",
+        "character": null,
+        "profilePath": "/3OYTK0bGVkCan44HT70Tz63hNlx.jpg"
+      },
+      {
+        "name": "Annie",
+        "character": null,
+        "profilePath": "/hnExzXREAdpvzHaHKo7ZrkE27hq.jpg"
+      }
+    ]
+  },
+  "dhootha": {
+    "tmdbId": 200946,
+    "tmdbType": "tv",
+    "imdbId": "tt19868374",
+    "matchedTitle": "Dhootha",
+    "originalTitle": "దూత",
+    "releaseDate": "2023-11-30",
+    "posterPath": "/jMegWqCj8z58na8RG8ytlPJ7gGm.jpg",
+    "backdropPath": "/bF4B3ZbA9yRLBGaEpzLkcqzi4a1.jpg",
+    "trailerKey": "-ITBFd_K5_M",
+    "tagline": null,
+    "certification": "A",
+    "tmdbRating": 7.3,
+    "tmdbVotes": 21,
+    "genres": [
+      "Mystery",
+      "Crime",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Northstar Entertainment"
+    ],
+    "director": "Vikram Kumar",
+    "writers": [
+      "Poorna Prajna",
+      "Naveen George Thomas",
+      "Vikram Kumar",
+      "Dondapati Venkatesh"
+    ],
+    "cast": [
+      {
+        "name": "Naga Chaitanya Akkineni",
+        "character": "Sagar Varma Avuduri",
+        "profilePath": "/tV82v41Mj5rkIKWR5ryNFonAQKw.jpg"
+      },
+      {
+        "name": "Parvathy Thiruvothu",
+        "character": "Kranthi Shenoy",
+        "profilePath": "/6cvAW25qy7i9Eoey2r7QChrwdjX.jpg"
+      },
+      {
+        "name": "Priya Bhavani Shankar",
+        "character": "Priya Avuduri",
+        "profilePath": "/sX5Ue02f5kzOzVCa0R3dV2yPRmO.jpg"
+      },
+      {
+        "name": "Prachi Desai",
+        "character": "Amrutha",
+        "profilePath": "/kEX5mAzGz7Pfvld9BQETKUpqKH8.jpg"
+      },
+      {
+        "name": "Rohini",
+        "character": "Madhavi Avuduri",
+        "profilePath": "/oeT5DXeqsTY17DtJLTGpQec91fr.jpg"
+      },
+      {
+        "name": "Anish Kuruvilla",
+        "character": "Anand Varma Avuduri",
+        "profilePath": "/egs7BnJeBw7txSjoETg2XoqHO8e.jpg"
+      },
+      {
+        "name": "Jayaprakash",
+        "character": "Chandra Murthy",
+        "profilePath": "/eyYfMqy7NsED7SYrAzaso9ZjLT5.jpg"
+      },
+      {
+        "name": "Pasupathy",
+        "character": "Kodinala Sathya Murthy",
+        "profilePath": "/luiNwyZPi2snUB7mA4MTyQ1tvU3.jpg"
+      },
+      {
+        "name": "Chaithanya Garikapati",
+        "character": "Ranga",
+        "profilePath": null
+      },
+      {
+        "name": "Ravindra Vijay",
+        "character": "Ajay Ghosh",
+        "profilePath": "/2mw4VbANE3QtI9dzQXdrG74RizL.jpg"
+      },
+      {
+        "name": "Tharun Bhascker",
+        "character": "Bhupathi Varma Avuduri",
+        "profilePath": "/fNG54JOFz3gZfgu1E6tCI0cg3jE.jpg"
+      },
+      {
+        "name": "Raja Goutham",
+        "character": "Chakrapani",
+        "profilePath": "/nBhK8R7GUG8HdINuR2WDrmffeGk.jpg"
+      }
+    ]
+  }
+};
