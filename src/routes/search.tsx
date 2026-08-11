@@ -44,24 +44,25 @@ function SearchPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [raw]);
 
+  // Index each title once: title, original title, year, language, genres,
+  // director, writers and the full credited cast (names + characters).
+  const index = useMemo(() => CATALOG.map((t) => ({ t, text: searchIndex(t) })), []);
+
   const results = useMemo(() => {
     const term = q.trim().toLowerCase();
     if (!term) return [];
-    return CATALOG.filter((t) =>
-      [t.title, t.director, t.language, String(t.year), ...t.genres, ...t.cast]
-        .join(" ")
-        .toLowerCase()
-        .includes(term),
-    );
-  }, [q]);
+    const words = term.split(/\s+/).filter(Boolean);
+    return index.filter(({ text }) => words.every((w) => text.includes(w))).map(({ t }) => t);
+  }, [q, index]);
 
   const suggestions = useMemo(() => {
     const term = raw.trim().toLowerCase();
     if (term.length < 2) return [];
-    return CATALOG.filter((t) => t.title.toLowerCase().includes(term))
-      .slice(0, 5)
-      .map((t) => t.title);
+    const titles = CATALOG.filter((t) => t.title.toLowerCase().includes(term)).map((t) => t.title);
+    const people = ALL_PEOPLE.filter((n) => n.toLowerCase().includes(term));
+    return Array.from(new Set([...titles, ...people])).slice(0, 6);
   }, [raw]);
+
 
   return (
     <div className="space-y-6">
