@@ -266,6 +266,7 @@ function Hero({
           key={title.id + "-poster"}
           title={title}
           size="hero"
+          priority
           className="hidden aspect-[2/3] w-full animate-cine-rise rounded-2xl shadow-[var(--shadow-lift)] lg:block"
         />
       </div>
