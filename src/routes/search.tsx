@@ -7,6 +7,7 @@ import { EmptyState } from "@/components/EmptyState";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { CATALOG } from "@/data/catalog";
+import { ALL_PEOPLE, searchIndex } from "@/data/media";
 import { useLibrary } from "@/lib/library";
 
 export const Route = createFileRoute("/search")({
