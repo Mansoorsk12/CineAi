@@ -1801,27 +1801,27 @@ export const TMDB: Record<string, TmdbRecord> = {
     ]
   },
   "shiva-1989": {
-    "tmdbId": 109001,
+    "tmdbId": 354630,
     "tmdbType": "movie",
-    "imdbId": "tt14984074",
-    "matchedTitle": "Shiva",
-    "originalTitle": "शिवा",
-    "releaseDate": "1990-12-07",
-    "posterPath": "/4jWEsHBD1gaGn5Aa0CHHfPmJCQh.jpg",
-    "backdropPath": "/xAP1oRSgrTsi33ijsa5G3zkE8pn.jpg",
+    "imdbId": "tt0248428",
+    "matchedTitle": "Siva",
+    "originalTitle": "శివ",
+    "releaseDate": "1989-10-05",
+    "posterPath": "/glgO02tTO5B4GAmybuzEsCMQK5O.jpg",
+    "backdropPath": "/bdLvelZtIr8MiscEs9e48Vzd4Jl.jpg",
     "trailerKey": null,
     "tagline": null,
     "certification": "A",
     "tmdbRating": 6.5,
-    "tmdbVotes": 12,
+    "tmdbVotes": 25,
     "genres": [
-      "Drama",
       "Action",
+      "Drama",
       "Crime"
     ],
     "productionCompanies": [
-      "Annapurna Studios",
-      "S.S. Creations"
+      "S.S. Creations",
+      "Annapurna Studios"
     ],
     "director": "Ram Gopal Varma",
     "writers": [
@@ -1830,7 +1830,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "cast": [
       {
         "name": "Nagarjuna Akkineni",
-        "character": "Shiva",
+        "character": "Siva",
         "profilePath": "/y6A79KaYhxRZ7OUsDm2dq2MFSm2.jpg"
       },
       {
@@ -1844,13 +1844,8 @@ export const TMDB: Record<string, TmdbRecord> = {
         "profilePath": "/z6IJ61kEaU6cjBHVX2eqxL2nnMx.jpg"
       },
       {
-        "name": "Paresh Rawal",
-        "character": "Tilak Dhari",
-        "profilePath": "/xFVHMvDC8s4Ab2sLXrdVxMxZ33b.jpg"
-      },
-      {
         "name": "J. D. Chakravarthi",
-        "character": "JD (Jagdish Dave)",
+        "character": "J. Durga Rao (J. D.)",
         "profilePath": "/4sRwxgggTEhsaJzwZRZbxbLRzUA.jpg"
       },
       {
@@ -1859,34 +1854,39 @@ export const TMDB: Record<string, TmdbRecord> = {
         "profilePath": "/zRjr0F64Eznbliz1RvN9icj3Lq1.jpg"
       },
       {
-        "name": "Rohini Hattangadi",
-        "character": "Prakash's Mother",
-        "profilePath": "/ApgSi1vZg0b0tl9ir3fERHhZUIU.jpg"
+        "name": "Chinna",
+        "character": "Chinna",
+        "profilePath": null
       },
       {
-        "name": "Goga Kapoor",
-        "character": "Kanta Prasad",
-        "profilePath": "/il7Csz0XZxdcaH4fyPTD0PLReYr.jpg"
+        "name": "Subhalekha Sudhakar",
+        "character": "Malli",
+        "profilePath": "/euDijVOTT0dbI3mWBOvU4q4RCk1.jpg"
       },
       {
-        "name": "Iftekhar",
-        "character": "College Principal",
-        "profilePath": "/xDtJUtXtibzMMh7FXxP9qmyM3gc.jpg"
+        "name": "Kota Srinivasa Rao",
+        "character": "Machiraju",
+        "profilePath": "/iEJprOPpeLhnyxBu2KdiJtw5Adb.jpg"
       },
       {
-        "name": "Chandrashekhar Vaidya",
-        "character": "Lecturer (as Chandrasekar)",
-        "profilePath": "/zEWqNyfWpOuJnp62cSuTQvQQE1P.jpg"
+        "name": "Murali Mohan",
+        "character": "Sharath",
+        "profilePath": "/otex9PxT1wXvvR4ATVG5lZH5UDV.jpg"
       },
       {
-        "name": "Beena Banerjee",
-        "character": "Shiva's Sister-in-law (as Bina Banerji)",
-        "profilePath": "/bpz1mRlbVEYtIgRVoGHC5oGZ9Lt.jpg"
+        "name": "Gollapudi Maruti Rao",
+        "character": "Viswanadham",
+        "profilePath": "/n2Dg7xVS8OqTB7Pfc09JtodZUfa.jpg"
       },
       {
-        "name": "Raj Zutshi",
-        "character": "Prakash",
-        "profilePath": "/aJmWL08uj2oVGd2cJmBuzNSO2LY.jpg"
+        "name": "Sai Chand",
+        "character": "Venkat",
+        "profilePath": "/1siMncMiqyu6zu8Xw1feVuVhbSy.jpg"
+      },
+      {
+        "name": "Ram Jagan",
+        "character": "Naresh",
+        "profilePath": null
       }
     ]
   },
