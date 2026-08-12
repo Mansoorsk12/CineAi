@@ -5656,6 +5656,95 @@ export const TMDB: Record<string, TmdbRecord> = {
       }
     ]
   },
+  "12th-fail": {
+    "tmdbId": 1163258,
+    "tmdbType": "movie",
+    "imdbId": "tt23849204",
+    "matchedTitle": "12th Fail",
+    "originalTitle": "12वीं फेल",
+    "releaseDate": "2023-08-11",
+    "posterPath": "/eebUPRI4Z5e1Z7Hev4JZAwMIFkX.jpg",
+    "backdropPath": "/6RV2o8PBCEyw9ylOWViV1CtULIF.jpg",
+    "trailerKey": "KjbtuqENvVE",
+    "tagline": "#RESTART",
+    "certification": "PG",
+    "tmdbRating": 7.9,
+    "tmdbVotes": 257,
+    "genres": [
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Vidhu Vinod Chopra Productions",
+      "Zee Studios"
+    ],
+    "director": "Vidhu Vinod Chopra",
+    "writers": [
+      "Vidhu Vinod Chopra",
+      "Jaskunwar Kohli"
+    ],
+    "cast": [
+      {
+        "name": "Vikrant Massey",
+        "character": "Manoj Kumar Sharma",
+        "profilePath": "/zvpP52P7CtVXYONmvWrH1aOcRTx.jpg"
+      },
+      {
+        "name": "Medha Shankr",
+        "character": "Shraddha Joshi",
+        "profilePath": "/aVemlgs6LIf1GzrpTPjyoV14Y2s.jpg"
+      },
+      {
+        "name": "Anant Joshi",
+        "character": "Pritam Pandey",
+        "profilePath": "/jcYbmTJZolVfFknhulko7i2KHSL.jpg"
+      },
+      {
+        "name": "Anshumaan Pushkar",
+        "character": "Gaurinandan",
+        "profilePath": "/ktbqCXjoqLuD96tTkHo1PVqVi14.jpg"
+      },
+      {
+        "name": "Priyanshu Chatterjee",
+        "character": "Dushyant Singh",
+        "profilePath": "/fPAIAZcdGD2UBMwBluqiYi5pXHb.jpg"
+      },
+      {
+        "name": "Geeta Agrawal Sharma",
+        "character": "Pushpa Sharma",
+        "profilePath": "/5Jrwb9zWG2Hjmf8PQLuDmCKnMHG.jpg"
+      },
+      {
+        "name": "Harish Khanna",
+        "character": "Ramveer Sharma",
+        "profilePath": "/uUp5UH7SpPvCBidrAIa3mMaLZIu.jpg"
+      },
+      {
+        "name": "Vikas Divyakirti",
+        "character": "Vikas Divyakirti",
+        "profilePath": "/kseQq4A4UCvELbkQNnjr1FY9R2q.jpg"
+      },
+      {
+        "name": "Sarita Joshi",
+        "character": "Dadi",
+        "profilePath": "/njUfojPEbH2Si1mEJ4DEFSO2lmF.jpg"
+      },
+      {
+        "name": "Sam Mohan",
+        "character": "Deep Mohan",
+        "profilePath": "/ec2qc89q4dui86lCQ5f3l7tyLLF.jpg"
+      },
+      {
+        "name": "Neeraj Kalra",
+        "character": "Prabhakar Joshi",
+        "profilePath": null
+      },
+      {
+        "name": "Sonal Jha",
+        "character": "Shraddha's Mother",
+        "profilePath": "/buTWA0SHsB9ZQwBrgSxotNle0Rf.jpg"
+      }
+    ]
+  },
   "kalki-2898-ad": {
     "tmdbId": 801688,
     "tmdbType": "movie",
@@ -6109,6 +6198,95 @@ export const TMDB: Record<string, TmdbRecord> = {
       }
     ]
   },
+  "salaar-part-1": {
+    "tmdbId": 770906,
+    "tmdbType": "movie",
+    "imdbId": "tt13927994",
+    "matchedTitle": "Salaar: Part 1 - Ceasefire",
+    "originalTitle": "సలార్: పార్ట్‌ 1 – సీజ్‌ఫైర్‌",
+    "releaseDate": "2023-12-21",
+    "posterPath": "/nlu9WbcetNFRGXXPWITr30ob7W6.jpg",
+    "backdropPath": "/xtOCTmGemASooRkAxRorYODig1p.jpg",
+    "trailerKey": "9Im1q4gvk1M",
+    "tagline": null,
+    "certification": "A",
+    "tmdbRating": 6.7,
+    "tmdbVotes": 118,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Hombale Films"
+    ],
+    "director": "Prashanth Neel",
+    "writers": [
+      "Prashanth Neel"
+    ],
+    "cast": [
+      {
+        "name": "Prabhas",
+        "character": "Devaratha \"Deva\" Raisaar",
+        "profilePath": "/u6RVP8ukgLaymeoi5VmX0JRAcCn.jpg"
+      },
+      {
+        "name": "Prithviraj Sukumaran",
+        "character": "Vardharaja Mannar / Siva Mannar",
+        "profilePath": "/1xhG42QU8tMQRTDdP1Ed3y9GRvm.jpg"
+      },
+      {
+        "name": "Shruti Haasan",
+        "character": "Aadya Krishnakanth",
+        "profilePath": "/1zYJuSccSA45VVBdgozpRcL99Rd.jpg"
+      },
+      {
+        "name": "Easwari Rao",
+        "character": "Deva's Mother",
+        "profilePath": "/fjyvQ45YZcovy2Egj2eux8UiuHU.jpg"
+      },
+      {
+        "name": "Jagapati Babu",
+        "character": "Raja Mannar",
+        "profilePath": "/bm72k6FmDxhxtZsl1xvxoz88Hkm.jpg"
+      },
+      {
+        "name": "Bobby Simha",
+        "character": "Bhaarava",
+        "profilePath": "/4luN7NwlKvenAkSDwjzZeWpWuoP.jpg"
+      },
+      {
+        "name": "Sriya Reddy",
+        "character": "Radha Rama Mannar",
+        "profilePath": "/6AwGUf0uj7Dr6cwZkC53KNihPdj.jpg"
+      },
+      {
+        "name": "Ramachandra Raju",
+        "character": "Rudra Raja Mannar",
+        "profilePath": "/kU1a4H8o1IQA25Lyq3cW70aufhT.jpg"
+      },
+      {
+        "name": "Mime Gopi",
+        "character": "Bilal",
+        "profilePath": "/gglNAjJMlCb0p7ig3OVpgsXMkMD.jpg"
+      },
+      {
+        "name": "Tinnu Anand",
+        "character": "Gaikwad \"Baba\"",
+        "profilePath": "/6fkEiZKNp6jnOQmfQKEjVinhUeL.jpg"
+      },
+      {
+        "name": "Pramod Panju",
+        "character": "Baachi Raja Mannar",
+        "profilePath": "/2URHh4gn72VYlgrrZrNaEyXjpPh.jpg"
+      },
+      {
+        "name": "Ramana",
+        "character": "Rinda",
+        "profilePath": "/fQcMvPYyCr2FwAP4YwhElUsbgrZ.jpg"
+      }
+    ]
+  },
   "spider-man-across-the-spider-verse": {
     "tmdbId": 569094,
     "tmdbType": "movie",
@@ -6406,6 +6584,145 @@ export const TMDB: Record<string, TmdbRecord> = {
         "name": "Edwin Lee Gibson",
         "character": "Ebraheim",
         "profilePath": "/wyDPu35soTnBi4VClpS8fv2atkE.jpg"
+      }
+    ]
+  },
+  "shogun-2024": {
+    "tmdbId": 126308,
+    "tmdbType": "tv",
+    "imdbId": "tt2788316",
+    "matchedTitle": "Shōgun",
+    "originalTitle": "Shōgun",
+    "releaseDate": "2024-02-27",
+    "posterPath": "/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+    "backdropPath": "/bwSmgmd90hCWwqOKQYTEraeOZhJ.jpg",
+    "trailerKey": "wPL80Xqc_f4",
+    "tagline": "An epic saga of war, passion, and power set in Feudal Japan.",
+    "certification": "TV-MA",
+    "tmdbRating": 8.4,
+    "tmdbVotes": 1843,
+    "genres": [
+      "Drama",
+      "War & Politics"
+    ],
+    "productionCompanies": [
+      "FX Productions",
+      "Michael De Luca Productions",
+      "Gate 34"
+    ],
+    "director": "Rachel Kondo, Justin Marks",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Hiroyuki Sanada",
+        "character": "Yoshii Toranaga",
+        "profilePath": "/SOwDxhGnRccP2lAtssQ7TxCzOe.jpg"
+      },
+      {
+        "name": "Cosmo Jarvis",
+        "character": "John Blackthorne",
+        "profilePath": "/1kgghZ558CxZCJip5ufO6BAqUGp.jpg"
+      },
+      {
+        "name": "Anna Sawai",
+        "character": "Toda Mariko",
+        "profilePath": "/6uFaCOupDTPRnTiedveTUvjOikC.jpg"
+      },
+      {
+        "name": "Tadanobu Asano",
+        "character": "Kashigi Yabushige",
+        "profilePath": "/3CBpfGRcPq1jEeYr51TiOiNbZzT.jpg"
+      },
+      {
+        "name": "Takehiro Hira",
+        "character": "Ishido Kazunari",
+        "profilePath": "/f8UK7xqwkfpIZiECcDgc0AErkj6.jpg"
+      },
+      {
+        "name": "Tommy Bastow",
+        "character": "Father Martin Alvito",
+        "profilePath": "/dIQcrDm9dZqc98Ca6Em67x5ivba.jpg"
+      },
+      {
+        "name": "Fumi Nikaido",
+        "character": "Ochiba No Kata / Ruri",
+        "profilePath": "/tqxgrZdOpx2FuTJYlhago4fttI3.jpg"
+      }
+    ]
+  },
+  "farzi": {
+    "tmdbId": 132117,
+    "tmdbType": "tv",
+    "imdbId": "tt15477488",
+    "matchedTitle": "Farzi",
+    "originalTitle": "फर्जी",
+    "releaseDate": "2023-02-10",
+    "posterPath": "/cTS86RwEBIDgCgUmjWQTSoPsK6p.jpg",
+    "backdropPath": "/rGkjtv6UdL1ysDmZuBjbNl3PAA1.jpg",
+    "trailerKey": "KQdgKpNYho8",
+    "tagline": "An original story about copying.",
+    "certification": "U/A 16+",
+    "tmdbRating": 7.8,
+    "tmdbVotes": 179,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "productionCompanies": [
+      "D2R Films"
+    ],
+    "director": "Krishna D.K., Raj Nidimoru",
+    "writers": [
+      "Krishna D.K.",
+      "Sita Menon",
+      "Raj Nidimoru",
+      "Suman Kumar"
+    ],
+    "cast": [
+      {
+        "name": "Shahid Kapoor",
+        "character": "Sunny / Artist",
+        "profilePath": "/q5jqLRioZgIVjXpKS8XHx27ScDQ.jpg"
+      },
+      {
+        "name": "Vijay Sethupathi",
+        "character": "Michael Vedanayagam",
+        "profilePath": "/a3HWdfCAbplrvoMNEJCjnkbqqOo.jpg"
+      },
+      {
+        "name": "Kay Kay Menon",
+        "character": "Mansoor Dalal",
+        "profilePath": "/lcCMzGpxHXTStLMN7G9SQovxSQo.jpg"
+      },
+      {
+        "name": "Bhuvan Arora",
+        "character": "Firoz",
+        "profilePath": "/AtEfX9ta8LZTWh7yZ4dVc2wpIRO.jpg"
+      },
+      {
+        "name": "Raashii Khanna",
+        "character": "Megha Vyas",
+        "profilePath": "/dUI7VAfva2t6Nwkood3llLJr6aE.jpg"
+      },
+      {
+        "name": "Chittaranjan Giri",
+        "character": "Yasir Chacha",
+        "profilePath": "/guaB9EP5Md4MgX1FUKN5eSLhzvl.jpg"
+      },
+      {
+        "name": "Amol Palekar",
+        "character": "Madhav Nanu",
+        "profilePath": "/kUnejDjArzNVxouIaIj3WxxC83G.jpg"
+      },
+      {
+        "name": "Zakir Hussain",
+        "character": "Pawan Gahlot",
+        "profilePath": "/etiL0ANjzBhTiyvUblZl6vwIog9.jpg"
+      },
+      {
+        "name": "Jaswant Singh Dalal",
+        "character": "Shekhar",
+        "profilePath": null
       }
     ]
   },
