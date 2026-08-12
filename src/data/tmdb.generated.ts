@@ -30,8 +30,8 @@ export const TMDB: Record<string, TmdbRecord> = {
     ],
     "director": "S. S. Rajamouli",
     "writers": [
-      "Vijayendra Prasad",
-      "S. S. Rajamouli"
+      "S. S. Rajamouli",
+      "Vijayendra Prasad"
     ],
     "cast": [
       {
@@ -1645,8 +1645,8 @@ export const TMDB: Record<string, TmdbRecord> = {
     ],
     "director": "Karthik Varma Dandu",
     "writers": [
-      "Sukumar",
-      "Karthik Varma Dandu"
+      "Karthik Varma Dandu",
+      "Sukumar"
     ],
     "cast": [
       {
@@ -2091,9 +2091,9 @@ export const TMDB: Record<string, TmdbRecord> = {
     ],
     "director": "Yadu Vamsi",
     "writers": [
-      "Yadu Vamsi",
       "Kondalrao addagalla",
-      "Venkat Subash Cheerala"
+      "Venkat Subash Cheerala",
+      "Yadu Vamsi"
     ],
     "cast": [
       {
@@ -2500,7 +2500,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Every artist has a secret.",
     "certification": "UA",
     "tmdbRating": 7.6,
-    "tmdbVotes": 643,
+    "tmdbVotes": 645,
     "genres": [
       "Crime",
       "Mystery",
@@ -2513,9 +2513,9 @@ export const TMDB: Record<string, TmdbRecord> = {
     ],
     "director": "Sriram Raghavan",
     "writers": [
-      "Arijit Biswas",
       "Sriram Raghavan",
       "Pooja Ladha Surti",
+      "Arijit Biswas",
       "Hemanth M. Rao"
     ],
     "cast": [
@@ -2594,7 +2594,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Mankind was born on Earth. It was never meant to die here.",
     "certification": "UA",
     "tmdbRating": 8.5,
-    "tmdbVotes": 40685,
+    "tmdbVotes": 40695,
     "genres": [
       "Adventure",
       "Drama",
@@ -2686,7 +2686,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Your mind is the scene of the crime.",
     "certification": "UA",
     "tmdbRating": 8.4,
-    "tmdbVotes": 39833,
+    "tmdbVotes": 39840,
     "genres": [
       "Action",
       "Science Fiction",
@@ -2777,7 +2777,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Some men just want to watch the world burn.",
     "certification": "UA ",
     "tmdbRating": 8.5,
-    "tmdbVotes": 36339,
+    "tmdbVotes": 36346,
     "genres": [
       "Action",
       "Crime",
@@ -2791,9 +2791,9 @@ export const TMDB: Record<string, TmdbRecord> = {
     ],
     "director": "Christopher Nolan",
     "writers": [
-      "Christopher Nolan",
       "David S. Goyer",
-      "Jonathan Nolan"
+      "Jonathan Nolan",
+      "Christopher Nolan"
     ],
     "cast": [
       {
@@ -2871,7 +2871,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Paul Edgecomb didn't believe in miracles. Until the day he met one.",
     "certification": "R",
     "tmdbRating": 8.5,
-    "tmdbVotes": 19579,
+    "tmdbVotes": 19584,
     "genres": [
       "Fantasy",
       "Drama",
@@ -2961,7 +2961,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Act like you own the place.",
     "certification": "A",
     "tmdbRating": 8.5,
-    "tmdbVotes": 21049,
+    "tmdbVotes": 21056,
     "genres": [
       "Comedy",
       "Thriller",
@@ -3051,7 +3051,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "15 years of imprisonment, five days of vengeance.",
     "certification": "R",
     "tmdbRating": 8.2,
-    "tmdbVotes": 10056,
+    "tmdbVotes": 10060,
     "genres": [
       "Thriller",
       "Mystery"
@@ -3143,7 +3143,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Life-or-death survival begins.",
     "certification": "NR",
     "tmdbRating": 7.8,
-    "tmdbVotes": 8570,
+    "tmdbVotes": 8571,
     "genres": [
       "Action",
       "Horror",
@@ -3235,7 +3235,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Beyond the tunnel was a mysterious town.",
     "certification": "PG",
     "tmdbRating": 8.5,
-    "tmdbVotes": 18666,
+    "tmdbVotes": 18668,
     "genres": [
       "Animation",
       "Family",
@@ -3327,7 +3327,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Separated by distance, connected by fate.",
     "certification": "U/A 13+",
     "tmdbRating": 8.5,
-    "tmdbVotes": 12817,
+    "tmdbVotes": 12819,
     "genres": [
       "Animation",
       "Romance",
@@ -3419,7 +3419,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "She’ll change your life.",
     "certification": "R",
     "tmdbRating": 7.9,
-    "tmdbVotes": 12541,
+    "tmdbVotes": 12543,
     "genres": [
       "Comedy",
       "Romance"
@@ -3603,7 +3603,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The road to greatness can take you to the edge.",
     "certification": "R",
     "tmdbRating": 8.4,
-    "tmdbVotes": 16899,
+    "tmdbVotes": 16902,
     "genres": [
       "Drama",
       "Music",
@@ -3694,7 +3694,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The future belongs to the mad.",
     "certification": "A",
     "tmdbRating": 7.6,
-    "tmdbVotes": 24380,
+    "tmdbVotes": 24382,
     "genres": [
       "Action",
       "Adventure",
@@ -3788,7 +3788,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Enter a universe where more than one wears the mask.",
     "certification": "U",
     "tmdbRating": 8.4,
-    "tmdbVotes": 17589,
+    "tmdbVotes": 17597,
     "genres": [
       "Animation",
       "Action",
@@ -3882,7 +3882,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Based on the true case files of the Warrens.",
     "certification": "A",
     "tmdbRating": 7.5,
-    "tmdbVotes": 12923,
+    "tmdbVotes": 12926,
     "genres": [
       "Horror",
       "Thriller"
@@ -3973,7 +3973,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Here's to the fools who dream.",
     "certification": "A",
     "tmdbRating": 7.9,
-    "tmdbVotes": 18316,
+    "tmdbVotes": 18319,
     "genres": [
       "Comedy",
       "Drama",
@@ -4157,7 +4157,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The celebration of a lifetime.",
     "certification": "U",
     "tmdbRating": 8.2,
-    "tmdbVotes": 21223,
+    "tmdbVotes": 21225,
     "genres": [
       "Family",
       "Animation",
@@ -4248,7 +4248,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Why are they here?",
     "certification": "UA",
     "tmdbRating": 7.6,
-    "tmdbVotes": 19661,
+    "tmdbVotes": 19662,
     "genres": [
       "Drama",
       "Science Fiction",
@@ -4339,7 +4339,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Long live the fighters.",
     "certification": "PG-13",
     "tmdbRating": 8.1,
-    "tmdbVotes": 8324,
+    "tmdbVotes": 8328,
     "genres": [
       "Science Fiction",
       "Adventure"
@@ -4521,7 +4521,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "One man's strength will unite an empire.",
     "certification": "PG-13",
     "tmdbRating": 7.5,
-    "tmdbVotes": 2556,
+    "tmdbVotes": 2557,
     "genres": [
       "Drama",
       "Adventure",
@@ -4616,7 +4616,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Change the equation.",
     "certification": "A",
     "tmdbRating": 8.9,
-    "tmdbVotes": 18346,
+    "tmdbVotes": 18351,
     "genres": [
       "Drama",
       "Crime"
@@ -4684,7 +4684,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Everything is connected.",
     "certification": "A",
     "tmdbRating": 8.4,
-    "tmdbVotes": 7751,
+    "tmdbVotes": 7753,
     "genres": [
       "Crime",
       "Drama",
@@ -4717,7 +4717,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "It only gets stranger...",
     "certification": "U/A 16+",
     "tmdbRating": 8.6,
-    "tmdbVotes": 21612,
+    "tmdbVotes": 21615,
     "genres": [
       "Action & Adventure",
       "Mystery",
@@ -4806,7 +4806,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The final games begin.",
     "certification": "A",
     "tmdbRating": 7.9,
-    "tmdbVotes": 17636,
+    "tmdbVotes": 17638,
     "genres": [
       "Action & Adventure",
       "Mystery",
@@ -4894,7 +4894,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The perfect robbery.",
     "certification": "A",
     "tmdbRating": 8.2,
-    "tmdbVotes": 19602,
+    "tmdbVotes": 19603,
     "genres": [
       "Crime",
       "Drama"
@@ -5032,7 +5032,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": null,
     "certification": "TV-PG",
     "tmdbRating": 7.7,
-    "tmdbVotes": 197,
+    "tmdbVotes": 198,
     "genres": [
       "Drama",
       "Action & Adventure"
@@ -5208,7 +5208,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "What is the cost of lies?",
     "certification": "U/A 16+",
     "tmdbRating": 8.7,
-    "tmdbVotes": 8141,
+    "tmdbVotes": 8146,
     "genres": [
       "Drama"
     ],
@@ -5298,7 +5298,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Winter is coming.",
     "certification": "A",
     "tmdbRating": 8.5,
-    "tmdbVotes": 27462,
+    "tmdbVotes": 27467,
     "genres": [
       "Sci-Fi & Fantasy",
       "Drama",
@@ -5589,9 +5589,9 @@ export const TMDB: Record<string, TmdbRecord> = {
     "director": "Vikram Kumar",
     "writers": [
       "Poorna Prajna",
-      "Naveen George Thomas",
       "Vikram Kumar",
-      "Dondapati Venkatesh"
+      "Sripal Reddy",
+      "Naveen George Thomas"
     ],
     "cast": [
       {
@@ -5653,6 +5653,870 @@ export const TMDB: Record<string, TmdbRecord> = {
         "name": "Raja Goutham",
         "character": "Chakrapani",
         "profilePath": "/nBhK8R7GUG8HdINuR2WDrmffeGk.jpg"
+      }
+    ]
+  },
+  "kalki-2898-ad": {
+    "tmdbId": 801688,
+    "tmdbType": "movie",
+    "imdbId": "tt12735488",
+    "matchedTitle": "Kalki 2898-AD",
+    "originalTitle": "కల్కి 2898-ఎ.డి",
+    "releaseDate": "2024-06-26",
+    "posterPath": "/rstcAnBeCkxNQjNp3YXrF6IP1tW.jpg",
+    "backdropPath": "/o8XSR1SONnjcsv84NRu6Mwsl5io.jpg",
+    "trailerKey": "eWI9voiOt_k",
+    "tagline": "For a better Tomorrow",
+    "certification": "UA",
+    "tmdbRating": 6.4,
+    "tmdbVotes": 186,
+    "genres": [
+      "Drama",
+      "Action",
+      "Fantasy",
+      "Science Fiction"
+    ],
+    "productionCompanies": [
+      "Vyjayanthi Movies",
+      "Annapurna Studios"
+    ],
+    "director": "Nag Ashwin",
+    "writers": [
+      "Nag Ashwin"
+    ],
+    "cast": [
+      {
+        "name": "Amitabh Bachchan",
+        "character": "Ashwatthama",
+        "profilePath": "/u69PvpWqGkywSm0YjFiw77j9eqS.jpg"
+      },
+      {
+        "name": "Prabhas",
+        "character": "Bhairava",
+        "profilePath": "/u6RVP8ukgLaymeoi5VmX0JRAcCn.jpg"
+      },
+      {
+        "name": "Deepika Padukone",
+        "character": "SUM-80 \"Sumathi\"",
+        "profilePath": "/rzvvBQ0r6oiqDdzcsdTRB7jN4Rx.jpg"
+      },
+      {
+        "name": "Kamal Haasan",
+        "character": "Supreme Yaskin",
+        "profilePath": "/17zscZgz4wOlGDd3Gziw4YbI3G.jpg"
+      },
+      {
+        "name": "Saswata Chatterjee",
+        "character": "Manas",
+        "profilePath": "/cVJVLDy7BNzIbFMcJBPOWeN0Kb.jpg"
+      },
+      {
+        "name": "Shobana",
+        "character": "Mariam",
+        "profilePath": "/t6niRFC3xCV6hJSuyC9ACWLSVXu.jpg"
+      },
+      {
+        "name": "Rajendra Prasad",
+        "character": "Rumi",
+        "profilePath": "/zh6QJ85g5KbpkjL5fgqlOGddn5C.jpg"
+      },
+      {
+        "name": "Pasupathy",
+        "character": "Veeran",
+        "profilePath": "/luiNwyZPi2snUB7mA4MTyQ1tvU3.jpg"
+      },
+      {
+        "name": "Anna Ben",
+        "character": "Kyra",
+        "profilePath": "/d0vvDEO6MWeRnc6lj1d11TnIt5i.jpg"
+      },
+      {
+        "name": "Keya Nair",
+        "character": "Raia",
+        "profilePath": null
+      },
+      {
+        "name": "Harshith Malgireddy",
+        "character": "Luke",
+        "profilePath": null
+      },
+      {
+        "name": "Ayaz Pasha",
+        "character": "Ajju",
+        "profilePath": null
+      }
+    ]
+  },
+  "premalu": {
+    "tmdbId": 1149791,
+    "tmdbType": "movie",
+    "imdbId": "tt28288786",
+    "matchedTitle": "Premalu",
+    "originalTitle": "പ്രേമലു",
+    "releaseDate": "2024-02-09",
+    "posterPath": "/uPpmBjY3znUqGY8kYwI5xvOrSc0.jpg",
+    "backdropPath": "/gDyLcjvmdAhmYqjCMwZ9PndnAVm.jpg",
+    "trailerKey": "OnxChVgg6N8",
+    "tagline": null,
+    "certification": "U",
+    "tmdbRating": 7.7,
+    "tmdbVotes": 66,
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "productionCompanies": [
+      "Bhavana Studios",
+      "Fahadh Faasil and Friends Private Limited",
+      "Working Class Hero"
+    ],
+    "director": "Girish A. D.",
+    "writers": [
+      "Girish A. D.",
+      "Kiran Josey"
+    ],
+    "cast": [
+      {
+        "name": "Naslen K. Gafoor",
+        "character": "Sachin Santhosh",
+        "profilePath": "/8cAVtELGh2ZL5DhyijYBiAQF2Zt.jpg"
+      },
+      {
+        "name": "Mamitha Baiju",
+        "character": "Reenu",
+        "profilePath": "/tGEFW7uGdYrvZ2f3FP8JH5Yh5L2.jpg"
+      },
+      {
+        "name": "Sangeeth Prathap",
+        "character": "Amal Davis",
+        "profilePath": "/2f7mTmZ1RttbacuADm6vv7xpTAi.jpg"
+      },
+      {
+        "name": "Shyam Mohan",
+        "character": "Aadhi",
+        "profilePath": "/wqUndf8mfVUxKtus68hrh7dlBhX.jpg"
+      },
+      {
+        "name": "Akhila Bhargavan",
+        "character": "Karthika",
+        "profilePath": "/tdj2w0GCvk2IXhhu3VXbnz08JOv.jpg"
+      },
+      {
+        "name": "Meenakshi Raveendran",
+        "character": "Niharika",
+        "profilePath": "/e8VgGVTJpxxmV5iXmhRgP6ntRFM.jpg"
+      },
+      {
+        "name": "Mathew Thomas",
+        "character": "Thomas",
+        "profilePath": "/tynqqZ6LXz6TCDUWMG0xR4pNDkw.jpg"
+      },
+      {
+        "name": "Althaf Salim",
+        "character": "Shobi Sir",
+        "profilePath": "/wYFAsF8f4Ak26c4t5J1IfBBxP0W.jpg"
+      },
+      {
+        "name": "Shameer Khan",
+        "character": "Subin",
+        "profilePath": null
+      },
+      {
+        "name": "Syam Pushkaran",
+        "character": "Pambavaasan",
+        "profilePath": "/8OCR2emeKZ51Sj9iJrV1GWyXtnD.jpg"
+      },
+      {
+        "name": "AR Raja Ganesh",
+        "character": "Vignesh",
+        "profilePath": null
+      },
+      {
+        "name": "Gopu Kesav",
+        "character": "Reenu's father",
+        "profilePath": null
+      }
+    ]
+  },
+  "maharaja-2024": {
+    "tmdbId": 1118224,
+    "tmdbType": "movie",
+    "imdbId": "tt26548265",
+    "matchedTitle": "Maharaja",
+    "originalTitle": "மகாராஜா",
+    "releaseDate": "2024-06-14",
+    "posterPath": "/s0m4TM1XRAftQStgKpw024RvkJo.jpg",
+    "backdropPath": "/if61bpqSXngkGoGNjMdHZt02wZS.jpg",
+    "trailerKey": "Otcr-vRuaQs",
+    "tagline": null,
+    "certification": "UA",
+    "tmdbRating": 7.7,
+    "tmdbVotes": 240,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Mystery"
+    ],
+    "productionCompanies": [
+      "Passion Studios",
+      "The Route",
+      "Think Studios"
+    ],
+    "director": "Nithilan Saminathan",
+    "writers": [
+      "Nithilan Saminathan"
+    ],
+    "cast": [
+      {
+        "name": "Vijay Sethupathi",
+        "character": "Maharaja",
+        "profilePath": "/a3HWdfCAbplrvoMNEJCjnkbqqOo.jpg"
+      },
+      {
+        "name": "Anurag Kashyap",
+        "character": "Selvam",
+        "profilePath": "/wS1aF7dFDnKC44ZbFkbDcIpmFq5.jpg"
+      },
+      {
+        "name": "Sachana Namidass",
+        "character": "Jothi",
+        "profilePath": "/vKAZo6Vs04qO9cUacLJa0FiliuY.jpg"
+      },
+      {
+        "name": "Natarajan Subramaniam",
+        "character": "Inspector S. Varadharajan",
+        "profilePath": "/1sKmgVKSw8qJUzBTJGvL45wlDss.jpg"
+      },
+      {
+        "name": "Abhirami",
+        "character": "Kokila",
+        "profilePath": "/1TVXmU20s1mrIHEM5f8WpxWDEsd.jpg"
+      },
+      {
+        "name": "Mamta Mohandas",
+        "character": "Aasifa",
+        "profilePath": "/ce9B8AG0IN77F9GR3b8gj13CP1q.jpg"
+      },
+      {
+        "name": "Aruldoss",
+        "character": "SI R. K. Perumalsamy",
+        "profilePath": "/gDMVbi6reJPolJm9qtqYwTWyh4p.jpg"
+      },
+      {
+        "name": "Munishkanth",
+        "character": "Constable Kuzhandhaivelu",
+        "profilePath": "/n2SjFPNv3EN1ziqfdpyjiEvoqt7.jpg"
+      },
+      {
+        "name": "Kalki Raja",
+        "character": "Police",
+        "profilePath": "/ghejKia8Wufa38bjhJOvfHu9xcW.jpg"
+      },
+      {
+        "name": "Saravana Subbiah",
+        "character": "Inspector",
+        "profilePath": "/o6OsYQnm9oXJHbmctOWLQMxBsWg.jpg"
+      },
+      {
+        "name": "Vetrivel Raja",
+        "character": "Constable",
+        "profilePath": "/3L3KtD080vHIe55KRqrHSAfX2Mu.jpg"
+      },
+      {
+        "name": "Manikandan",
+        "character": "Dhana",
+        "profilePath": "/yVIwzZ9kf7KE8BOSzh3n9MN5Foc.jpg"
+      }
+    ]
+  },
+  "dune-part-two": {
+    "tmdbId": 693134,
+    "tmdbType": "movie",
+    "imdbId": "tt15239678",
+    "matchedTitle": "Dune: Part Two",
+    "originalTitle": "Dune: Part Two",
+    "releaseDate": "2024-02-27",
+    "posterPath": "/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+    "backdropPath": "/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+    "trailerKey": "U2Qp5pL3ovA",
+    "tagline": "Long live the fighters.",
+    "certification": "PG-13",
+    "tmdbRating": 8.1,
+    "tmdbVotes": 8328,
+    "genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "productionCompanies": [
+      "Legendary Pictures"
+    ],
+    "director": "Denis Villeneuve",
+    "writers": [
+      "Denis Villeneuve",
+      "Jon Spaihts"
+    ],
+    "cast": [
+      {
+        "name": "Timothée Chalamet",
+        "character": "Paul Atreides",
+        "profilePath": "/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg"
+      },
+      {
+        "name": "Zendaya",
+        "character": "Chani",
+        "profilePath": "/3WdOloHpjtjL96uVOhFRRCcYSwq.jpg"
+      },
+      {
+        "name": "Rebecca Ferguson",
+        "character": "Jessica",
+        "profilePath": "/ty8ZPzaCBBlqIr5qzpOXI24iC8j.jpg"
+      },
+      {
+        "name": "Javier Bardem",
+        "character": "Stilgar",
+        "profilePath": "/zfRID0jx8DKBluPGU9xtk9sZWUt.jpg"
+      },
+      {
+        "name": "Josh Brolin",
+        "character": "Gurney Halleck",
+        "profilePath": "/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+      },
+      {
+        "name": "Austin Butler",
+        "character": "Feyd-Rautha",
+        "profilePath": "/atdAs4pFGjUQ4m2W8kJYly7N6cC.jpg"
+      },
+      {
+        "name": "Florence Pugh",
+        "character": "Princess Irulan",
+        "profilePath": "/1Uvfh7xL4U2evkhs0M3C7BbBYFf.jpg"
+      },
+      {
+        "name": "Dave Bautista",
+        "character": "Beast Rabban",
+        "profilePath": "/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg"
+      },
+      {
+        "name": "Christopher Walken",
+        "character": "Emperor",
+        "profilePath": "/ApgDL7nudR9T2GpjCG4vESgymO2.jpg"
+      },
+      {
+        "name": "Léa Seydoux",
+        "character": "Lady Margot Fenring",
+        "profilePath": "/xcYZOScYqziWjPcf3xIfQUMBYlZ.jpg"
+      },
+      {
+        "name": "Stellan Skarsgård",
+        "character": "Baron Harkonnen",
+        "profilePath": "/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg"
+      },
+      {
+        "name": "Charlotte Rampling",
+        "character": "Reverend Mother Mohiam",
+        "profilePath": "/Htvl9mN6mlf2a18RAFzNXF3RiG.jpg"
+      }
+    ]
+  },
+  "oppenheimer": {
+    "tmdbId": 872585,
+    "tmdbType": "movie",
+    "imdbId": "tt15398776",
+    "matchedTitle": "Oppenheimer",
+    "originalTitle": "Oppenheimer",
+    "releaseDate": "2023-07-19",
+    "posterPath": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "backdropPath": "/neeNHeXjMF5fXoCJRsOmkNGC7q.jpg",
+    "trailerKey": "bK6ldnjE3Y0",
+    "tagline": "The world forever changes.",
+    "certification": "UA",
+    "tmdbRating": 8,
+    "tmdbVotes": 12202,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "productionCompanies": [
+      "Syncopy",
+      "Universal Pictures",
+      "Atlas Entertainment",
+      "Breakheart Films"
+    ],
+    "director": "Christopher Nolan",
+    "writers": [
+      "Christopher Nolan"
+    ],
+    "cast": [
+      {
+        "name": "Cillian Murphy",
+        "character": "J. Robert Oppenheimer",
+        "profilePath": "/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg"
+      },
+      {
+        "name": "Emily Blunt",
+        "character": "Kitty Oppenheimer",
+        "profilePath": "/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
+      },
+      {
+        "name": "Matt Damon",
+        "character": "Leslie Groves",
+        "profilePath": "/aCvBXTAR9B1qRjIRzMBYhhbm1fR.jpg"
+      },
+      {
+        "name": "Robert Downey Jr.",
+        "character": "Lewis Strauss",
+        "profilePath": "/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+      },
+      {
+        "name": "Florence Pugh",
+        "character": "Jean Tatlock",
+        "profilePath": "/1Uvfh7xL4U2evkhs0M3C7BbBYFf.jpg"
+      },
+      {
+        "name": "Josh Hartnett",
+        "character": "Ernest Lawrence",
+        "profilePath": "/5eMo8D7h1XrSu6ZN4UXhPcS6YNG.jpg"
+      },
+      {
+        "name": "Casey Affleck",
+        "character": "Boris Pash",
+        "profilePath": "/304ilSygaCRWykoBWAL67TOw8g9.jpg"
+      },
+      {
+        "name": "Rami Malek",
+        "character": "David Hill",
+        "profilePath": "/8ykTeTRSYd2MKF5uLBvD93X5KMJ.jpg"
+      },
+      {
+        "name": "Kenneth Branagh",
+        "character": "Niels Bohr",
+        "profilePath": "/AbCqqFxNi5w3nDUFdQt0DGMFh5H.jpg"
+      },
+      {
+        "name": "Benny Safdie",
+        "character": "Edward Teller",
+        "profilePath": "/u10A5DpUYRB1zMF7YoGYcyvhois.jpg"
+      },
+      {
+        "name": "Jason Clarke",
+        "character": "Roger Robb",
+        "profilePath": "/quH4y2dto3UAgZOfaM0QriyRLPN.jpg"
+      },
+      {
+        "name": "Dylan Arnold",
+        "character": "Frank Oppenheimer",
+        "profilePath": "/aeEErE7FcRbGkpxRRkGVdObB7j1.jpg"
+      }
+    ]
+  },
+  "spider-man-across-the-spider-verse": {
+    "tmdbId": 569094,
+    "tmdbType": "movie",
+    "imdbId": "tt9362722",
+    "matchedTitle": "Spider-Man: Across the Spider-Verse",
+    "originalTitle": "Spider-Man: Across the Spider-Verse",
+    "releaseDate": "2023-05-31",
+    "posterPath": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "backdropPath": "/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+    "trailerKey": "shW9i6k8cB0",
+    "tagline": "It's how you wear the mask that matters.",
+    "certification": "UA",
+    "tmdbRating": 8.3,
+    "tmdbVotes": 8970,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "productionCompanies": [
+      "Columbia Pictures",
+      "Sony Pictures Animation",
+      "Lord Miller",
+      "Pascal Pictures"
+    ],
+    "director": "Kemp Powers, Justin K. Thompson, Joaquim Dos Santos",
+    "writers": [
+      "Phil Lord",
+      "Christopher Miller",
+      "David Callaham"
+    ],
+    "cast": [
+      {
+        "name": "Shameik Moore",
+        "character": "Miles Morales (voice)",
+        "profilePath": "/ovUKfVOwJ7CadEHaG3NDsfA5xRq.jpg"
+      },
+      {
+        "name": "Hailee Steinfeld",
+        "character": "Gwen Stacy (voice)",
+        "profilePath": "/qDInsG0cxWNxS1X4t59TBZ5S6x5.jpg"
+      },
+      {
+        "name": "Brian Tyree Henry",
+        "character": "Jeff Morales (voice)",
+        "profilePath": "/2MsJh0bpyzwvOUnXOltHp3j85Pb.jpg"
+      },
+      {
+        "name": "Luna Lauren Vélez",
+        "character": "Rio Morales (voice)",
+        "profilePath": "/98BvmTJCZHx0jPv0oNcv04Jkmfb.jpg"
+      },
+      {
+        "name": "Jake Johnson",
+        "character": "Peter B. Parker (voice)",
+        "profilePath": "/3UNfW2qZgRkW81neNVfQvaRC92K.jpg"
+      },
+      {
+        "name": "Oscar Isaac",
+        "character": "Miguel O'Hara (voice)",
+        "profilePath": "/dW5U5yrIIPmMjRThR9KT2xH6nTz.jpg"
+      },
+      {
+        "name": "Jason Schwartzman",
+        "character": "Spot (voice)",
+        "profilePath": "/gCjMdmW1DiPAClHVl4zHEIffIsE.jpg"
+      },
+      {
+        "name": "Issa Rae",
+        "character": "Jessica Drew (voice)",
+        "profilePath": "/uFjimuDgBv8kckApr19t8DykxPH.jpg"
+      },
+      {
+        "name": "Daniel Kaluuya",
+        "character": "Hobie Brown (voice)",
+        "profilePath": "/jj2kZqJobjom36wlhlYhc38nTwN.jpg"
+      },
+      {
+        "name": "Karan Soni",
+        "character": "Pavitr Prabhakar (voice)",
+        "profilePath": "/t3eNrzRKy3wTVCUiEp002UXbjxX.jpg"
+      },
+      {
+        "name": "Shea Whigham",
+        "character": "George Stacy (voice)",
+        "profilePath": "/d3caK3l4UfbnzOxv95wLoFLZzMO.jpg"
+      },
+      {
+        "name": "Greta Lee",
+        "character": "LYLA (voice)",
+        "profilePath": "/6SydTis4XUcovlwIGskT59JowLX.jpg"
+      }
+    ]
+  },
+  "laapataa-ladies": {
+    "tmdbId": 1163194,
+    "tmdbType": "movie",
+    "imdbId": "tt21626284",
+    "matchedTitle": "Lost Ladies",
+    "originalTitle": "लापता लेडीज़",
+    "releaseDate": "2024-03-01",
+    "posterPath": "/yXt07MYeiyQRzS69PMHy0BPjCGP.jpg",
+    "backdropPath": "/uUVXEEyMsyWxrcbmAppUCYg6egV.jpg",
+    "trailerKey": "hGM87LCJxRc",
+    "tagline": "Sometimes you have to lose your way to find yourself.",
+    "certification": "UA",
+    "tmdbRating": 7.8,
+    "tmdbVotes": 169,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "productionCompanies": [
+      "Aamir Khan Productions",
+      "Jio Studios",
+      "Kindling Pictures"
+    ],
+    "director": "Kiran Rao",
+    "writers": [
+      "Sneha Desai"
+    ],
+    "cast": [
+      {
+        "name": "Nitanshi Goel",
+        "character": "Phool",
+        "profilePath": "/tssZxJMnOGBaliP4NaNta8V22nd.jpg"
+      },
+      {
+        "name": "Pratibha Ranta",
+        "character": "Jaya",
+        "profilePath": "/ewSHj3r1vjlSXusQPZAzbkfcaMk.jpg"
+      },
+      {
+        "name": "Sparsh Shrivastava",
+        "character": "Deepak Kumar",
+        "profilePath": "/d123XZfocCLnc5LAjrlBifffYFf.jpg"
+      },
+      {
+        "name": "Ravi Kishan",
+        "character": "Sub-Inspector Shyam Manohar",
+        "profilePath": "/rkUTRk0tuA98RepP9jhgcCbhHqy.jpg"
+      },
+      {
+        "name": "Chhaya Kadam",
+        "character": "Manju Maai",
+        "profilePath": "/umOPkpPA4JUWLkVziYU5GF6gELD.jpg"
+      },
+      {
+        "name": "Geeta Agrawal Sharma",
+        "character": "Yasoda",
+        "profilePath": "/5Jrwb9zWG2Hjmf8PQLuDmCKnMHG.jpg"
+      },
+      {
+        "name": "Pankaj Sharma",
+        "character": "Vidur",
+        "profilePath": null
+      },
+      {
+        "name": "Abeer Sandeep Jain",
+        "character": "Bablu",
+        "profilePath": null
+      },
+      {
+        "name": "Rachna Gupta",
+        "character": "Poonam Bhabhi",
+        "profilePath": "/86Ajpx5Hjcx8ScnJ6tdehrfJqd6.jpg"
+      },
+      {
+        "name": "Kirti Jain",
+        "character": "Deepak's Grandmother",
+        "profilePath": null
+      },
+      {
+        "name": "Balram Ji",
+        "character": "Deepak's Daada",
+        "profilePath": null
+      },
+      {
+        "name": "Dawood Hussain",
+        "character": "Gunjan",
+        "profilePath": null
+      }
+    ]
+  },
+  "the-last-of-us": {
+    "tmdbId": 100088,
+    "tmdbType": "tv",
+    "imdbId": "tt3581920",
+    "matchedTitle": "The Last of Us",
+    "originalTitle": "The Last of Us",
+    "releaseDate": "2023-01-15",
+    "posterPath": "/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+    "backdropPath": "/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+    "trailerKey": "uLtkt8BonwM",
+    "tagline": "Every path has a price.",
+    "certification": "A",
+    "tmdbRating": 8.4,
+    "tmdbVotes": 7220,
+    "genres": [
+      "Drama"
+    ],
+    "productionCompanies": [
+      "PlayStation Productions",
+      "Sony Pictures Television",
+      "Naughty Dog",
+      "Word Games"
+    ],
+    "director": "Neil Druckmann, Craig Mazin",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Bella Ramsey",
+        "character": "Ellie Williams",
+        "profilePath": "/vDbgxc7RYawpB1wK7JDEj62j06H.jpg"
+      },
+      {
+        "name": "Gabriel Luna",
+        "character": "Tommy Miller",
+        "profilePath": "/bIPORtYxTJPEUJIThbZrpqf4A11.jpg"
+      },
+      {
+        "name": "Isabela Merced",
+        "character": "Dina",
+        "profilePath": "/7O5GWIH8IHwU4kGZIhC3JkGDiZr.jpg"
+      },
+      {
+        "name": "Young Mazino",
+        "character": "Jesse",
+        "profilePath": "/cRuVRx1DMe2hBkz5pssVqdpCtaQ.jpg"
+      }
+    ]
+  },
+  "the-bear": {
+    "tmdbId": 136315,
+    "tmdbType": "tv",
+    "imdbId": "tt14452776",
+    "matchedTitle": "The Bear",
+    "originalTitle": "The Bear",
+    "releaseDate": "2022-06-23",
+    "posterPath": "/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "backdropPath": "/aJtG4txtmiRHwAAqENQHZvBs6kY.jpg",
+    "trailerKey": "WBlIUsFEnsw",
+    "tagline": "Back for seconds.",
+    "certification": "TV-MA",
+    "tmdbRating": 8.1,
+    "tmdbVotes": 1866,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "productionCompanies": [
+      "FX Productions"
+    ],
+    "director": "Christopher Storer",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Jeremy Allen White",
+        "character": "Carmen 'Carmy' Berzatto",
+        "profilePath": "/pXRADDRhprgaQ4Bri44NH3bYeu6.jpg"
+      },
+      {
+        "name": "Ebon Moss-Bachrach",
+        "character": "Richard 'Richie' Jerimovich",
+        "profilePath": "/xD8GVNayMpiTZxLfahy2DseYcQq.jpg"
+      },
+      {
+        "name": "Ayo Edebiri",
+        "character": "Sydney Adamu",
+        "profilePath": "/wrqYWaAmVPM2yueEEQUtMo6kCp2.jpg"
+      },
+      {
+        "name": "Lionel Boyce",
+        "character": "Marcus Brooks",
+        "profilePath": "/hpIxX5nkfA3pWCW8rYkEUCSBVyS.jpg"
+      },
+      {
+        "name": "Abby Elliott",
+        "character": "Natalie 'Sugar' Berzatto",
+        "profilePath": "/v7h08EsTce2pLHkZiaFe1QRuYbU.jpg"
+      },
+      {
+        "name": "Matty Matheson",
+        "character": "Neil Fak",
+        "profilePath": "/p1H19bBP5ePOxNpfOXIYpMgRfS7.jpg"
+      },
+      {
+        "name": "Liza Colón-Zayas",
+        "character": "Bettina 'Tina' Marrero",
+        "profilePath": "/qBb5eYEoZAlStrRXvsFlKukKJG8.jpg"
+      },
+      {
+        "name": "Edwin Lee Gibson",
+        "character": "Ebraheim",
+        "profilePath": "/wyDPu35soTnBi4VClpS8fv2atkE.jpg"
+      }
+    ]
+  },
+  "arcane": {
+    "tmdbId": 94605,
+    "tmdbType": "tv",
+    "imdbId": "tt11126994",
+    "matchedTitle": "Arcane",
+    "originalTitle": "Arcane",
+    "releaseDate": "2021-11-06",
+    "posterPath": "/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg",
+    "backdropPath": "/q8eejQcg1bAqImEV8jh8RtBD4uH.jpg",
+    "trailerKey": "fXmAurh012s",
+    "tagline": "The hunt is on.",
+    "certification": "A",
+    "tmdbRating": 8.8,
+    "tmdbVotes": 6090,
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "productionCompanies": [
+      "Fortiche Production",
+      "Riot Games"
+    ],
+    "director": "Christian Linke, Alex Yee",
+    "writers": [],
+    "cast": [
+      {
+        "name": "Hailee Steinfeld",
+        "character": "Vi (voice)",
+        "profilePath": "/qDInsG0cxWNxS1X4t59TBZ5S6x5.jpg"
+      },
+      {
+        "name": "Ella Purnell",
+        "character": "Jinx (voice)",
+        "profilePath": "/jqrYg35GHuMGwGqEVUthqTLQnay.jpg"
+      }
+    ]
+  },
+  "panchayat": {
+    "tmdbId": 101352,
+    "tmdbType": "tv",
+    "imdbId": "tt12004706",
+    "matchedTitle": "Panchayat",
+    "originalTitle": "पंचायत",
+    "releaseDate": "2020-03-05",
+    "posterPath": "/xrfvAhrMdT6Uwg5fyTyQAZBYyiu.jpg",
+    "backdropPath": "/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg",
+    "trailerKey": "AHMEtNAZTP4",
+    "tagline": null,
+    "certification": "U/A 13+",
+    "tmdbRating": 8.2,
+    "tmdbVotes": 148,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "The Viral Fever"
+    ],
+    "director": "Akshat Vijaywargiya, Deepak Kumar Mishra",
+    "writers": [
+      "Chandan Kumar"
+    ],
+    "cast": [
+      {
+        "name": "Jitendra Kumar",
+        "character": "Abhishek Tripathi",
+        "profilePath": "/562Mucw9YaDHUlFBqK5aot3H2lJ.jpg"
+      },
+      {
+        "name": "Raghubir Yadav",
+        "character": "Brij Bhushan Dubey",
+        "profilePath": "/khyp4vnuGKVxrtszyB7kSf3vuzw.jpg"
+      },
+      {
+        "name": "Neena Gupta",
+        "character": "Manju Devi",
+        "profilePath": "/znCPPYR79c1DU2MvA61JXhdMeCs.jpg"
+      },
+      {
+        "name": "Chandan Roy",
+        "character": "Vikas",
+        "profilePath": "/2zIIonCsFrdcmmZD0g5YIaCPnQY.jpg"
+      },
+      {
+        "name": "Faisal Malik",
+        "character": "Prahlad Pandey",
+        "profilePath": "/eztI7Y1VUqHz7OYZ4ytoyEz0amz.jpg"
+      },
+      {
+        "name": "Sanvikaa",
+        "character": "Rinky",
+        "profilePath": "/6w4tX0aU1TZBU7j4rhEr3zeLXuV.jpg"
+      },
+      {
+        "name": "Durgesh Kumar",
+        "character": "Bhushan Sharma",
+        "profilePath": "/nLt1cgrxIapn7fRVwFjqnSFXc1x.jpg"
+      },
+      {
+        "name": "Ashok Pathak",
+        "character": "Binod",
+        "profilePath": "/a60LOKJd2FTNxfLSo7QCQEyjZgO.jpg"
+      },
+      {
+        "name": "Sunita Rajwar",
+        "character": "Kranti Devi",
+        "profilePath": "/cEhnGiU6arxA4vxZCUspFWDP76F.jpg"
       }
     ]
   }
