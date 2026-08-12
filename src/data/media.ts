@@ -26,19 +26,30 @@ export const backdropUrl = (t: Title, size: "w780" | "w1280" | "original" = "w12
 
 export const profileUrl = (c: CastMember) => tmdbImage(c.profilePath, "w185");
 
+/** A YouTube video id is exactly 11 url-safe chars — anything else is unusable. */
+const validKey = (k?: string | null) => (k && /^[\w-]{11}$/.test(k) ? k : null);
+
 /** Exact official trailer for this title, or null when none is verified. */
 export const trailerUrl = (t: Title) => {
-  const key = mediaOf(t)?.trailerKey;
+  const key = validKey(mediaOf(t)?.trailerKey);
   return key ? `https://www.youtube.com/watch?v=${key}` : null;
 };
 
-/** Fallback used only when no verified trailer exists — searches this exact title. */
-export const trailerSearchUrl = (t: Title) =>
-  `https://www.youtube.com/results?search_query=${encodeURIComponent(
-    `${t.title} ${t.year} ${t.language} official trailer`,
+/**
+ * Fallback used when no usable trailer key exists (or the stored one is
+ * malformed). Scoped to this exact title — year, language and director are
+ * included so same-name films can't hijack the top result.
+ */
+export const trailerSearchUrl = (t: Title) => {
+  const director = mediaOf(t)?.director || t.director || "";
+  const kind = t.kind === "series" ? "series" : "movie";
+  return `https://www.youtube.com/results?search_query=${encodeURIComponent(
+    [t.title, t.year, t.language, kind, director, "official trailer"].filter(Boolean).join(" "),
   )}`;
+};
 
-export const hasVerifiedTrailer = (t: Title) => Boolean(mediaOf(t)?.trailerKey);
+export const hasVerifiedTrailer = (t: Title) => Boolean(validKey(mediaOf(t)?.trailerKey));
+
 
 /** Correct IMDb page, resolved from the verified TMDB record (not the title). */
 export const imdbUrlFor = (t: Title) => {
