@@ -12,6 +12,7 @@ import {
   Moon,
   Search,
   Settings,
+  Sparkles,
   Sun,
   Theater,
   User,
