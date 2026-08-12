@@ -5745,93 +5745,93 @@ export const TMDB: Record<string, TmdbRecord> = {
       }
     ]
   },
-  "kalki-2898-ad": {
-    "tmdbId": 801688,
+  "mathu-vadalara-2": {
+    "tmdbId": 1249902,
     "tmdbType": "movie",
-    "imdbId": "tt12735488",
-    "matchedTitle": "Kalki 2898-AD",
-    "originalTitle": "కల్కి 2898-ఎ.డి",
-    "releaseDate": "2024-06-26",
-    "posterPath": "/rstcAnBeCkxNQjNp3YXrF6IP1tW.jpg",
-    "backdropPath": "/o8XSR1SONnjcsv84NRu6Mwsl5io.jpg",
-    "trailerKey": "eWI9voiOt_k",
-    "tagline": "For a better Tomorrow",
-    "certification": "UA",
-    "tmdbRating": 6.4,
-    "tmdbVotes": 186,
+    "imdbId": "tt33291871",
+    "matchedTitle": "Mathu Vadalara 2",
+    "originalTitle": "మత్తు వదలరా 2",
+    "releaseDate": "2024-09-13",
+    "posterPath": "/7gDzqf5tSwnwfREEVJeTAZtK64F.jpg",
+    "backdropPath": "/dOcSWUrAi1FCBGNAk4BB71o7n0K.jpg",
+    "trailerKey": "ahZX-ewuZP8",
+    "tagline": null,
+    "certification": "15",
+    "tmdbRating": 7,
+    "tmdbVotes": 7,
     "genres": [
-      "Drama",
-      "Action",
-      "Fantasy",
-      "Science Fiction"
+      "Comedy",
+      "Crime",
+      "Thriller"
     ],
     "productionCompanies": [
-      "Vyjayanthi Movies",
-      "Annapurna Studios"
+      "Mythri Movie Makers",
+      "Clap Entertainment"
     ],
-    "director": "Nag Ashwin",
+    "director": "Ritesh Rana",
     "writers": [
-      "Nag Ashwin"
+      "Ritesh Rana",
+      "R. Teja"
     ],
     "cast": [
       {
-        "name": "Amitabh Bachchan",
-        "character": "Ashwatthama",
-        "profilePath": "/u69PvpWqGkywSm0YjFiw77j9eqS.jpg"
+        "name": "Sri Simha",
+        "character": "Babu Mohan",
+        "profilePath": "/muzsjXflMjLQUAVhoZxvlepgeKZ.jpg"
       },
       {
-        "name": "Prabhas",
-        "character": "Bhairava",
-        "profilePath": "/u6RVP8ukgLaymeoi5VmX0JRAcCn.jpg"
+        "name": "Satya",
+        "character": "Yesu Dasu",
+        "profilePath": "/fWHqfjiqnORU6R2fqwiJnowujdP.jpg"
       },
       {
-        "name": "Deepika Padukone",
-        "character": "SUM-80 \"Sumathi\"",
-        "profilePath": "/rzvvBQ0r6oiqDdzcsdTRB7jN4Rx.jpg"
+        "name": "Faria Abdullah",
+        "character": "Nidhi",
+        "profilePath": "/yxXarDVGglj3wuZvwIpblZ1MhcQ.jpg"
       },
       {
-        "name": "Kamal Haasan",
-        "character": "Supreme Yaskin",
-        "profilePath": "/17zscZgz4wOlGDd3Gziw4YbI3G.jpg"
+        "name": "Sunil Varma",
+        "character": "Michael",
+        "profilePath": "/ifmUCkLgpEzbfnRjIw62otrADpI.jpg"
       },
       {
-        "name": "Saswata Chatterjee",
-        "character": "Manas",
-        "profilePath": "/cVJVLDy7BNzIbFMcJBPOWeN0Kb.jpg"
+        "name": "Rohini",
+        "character": "Deepa",
+        "profilePath": "/oeT5DXeqsTY17DtJLTGpQec91fr.jpg"
       },
       {
-        "name": "Shobana",
-        "character": "Mariam",
-        "profilePath": "/t6niRFC3xCV6hJSuyC9ACWLSVXu.jpg"
+        "name": "Ajay",
+        "character": "Akash",
+        "profilePath": "/uByCHJa3eaCL0SgFGDYYLlsVggC.jpg"
       },
       {
-        "name": "Rajendra Prasad",
-        "character": "Rumi",
-        "profilePath": "/zh6QJ85g5KbpkjL5fgqlOGddn5C.jpg"
+        "name": "Vennela Kishore",
+        "character": "Yuva",
+        "profilePath": "/8a0mcxMPjD4KR15gyE5QmbDeTub.jpg"
       },
       {
-        "name": "Pasupathy",
-        "character": "Veeran",
-        "profilePath": "/luiNwyZPi2snUB7mA4MTyQ1tvU3.jpg"
+        "name": "Raja Chembolu",
+        "character": "Saxena",
+        "profilePath": "/hWYmCpzj6MeuCUVxBCoK2Gbd6ge.jpg"
       },
       {
-        "name": "Anna Ben",
-        "character": "Kyra",
-        "profilePath": "/d0vvDEO6MWeRnc6lj1d11TnIt5i.jpg"
+        "name": "Gundu Sudarshan",
+        "character": "Security Guard",
+        "profilePath": "/cuOnqGLUlO3A3bkhilC8B2xTqkC.jpg"
       },
       {
-        "name": "Keya Nair",
-        "character": "Raia",
-        "profilePath": null
+        "name": "Jeevan Kumar",
+        "character": "Fight Choreographer",
+        "profilePath": "/iO0ppgzikOGPss28vUEVX9VkrpD.jpg"
       },
       {
-        "name": "Harshith Malgireddy",
-        "character": "Luke",
-        "profilePath": null
+        "name": "Rohini Reddy",
+        "character": "Ratna",
+        "profilePath": "/85ZKckTl36xMSZhmpgapAnvxcl0.jpg"
       },
       {
-        "name": "Ayaz Pasha",
-        "character": "Ajju",
+        "name": "Baaji",
+        "character": "Ratna's Husband",
         "profilePath": null
       }
     ]
@@ -6018,92 +6018,92 @@ export const TMDB: Record<string, TmdbRecord> = {
       }
     ]
   },
-  "dune-part-two": {
-    "tmdbId": 693134,
+  "aavesham-2024": {
+    "tmdbId": 1084812,
     "tmdbType": "movie",
-    "imdbId": "tt15239678",
-    "matchedTitle": "Dune: Part Two",
-    "originalTitle": "Dune: Part Two",
-    "releaseDate": "2024-02-27",
-    "posterPath": "/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
-    "backdropPath": "/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
-    "trailerKey": "U2Qp5pL3ovA",
-    "tagline": "Long live the fighters.",
-    "certification": "PG-13",
-    "tmdbRating": 8.1,
-    "tmdbVotes": 8328,
+    "imdbId": "tt26660021",
+    "matchedTitle": "Aavesham",
+    "originalTitle": "ആവേശം",
+    "releaseDate": "2024-04-11",
+    "posterPath": "/k5RWPaNjgRcNvGoawYaQHQwyctI.jpg",
+    "backdropPath": "/6WxEPaZGFWmQegUmseoGtlTKtQq.jpg",
+    "trailerKey": "OsMqr3556F8",
+    "tagline": null,
+    "certification": "UA",
+    "tmdbRating": 7.4,
+    "tmdbVotes": 100,
     "genres": [
-      "Science Fiction",
-      "Adventure"
+      "Comedy",
+      "Action"
     ],
     "productionCompanies": [
-      "Legendary Pictures"
+      "Anwar Rasheed Entertainments",
+      "Fahadh Faasil and Friends Private Limited"
     ],
-    "director": "Denis Villeneuve",
+    "director": "Jithu Madhavan",
     "writers": [
-      "Denis Villeneuve",
-      "Jon Spaihts"
+      "Jithu Madhavan"
     ],
     "cast": [
       {
-        "name": "Timothée Chalamet",
-        "character": "Paul Atreides",
-        "profilePath": "/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg"
+        "name": "Fahadh Faasil",
+        "character": "Ranjith 'Ranga' Gangadharan",
+        "profilePath": "/wmkwZWFHqMptqdt4HacMIAe8OBP.jpg"
       },
       {
-        "name": "Zendaya",
-        "character": "Chani",
-        "profilePath": "/3WdOloHpjtjL96uVOhFRRCcYSwq.jpg"
+        "name": "Hipster",
+        "character": "Aju",
+        "profilePath": "/zUKB1gDZiCLB3u1zEnp8W7UtYCU.jpg"
       },
       {
-        "name": "Rebecca Ferguson",
-        "character": "Jessica",
-        "profilePath": "/ty8ZPzaCBBlqIr5qzpOXI24iC8j.jpg"
+        "name": "Mithun Jai Sankar",
+        "character": "Bibi",
+        "profilePath": "/r3ynMua2UoFlLnEP8PEEe3x2PnT.jpg"
       },
       {
-        "name": "Javier Bardem",
-        "character": "Stilgar",
-        "profilePath": "/zfRID0jx8DKBluPGU9xtk9sZWUt.jpg"
+        "name": "Roshan Shanavas",
+        "character": "Shanthan",
+        "profilePath": "/lotiqK0sfK4rZKV6tHvHrg9Cty3.jpg"
       },
       {
-        "name": "Josh Brolin",
-        "character": "Gurney Halleck",
-        "profilePath": "/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+        "name": "Sajin Gopu",
+        "character": "Amban",
+        "profilePath": "/l8kpWfPvD7Gzp2LgvRSWVRsrxWd.jpg"
       },
       {
-        "name": "Austin Butler",
-        "character": "Feyd-Rautha",
-        "profilePath": "/atdAs4pFGjUQ4m2W8kJYly7N6cC.jpg"
+        "name": "Midhun Midhutty",
+        "character": "Kuttettan",
+        "profilePath": null
       },
       {
-        "name": "Florence Pugh",
-        "character": "Princess Irulan",
-        "profilePath": "/1Uvfh7xL4U2evkhs0M3C7BbBYFf.jpg"
+        "name": "Krishna Kumar",
+        "character": "Nanjappa",
+        "profilePath": null
       },
       {
-        "name": "Dave Bautista",
-        "character": "Beast Rabban",
-        "profilePath": "/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg"
+        "name": "Freestyle Krishna",
+        "character": "Bruce-Lee",
+        "profilePath": null
       },
       {
-        "name": "Christopher Walken",
-        "character": "Emperor",
-        "profilePath": "/ApgDL7nudR9T2GpjCG4vESgymO2.jpg"
+        "name": "Himanshu",
+        "character": "Jacky",
+        "profilePath": null
       },
       {
-        "name": "Léa Seydoux",
-        "character": "Lady Margot Fenring",
-        "profilePath": "/xcYZOScYqziWjPcf3xIfQUMBYlZ.jpg"
+        "name": "Mansoor Ali Khan",
+        "character": "Reddy",
+        "profilePath": "/bXNi9n6Y4dz85xdLnjxquKHleuZ.jpg"
       },
       {
-        "name": "Stellan Skarsgård",
-        "character": "Baron Harkonnen",
-        "profilePath": "/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg"
+        "name": "Neeraja Rajendran",
+        "character": "Bibi' Mother",
+        "profilePath": "/qi0gwQHLit3StAkgkoMft5HUjHi.jpg"
       },
       {
-        "name": "Charlotte Rampling",
-        "character": "Reverend Mother Mohiam",
-        "profilePath": "/Htvl9mN6mlf2a18RAFzNXF3RiG.jpg"
+        "name": "Pooja Mohanraj",
+        "character": "Beauty",
+        "profilePath": null
       }
     ]
   },
@@ -6195,95 +6195,6 @@ export const TMDB: Record<string, TmdbRecord> = {
         "name": "Dylan Arnold",
         "character": "Frank Oppenheimer",
         "profilePath": "/aeEErE7FcRbGkpxRRkGVdObB7j1.jpg"
-      }
-    ]
-  },
-  "salaar-part-1": {
-    "tmdbId": 770906,
-    "tmdbType": "movie",
-    "imdbId": "tt13927994",
-    "matchedTitle": "Salaar: Part 1 - Ceasefire",
-    "originalTitle": "సలార్: పార్ట్‌ 1 – సీజ్‌ఫైర్‌",
-    "releaseDate": "2023-12-21",
-    "posterPath": "/nlu9WbcetNFRGXXPWITr30ob7W6.jpg",
-    "backdropPath": "/xtOCTmGemASooRkAxRorYODig1p.jpg",
-    "trailerKey": "9Im1q4gvk1M",
-    "tagline": null,
-    "certification": "A",
-    "tmdbRating": 6.7,
-    "tmdbVotes": 118,
-    "genres": [
-      "Action",
-      "Crime",
-      "Drama"
-    ],
-    "productionCompanies": [
-      "Hombale Films"
-    ],
-    "director": "Prashanth Neel",
-    "writers": [
-      "Prashanth Neel"
-    ],
-    "cast": [
-      {
-        "name": "Prabhas",
-        "character": "Devaratha \"Deva\" Raisaar",
-        "profilePath": "/u6RVP8ukgLaymeoi5VmX0JRAcCn.jpg"
-      },
-      {
-        "name": "Prithviraj Sukumaran",
-        "character": "Vardharaja Mannar / Siva Mannar",
-        "profilePath": "/1xhG42QU8tMQRTDdP1Ed3y9GRvm.jpg"
-      },
-      {
-        "name": "Shruti Haasan",
-        "character": "Aadya Krishnakanth",
-        "profilePath": "/1zYJuSccSA45VVBdgozpRcL99Rd.jpg"
-      },
-      {
-        "name": "Easwari Rao",
-        "character": "Deva's Mother",
-        "profilePath": "/fjyvQ45YZcovy2Egj2eux8UiuHU.jpg"
-      },
-      {
-        "name": "Jagapati Babu",
-        "character": "Raja Mannar",
-        "profilePath": "/bm72k6FmDxhxtZsl1xvxoz88Hkm.jpg"
-      },
-      {
-        "name": "Bobby Simha",
-        "character": "Bhaarava",
-        "profilePath": "/4luN7NwlKvenAkSDwjzZeWpWuoP.jpg"
-      },
-      {
-        "name": "Sriya Reddy",
-        "character": "Radha Rama Mannar",
-        "profilePath": "/6AwGUf0uj7Dr6cwZkC53KNihPdj.jpg"
-      },
-      {
-        "name": "Ramachandra Raju",
-        "character": "Rudra Raja Mannar",
-        "profilePath": "/kU1a4H8o1IQA25Lyq3cW70aufhT.jpg"
-      },
-      {
-        "name": "Mime Gopi",
-        "character": "Bilal",
-        "profilePath": "/gglNAjJMlCb0p7ig3OVpgsXMkMD.jpg"
-      },
-      {
-        "name": "Tinnu Anand",
-        "character": "Gaikwad \"Baba\"",
-        "profilePath": "/6fkEiZKNp6jnOQmfQKEjVinhUeL.jpg"
-      },
-      {
-        "name": "Pramod Panju",
-        "character": "Baachi Raja Mannar",
-        "profilePath": "/2URHh4gn72VYlgrrZrNaEyXjpPh.jpg"
-      },
-      {
-        "name": "Ramana",
-        "character": "Rinda",
-        "profilePath": "/fQcMvPYyCr2FwAP4YwhElUsbgrZ.jpg"
       }
     ]
   },
