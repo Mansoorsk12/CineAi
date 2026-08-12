@@ -83,6 +83,16 @@ export function Navbar() {
         </ul>
 
         <div className="ml-auto flex items-center gap-1">
+          <Button
+            asChild
+            size="sm"
+            className="hidden gap-2 rounded-full bg-cinema text-cinema-foreground hover:bg-cinema/90 sm:inline-flex"
+          >
+            <Link to="/assistant">
+              <Sparkles className="size-4" aria-hidden /> AI Assistant
+            </Link>
+          </Button>
+
           <Button size="icon" variant="ghost" asChild aria-label="Search">
             <Link to="/search">
               <Search className="size-4" aria-hidden />
