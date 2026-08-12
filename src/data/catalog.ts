@@ -1051,18 +1051,18 @@ export const CATALOG: Title[] = [
 
   // ---------- 2026 expansion: more movies ----------
   m({
-    id: "hanu-man",
-    title: "HanuMan",
-    year: 2024,
-    rating: 7.2,
-    runtime: 158,
-    genres: ["Action", "Fantasy", "Adventure"],
-    language: "Telugu",
-    director: "Prasanth Varma",
-    cast: ["Teja Sajja", "Amritha Aiyer", "Varalaxmi Sarathkumar", "Vinay Rai"],
+    id: "12th-fail",
+    title: "12th Fail",
+    year: 2023,
+    rating: 8.8,
+    runtime: 147,
+    genres: ["Drama"],
+    language: "Hindi",
+    director: "Vidhu Vinod Chopra",
+    cast: ["Vikrant Massey", "Medha Shankr", "Anant Vijay Joshi", "Priyanshu Chatterjee"],
     overview:
-      "A small-time thief in the hidden village of Anjanadri gains divine powers and must protect his people from a self-made supervillain.",
-    popularity: 84,
+      "A boy from a Chambal village who once cheated his way through school stakes everything on the civil services exam.",
+    popularity: 82,
     hd: true,
   }),
   m({
