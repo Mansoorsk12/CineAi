@@ -6198,6 +6198,97 @@ export const TMDB: Record<string, TmdbRecord> = {
       }
     ]
   },
+  "lucky-baskhar": {
+    "tmdbId": 1239511,
+    "tmdbType": "movie",
+    "imdbId": "tt27540542",
+    "matchedTitle": "Lucky Baskhar",
+    "originalTitle": "లక్కీ భాస్కర్‌",
+    "releaseDate": "2024-10-30",
+    "posterPath": "/a47JQFl9L7VDa79tEvnTOJe0rPa.jpg",
+    "backdropPath": "/q8UyN4XhpmChtneZXdZ8fktQka6.jpg",
+    "trailerKey": "Kv5RKsqVe-Y",
+    "tagline": null,
+    "certification": "UA",
+    "tmdbRating": 7.7,
+    "tmdbVotes": 94,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Sithara Entertainments",
+      "Fortune Four Cinemas",
+      "Srikara Studios"
+    ],
+    "director": "Venky Atluri",
+    "writers": [
+      "Venky Atluri"
+    ],
+    "cast": [
+      {
+        "name": "Dulquer Salmaan",
+        "character": "Baskhar Kumar",
+        "profilePath": "/8AT3qDRakZQSZ6HVj7sQFUzN07N.jpg"
+      },
+      {
+        "name": "Meenakshi Chaudhary",
+        "character": "Sumathi Kumar",
+        "profilePath": "/3kI9sBIGcXyvlfocmfQwkmXO1zS.jpg"
+      },
+      {
+        "name": "Tinnu Anand",
+        "character": "Rajveer Lokhande",
+        "profilePath": "/6fkEiZKNp6jnOQmfQKEjVinhUeL.jpg"
+      },
+      {
+        "name": "Sai Kumar",
+        "character": "CBI Officer Lakshman",
+        "profilePath": "/Xq5VNf8rPgQF0tuQLjl5YwHPoc.jpg"
+      },
+      {
+        "name": "Ramki",
+        "character": "Anthony",
+        "profilePath": "/vLlfDwmoNzQJsmuVQezZbJyb387.jpg"
+      },
+      {
+        "name": "Raghu Babu",
+        "character": "Beggar",
+        "profilePath": "/9aE6s9wqHgRcBY7wiUfkEZMgJNK.jpg"
+      },
+      {
+        "name": "Maanasa Chaudhary",
+        "character": "Mona",
+        "profilePath": "/9If2kbsV6ewbsUKviyvyYC5xJ2G.jpg"
+      },
+      {
+        "name": "Sarvadaman D. Banerjee",
+        "character": "Prahalad Kumar",
+        "profilePath": null
+      },
+      {
+        "name": "Kalyani Raju",
+        "character": "Ramya Dikshit (RBI Director)",
+        "profilePath": null
+      },
+      {
+        "name": "Sachin Khedekar",
+        "character": "Vinod Bhosle",
+        "profilePath": "/jRSgXFTDAbAb4RsW9nvNYsdhxWo.jpg"
+      },
+      {
+        "name": "Y. Kasi Viswanath",
+        "character": "Athish Kulkarni",
+        "profilePath": "/sXLyWwvlfNSFfpp4PA1N5K9EuUE.jpg"
+      },
+      {
+        "name": "Sudha",
+        "character": "Sumathi's Mother",
+        "profilePath": "/eod26HfPLe95cxTk2ieT1YzNaSl.jpg"
+      }
+    ]
+  },
   "spider-man-across-the-spider-verse": {
     "tmdbId": 569094,
     "tmdbType": "movie",
