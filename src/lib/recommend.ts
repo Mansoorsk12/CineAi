@@ -19,6 +19,22 @@ export function scoreTitle(t: Title, data: UserData, seed?: Title[]): number {
     likedLangs.add(s.language);
   });
 
+  // 👍 / 👎 feedback shapes both the genre profile and the direct score.
+  Object.entries(data.feedback ?? {}).forEach(([id, v]) => {
+    const item = CATALOG.find((x) => x.id === id);
+    if (!item) return;
+    if (v === "like") {
+      likedGenres.add(item.genres[0] ?? "");
+      likedLangs.add(item.language);
+      if (item.genres.some((g) => t.genres.includes(g))) score += 5;
+    } else if (item.genres.filter((g) => t.genres.includes(g)).length >= 2) {
+      score -= 6;
+    }
+  });
+  const own = data.feedback?.[t.id];
+  if (own === "like") score += 12;
+  if (own === "dislike") score -= 200;
+
   score += t.genres.filter((g) => likedGenres.has(g)).length * 6;
   if (likedLangs.has(t.language)) score += 7;
   if (t.year >= preferences.yearFrom && t.year <= preferences.yearTo) score += 3;
@@ -29,7 +45,14 @@ export function scoreTitle(t: Title, data: UserData, seed?: Title[]): number {
 }
 
 export function recommend(data: UserData, limit = 12, kind?: Title["kind"]): Title[] {
-  const seed = [...data.favorites, ...data.recentlyViewed.slice(0, 5)]
+  const seed = [
+    ...data.favorites,
+    ...Object.keys(data.progress ?? {}),
+    ...Object.entries(data.feedback ?? {})
+      .filter(([, v]) => v === "like")
+      .map(([id]) => id),
+    ...data.recentlyViewed.slice(0, 5),
+  ]
     .map((id) => CATALOG.find((t) => t.id === id))
     .filter((t): t is Title => Boolean(t));
 
