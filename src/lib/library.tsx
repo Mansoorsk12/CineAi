@@ -16,12 +16,33 @@ import {
   getUserData,
   saveUserData,
   type AppNotification,
+  type FeedbackValue,
   type Preferences,
   type Targets,
   type UserData,
 } from "./storage";
 
+export interface ContinueWatchingItem {
+  id: string;
+  seconds: number;
+  runtime: number;
+  percent: number;
+  updatedAt: string;
+}
+
 interface LibraryValue extends UserData {
+  /** Plain UserData snapshot for the recommendation engine. */
+  snapshot: UserData;
+  continueWatching: ContinueWatchingItem[];
+  startWatching: (id: string) => void;
+  setProgress: (id: string, seconds: number, runtimeMinutes: number) => void;
+  stopWatching: (id: string) => void;
+  progressOf: (id: string) => ContinueWatchingItem | null;
+  setFeedback: (id: string, value: FeedbackValue) => void;
+  feedbackOf: (id: string) => FeedbackValue | undefined;
+  logWatch: (id: string) => void;
+  removeFromHistory: (id: string, date?: string) => void;
+  watchCount: (id: string) => number;
   toggleFavorite: (id: string) => void;
   toggleWatchlist: (id: string) => void;
   toggleWatched: (id: string) => void;
@@ -153,6 +174,108 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
     [update],
   );
 
+  const startWatching = useCallback(
+    (id: string) =>
+      update((d) => {
+        const t = byId(id);
+        const existing = d.progress[id];
+        return {
+          ...d,
+          progress: {
+            ...d.progress,
+            [id]: {
+              seconds: existing?.seconds ?? 0,
+              runtime: t?.runtime ?? existing?.runtime ?? 120,
+              updatedAt: new Date().toISOString(),
+            },
+          },
+        };
+      }),
+    [update],
+  );
+
+  const setProgress = useCallback(
+    (id: string, seconds: number, runtimeMinutes: number) =>
+      update((d) => {
+        const total = Math.max(1, runtimeMinutes) * 60;
+        const clamped = Math.max(0, Math.min(seconds, total));
+        // Completed → move to Watched history and drop from Continue Watching.
+        if (clamped / total >= 0.95) {
+          const rest = { ...d.progress };
+          delete rest[id];
+          toast("Finished — added to Watched history ✅", { description: byId(id)?.title });
+          return {
+            ...d,
+            progress: rest,
+            watched: [{ id, date: new Date().toISOString() }, ...d.watched],
+          };
+        }
+        return {
+          ...d,
+          progress: {
+            ...d.progress,
+            [id]: { seconds: clamped, runtime: runtimeMinutes, updatedAt: new Date().toISOString() },
+          },
+        };
+      }),
+    [update],
+  );
+
+  const stopWatching = useCallback(
+    (id: string) =>
+      update((d) => {
+        const rest = { ...d.progress };
+        delete rest[id];
+        return { ...d, progress: rest };
+      }),
+    [update],
+  );
+
+  const setFeedback = useCallback(
+    (id: string, value: FeedbackValue) =>
+      update((d) => {
+        const next = { ...d.feedback };
+        if (next[id] === value) delete next[id];
+        else next[id] = value;
+        toast(
+          next[id] === "like"
+            ? "More like this 👍"
+            : next[id] === "dislike"
+              ? "We'll show fewer of these 👎"
+              : "Feedback cleared",
+          { description: byId(id)?.title },
+        );
+        return { ...d, feedback: next };
+      }),
+    [update],
+  );
+
+  const logWatch = useCallback(
+    (id: string) =>
+      update((d) => {
+        toast("Added to Watched history ✅", { description: byId(id)?.title });
+        const rest = { ...d.progress };
+        delete rest[id];
+        return {
+          ...d,
+          progress: rest,
+          watched: [{ id, date: new Date().toISOString() }, ...d.watched],
+        };
+      }),
+    [update],
+  );
+
+  const removeFromHistory = useCallback(
+    (id: string, date?: string) =>
+      update((d) => ({
+        ...d,
+        watched: date
+          ? d.watched.filter((w) => !(w.id === id && w.date === date))
+          : d.watched.filter((w) => w.id !== id),
+      })),
+    [update],
+  );
+
   const clear = useCallback<LibraryValue["clear"]>(
     (what) => {
       if (what === "all") {
@@ -197,9 +320,34 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
     }
   }, [data.watchlist.length]);
 
+  const continueWatching = useMemo<ContinueWatchingItem[]>(
+    () =>
+      Object.entries(data.progress)
+        .map(([id, p]) => ({
+          id,
+          seconds: p.seconds,
+          runtime: p.runtime,
+          percent: Math.min(100, Math.round((p.seconds / Math.max(1, p.runtime * 60)) * 100)),
+          updatedAt: p.updatedAt,
+        }))
+        .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)),
+    [data.progress],
+  );
+
   const value = useMemo<LibraryValue>(
     () => ({
       ...data,
+      snapshot: data,
+      continueWatching,
+      startWatching,
+      setProgress,
+      stopWatching,
+      progressOf: (id) => continueWatching.find((c) => c.id === id) ?? null,
+      setFeedback,
+      feedbackOf: (id) => data.feedback[id],
+      logWatch,
+      removeFromHistory,
+      watchCount: (id) => data.watched.filter((w) => w.id === id).length,
       toggleFavorite,
       toggleWatchlist,
       toggleWatched,
@@ -216,6 +364,13 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
     }),
     [
       data,
+      continueWatching,
+      startWatching,
+      setProgress,
+      stopWatching,
+      setFeedback,
+      logWatch,
+      removeFromHistory,
       toggleFavorite,
       toggleWatchlist,
       toggleWatched,
