@@ -1289,6 +1289,72 @@ export const CATALOG: Title[] = [
     popularity: 85,
     hd: true,
   }),
+
+  // ---------- 2026 new releases ----------
+  m({
+    id: "rao-bahadur-2026",
+    title: "Rao Bahadur",
+    year: 2026,
+    rating: 7.2,
+    runtime: 169,
+    genres: ["Fantasy", "Drama", "Thriller"],
+    language: "Telugu",
+    director: "Venkatesh Maha",
+    cast: ["Satyadev Kancharana", "Vikas Muppala", "Deepa Thomas", "Master Kiran"],
+    overview:
+      "In 1970s India, an eccentric aristocrat labelled a 'man of miracles' survives a terminal illness and retreats into his palatial mansion, building an alternate world that blurs reality and imagination.",
+    imdbId: "tt37895011",
+    popularity: 62,
+    hd: true,
+  }),
+  m({
+    id: "lenin-2026",
+    title: "Lenin",
+    year: 2026,
+    rating: 6.4,
+    runtime: 156,
+    genres: ["Action", "Drama", "Romance"],
+    language: "Telugu",
+    director: "Murali Kishor Abburu",
+    cast: ["Akhil Akkineni", "Bhagyashri Borse", "Sivaji Sontineni", "Easwari Rao"],
+    overview:
+      "In a village trapped by generations of bloodshed, a determined young man dares to challenge the traditions fuelling an endless cycle of violence.",
+    imdbId: "tt5256640",
+    popularity: 74,
+    hd: true,
+  }),
+  m({
+    id: "dc-2026",
+    title: "DC",
+    year: 2026,
+    rating: 7.9,
+    runtime: 141,
+    genres: ["Romance", "Action", "Drama"],
+    language: "Tamil",
+    director: "Arun Matheswaran",
+    cast: ["Lokesh Kanagaraj", "Wamiqa Gabbi", "Sanjana Krishnamoorthy", "Avinash Raghudevan"],
+    overview:
+      "Rebel Devadas joins forces with Chandra in a dangerous world where passion and peril collide, an alliance that demands bloodshed and tests every loyalty.",
+    imdbId: "tt37501035",
+    popularity: 80,
+    hd: true,
+  }),
+  m({
+    id: "spider-man-brand-new-day",
+    title: "Spider-Man: Brand New Day",
+    year: 2026,
+    rating: 7.9,
+    runtime: 145,
+    genres: ["Sci-Fi", "Action", "Adventure"],
+    language: "English",
+    director: "Destin Daniel Cretton",
+    cast: ["Tom Holland", "Zendaya", "Mark Ruffalo", "Jon Bernthal", "Jacob Batalon"],
+    overview:
+      "Fighting crime full-time in a world that no longer remembers him, Peter Parker faces a transformation he may not have the power to control — and a shocking new threat nobody can even see.",
+    imdbId: "tt22084616",
+    popularity: 99,
+    hd: true,
+  }),
 ];
 
 export const GENRES = [
