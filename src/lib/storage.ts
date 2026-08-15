@@ -46,6 +46,15 @@ export interface WatchedEntry {
   date: string;
 }
 
+/** In-progress playback for a title. `seconds` is the resume position. */
+export interface ProgressEntry {
+  seconds: number;
+  runtime: number; // total minutes at the time of tracking
+  updatedAt: string;
+}
+
+export type FeedbackValue = "like" | "dislike";
+
 export interface AppNotification {
   id: string;
   text: string;
@@ -56,12 +65,17 @@ export interface AppNotification {
 export interface UserData {
   favorites: string[];
   watchlist: string[];
+  /** Append-only viewing log — the same title can appear once per viewing. */
   watched: WatchedEntry[];
   recentlyViewed: string[];
   searchHistory: string[];
   preferences: Preferences;
   targets: Targets;
   notifications: AppNotification[];
+  /** Continue Watching state, keyed by title id. */
+  progress: Record<string, ProgressEntry>;
+  /** 👍 / 👎 signals used to tune recommendations. */
+  feedback: Record<string, FeedbackValue>;
 }
 
 export const defaultUserData = (): UserData => ({
@@ -88,6 +102,8 @@ export const defaultUserData = (): UserData => ({
       read: false,
     },
   ],
+  progress: {},
+  feedback: {},
 });
 
 const available = () => {

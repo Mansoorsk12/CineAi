@@ -19,7 +19,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Rise, Roar, Revolt",
     "certification": "UA",
     "tmdbRating": 7.7,
-    "tmdbVotes": 1654,
+    "tmdbVotes": 1658,
     "genres": [
       "Action",
       "History",
@@ -381,7 +381,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": null,
     "certification": "UA",
     "tmdbRating": 6.8,
-    "tmdbVotes": 198,
+    "tmdbVotes": 200,
     "genres": [
       "Action",
       "Drama",
@@ -471,7 +471,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": null,
     "certification": "A",
     "tmdbRating": 6.7,
-    "tmdbVotes": 118,
+    "tmdbVotes": 119,
     "genres": [
       "Action",
       "Crime",
@@ -560,7 +560,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": null,
     "certification": "A",
     "tmdbRating": 7,
-    "tmdbVotes": 122,
+    "tmdbVotes": 123,
     "genres": [
       "Drama",
       "Romance"
@@ -916,7 +916,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Come Be A Part of History",
     "certification": "U",
     "tmdbRating": 7.5,
-    "tmdbVotes": 63,
+    "tmdbVotes": 64,
     "genres": [
       "Drama",
       "History"
@@ -1284,8 +1284,8 @@ export const TMDB: Record<string, TmdbRecord> = {
     ],
     "director": "S. S. Rajamouli",
     "writers": [
-      "Vijayendra Prasad",
-      "S. S. Rajamouli"
+      "S. S. Rajamouli",
+      "Vijayendra Prasad"
     ],
     "cast": [
       {
@@ -1389,7 +1389,7 @@ export const TMDB: Record<string, TmdbRecord> = {
       {
         "name": "Meenakshi Chaudhary",
         "character": "ACP C. Meenakshi",
-        "profilePath": "/3kI9sBIGcXyvlfocmfQwkmXO1zS.jpg"
+        "profilePath": "/vXrZJrt6qKEgUOEvmFTSh3F0FDp.jpg"
       },
       {
         "name": "Upendra Limaye",
@@ -1807,7 +1807,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "matchedTitle": "Siva",
     "originalTitle": "శివ",
     "releaseDate": "1989-10-05",
-    "posterPath": "/glgO02tTO5B4GAmybuzEsCMQK5O.jpg",
+    "posterPath": "/q6loMZxRfWdgmpK9OzHNtwSVHxs.jpg",
     "backdropPath": "/bdLvelZtIr8MiscEs9e48Vzd4Jl.jpg",
     "trailerKey": null,
     "tagline": null,
@@ -2141,7 +2141,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "A Legend",
     "certification": "UA",
     "tmdbRating": 7.2,
-    "tmdbVotes": 148,
+    "tmdbVotes": 149,
     "genres": [
       "Action",
       "Drama",
@@ -2229,8 +2229,8 @@ export const TMDB: Record<string, TmdbRecord> = {
     "trailerKey": "jJf35tEkW9E",
     "tagline": "Once upon a time there lived a ghost...",
     "certification": "UA",
-    "tmdbRating": 7.5,
-    "tmdbVotes": 174,
+    "tmdbRating": 7.6,
+    "tmdbVotes": 175,
     "genres": [
       "Action",
       "Crime",
@@ -2409,7 +2409,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Aal Izz Well!",
     "certification": "UA",
     "tmdbRating": 8,
-    "tmdbVotes": 2785,
+    "tmdbVotes": 2788,
     "genres": [
       "Drama",
       "Comedy"
@@ -2513,9 +2513,9 @@ export const TMDB: Record<string, TmdbRecord> = {
     ],
     "director": "Sriram Raghavan",
     "writers": [
+      "Arijit Biswas",
       "Sriram Raghavan",
       "Pooja Ladha Surti",
-      "Arijit Biswas",
       "Hemanth M. Rao"
     ],
     "cast": [
@@ -2594,7 +2594,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Mankind was born on Earth. It was never meant to die here.",
     "certification": "UA",
     "tmdbRating": 8.5,
-    "tmdbVotes": 40695,
+    "tmdbVotes": 40742,
     "genres": [
       "Adventure",
       "Drama",
@@ -2644,7 +2644,7 @@ export const TMDB: Record<string, TmdbRecord> = {
       {
         "name": "Topher Grace",
         "character": "Getty",
-        "profilePath": "/oJQxl4DG0KSCtOGrpWNhYz9gUZA.jpg"
+        "profilePath": "/y56aFmbJ8UmcOcGei5pswooumnp.jpg"
       },
       {
         "name": "Mackenzie Foy",
@@ -2686,7 +2686,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Your mind is the scene of the crime.",
     "certification": "UA",
     "tmdbRating": 8.4,
-    "tmdbVotes": 39840,
+    "tmdbVotes": 39875,
     "genres": [
       "Action",
       "Science Fiction",
@@ -2772,12 +2772,12 @@ export const TMDB: Record<string, TmdbRecord> = {
     "originalTitle": "The Dark Knight",
     "releaseDate": "2008-07-16",
     "posterPath": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "backdropPath": "/dqK9Hag1054tghRQSqLSfrkvQnA.jpg",
+    "backdropPath": "/x5f2uTfw0Pqc5QI4ch5AHICee2o.jpg",
     "trailerKey": "jXAYAN6jO5k",
     "tagline": "Some men just want to watch the world burn.",
     "certification": "UA ",
     "tmdbRating": 8.5,
-    "tmdbVotes": 36346,
+    "tmdbVotes": 36382,
     "genres": [
       "Action",
       "Crime",
@@ -2871,7 +2871,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Paul Edgecomb didn't believe in miracles. Until the day he met one.",
     "certification": "R",
     "tmdbRating": 8.5,
-    "tmdbVotes": 19584,
+    "tmdbVotes": 19603,
     "genres": [
       "Fantasy",
       "Drama",
@@ -2961,7 +2961,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Act like you own the place.",
     "certification": "A",
     "tmdbRating": 8.5,
-    "tmdbVotes": 21056,
+    "tmdbVotes": 21079,
     "genres": [
       "Comedy",
       "Thriller",
@@ -3051,7 +3051,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "15 years of imprisonment, five days of vengeance.",
     "certification": "R",
     "tmdbRating": 8.2,
-    "tmdbVotes": 10060,
+    "tmdbVotes": 10072,
     "genres": [
       "Thriller",
       "Mystery"
@@ -3063,8 +3063,8 @@ export const TMDB: Record<string, TmdbRecord> = {
     ],
     "director": "Park Chan-wook",
     "writers": [
-      "Lim Joon-hyung",
       "Hwang Jo-yoon",
+      "Lim Joon-hyung",
       "Park Chan-wook"
     ],
     "cast": [
@@ -3143,7 +3143,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Life-or-death survival begins.",
     "certification": "NR",
     "tmdbRating": 7.8,
-    "tmdbVotes": 8571,
+    "tmdbVotes": 8584,
     "genres": [
       "Action",
       "Horror",
@@ -3173,7 +3173,7 @@ export const TMDB: Record<string, TmdbRecord> = {
       {
         "name": "Jung Yu-mi",
         "character": "Sung-gyeong",
-        "profilePath": "/9QB7pIW08nDcSqXbVvGw40jRtmx.jpg"
+        "profilePath": "/4MGol78RZ9yakZdBAwnLUVgwO6F.jpg"
       },
       {
         "name": "Don Lee",
@@ -3235,7 +3235,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Beyond the tunnel was a mysterious town.",
     "certification": "PG",
     "tmdbRating": 8.5,
-    "tmdbVotes": 18668,
+    "tmdbVotes": 18686,
     "genres": [
       "Animation",
       "Family",
@@ -3327,7 +3327,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Separated by distance, connected by fate.",
     "certification": "U/A 13+",
     "tmdbRating": 8.5,
-    "tmdbVotes": 12819,
+    "tmdbVotes": 12840,
     "genres": [
       "Animation",
       "Romance",
@@ -3419,7 +3419,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "She’ll change your life.",
     "certification": "R",
     "tmdbRating": 7.9,
-    "tmdbVotes": 12543,
+    "tmdbVotes": 12551,
     "genres": [
       "Comedy",
       "Romance"
@@ -3511,7 +3511,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Innocence has a power evil cannot imagine.",
     "certification": "R",
     "tmdbRating": 7.8,
-    "tmdbVotes": 11623,
+    "tmdbVotes": 11634,
     "genres": [
       "Fantasy",
       "Drama",
@@ -3603,7 +3603,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The road to greatness can take you to the edge.",
     "certification": "R",
     "tmdbRating": 8.4,
-    "tmdbVotes": 16902,
+    "tmdbVotes": 16922,
     "genres": [
       "Drama",
       "Music",
@@ -3694,7 +3694,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The future belongs to the mad.",
     "certification": "A",
     "tmdbRating": 7.6,
-    "tmdbVotes": 24382,
+    "tmdbVotes": 24400,
     "genres": [
       "Action",
       "Adventure",
@@ -3788,7 +3788,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Enter a universe where more than one wears the mask.",
     "certification": "U",
     "tmdbRating": 8.4,
-    "tmdbVotes": 17597,
+    "tmdbVotes": 17621,
     "genres": [
       "Animation",
       "Action",
@@ -3825,7 +3825,7 @@ export const TMDB: Record<string, TmdbRecord> = {
       {
         "name": "Mahershala Ali",
         "character": "Uncle Aaron (voice)",
-        "profilePath": "/oId1ulmetuWr3lFFsSb81KS5LJS.jpg"
+        "profilePath": "/9ZmSejm5lnUVY5IJ1iNx2QEjnHb.jpg"
       },
       {
         "name": "Brian Tyree Henry",
@@ -3882,7 +3882,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Based on the true case files of the Warrens.",
     "certification": "A",
     "tmdbRating": 7.5,
-    "tmdbVotes": 12926,
+    "tmdbVotes": 12944,
     "genres": [
       "Horror",
       "Thriller"
@@ -3973,7 +3973,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Here's to the fools who dream.",
     "certification": "A",
     "tmdbRating": 7.9,
-    "tmdbVotes": 18319,
+    "tmdbVotes": 18342,
     "genres": [
       "Comedy",
       "Drama",
@@ -4065,7 +4065,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "A murder case of Madam D. with enormous wealth and the most outrageous events surrounding her sudden death!",
     "certification": "R",
     "tmdbRating": 8,
-    "tmdbVotes": 16339,
+    "tmdbVotes": 16359,
     "genres": [
       "Comedy",
       "Drama"
@@ -4157,7 +4157,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The celebration of a lifetime.",
     "certification": "U",
     "tmdbRating": 8.2,
-    "tmdbVotes": 21225,
+    "tmdbVotes": 21245,
     "genres": [
       "Family",
       "Animation",
@@ -4191,7 +4191,7 @@ export const TMDB: Record<string, TmdbRecord> = {
       {
         "name": "Alanna Ubach",
         "character": "Mamá Imelda (voice)",
-        "profilePath": "/p2sIpgftEIkhPrrpgu8wW8XEpDg.jpg"
+        "profilePath": "/ffyBAEoW3bDgVJQV3GaHsZ9x29W.jpg"
       },
       {
         "name": "Renée Victor",
@@ -4248,7 +4248,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Why are they here?",
     "certification": "UA",
     "tmdbRating": 7.6,
-    "tmdbVotes": 19662,
+    "tmdbVotes": 19685,
     "genres": [
       "Drama",
       "Science Fiction",
@@ -4339,7 +4339,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Long live the fighters.",
     "certification": "PG-13",
     "tmdbRating": 8.1,
-    "tmdbVotes": 8328,
+    "tmdbVotes": 8353,
     "genres": [
       "Science Fiction",
       "Adventure"
@@ -4428,7 +4428,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The universe is so much bigger than you realize.",
     "certification": "A",
     "tmdbRating": 7.7,
-    "tmdbVotes": 8235,
+    "tmdbVotes": 8253,
     "genres": [
       "Action",
       "Adventure",
@@ -4442,8 +4442,8 @@ export const TMDB: Record<string, TmdbRecord> = {
     ],
     "director": "Daniel Scheinert, Daniel Kwan",
     "writers": [
-      "Daniel Scheinert",
-      "Daniel Kwan"
+      "Daniel Kwan",
+      "Daniel Scheinert"
     ],
     "cast": [
       {
@@ -4521,7 +4521,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "One man's strength will unite an empire.",
     "certification": "PG-13",
     "tmdbRating": 7.5,
-    "tmdbVotes": 2557,
+    "tmdbVotes": 2560,
     "genres": [
       "Drama",
       "Adventure",
@@ -4616,7 +4616,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Change the equation.",
     "certification": "A",
     "tmdbRating": 8.9,
-    "tmdbVotes": 18351,
+    "tmdbVotes": 18387,
     "genres": [
       "Drama",
       "Crime"
@@ -4684,7 +4684,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Everything is connected.",
     "certification": "A",
     "tmdbRating": 8.4,
-    "tmdbVotes": 7753,
+    "tmdbVotes": 7764,
     "genres": [
       "Crime",
       "Drama",
@@ -4717,7 +4717,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "It only gets stranger...",
     "certification": "U/A 16+",
     "tmdbRating": 8.6,
-    "tmdbVotes": 21615,
+    "tmdbVotes": 21644,
     "genres": [
       "Action & Adventure",
       "Mystery",
@@ -4806,7 +4806,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The final games begin.",
     "certification": "A",
     "tmdbRating": 7.9,
-    "tmdbVotes": 17638,
+    "tmdbVotes": 17651,
     "genres": [
       "Action & Adventure",
       "Mystery",
@@ -4894,7 +4894,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The perfect robbery.",
     "certification": "A",
     "tmdbRating": 8.2,
-    "tmdbVotes": 19603,
+    "tmdbVotes": 19619,
     "genres": [
       "Crime",
       "Drama"
@@ -5208,7 +5208,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "What is the cost of lies?",
     "certification": "U/A 16+",
     "tmdbRating": 8.7,
-    "tmdbVotes": 8146,
+    "tmdbVotes": 8159,
     "genres": [
       "Drama"
     ],
@@ -5298,7 +5298,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Winter is coming.",
     "certification": "A",
     "tmdbRating": 8.5,
-    "tmdbVotes": 27467,
+    "tmdbVotes": 27505,
     "genres": [
       "Sci-Fi & Fantasy",
       "Drama",
@@ -5388,7 +5388,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": null,
     "certification": "TV-14",
     "tmdbRating": 8.1,
-    "tmdbVotes": 120,
+    "tmdbVotes": 121,
     "genres": [
       "Comedy",
       "Drama"
@@ -5513,6 +5513,11 @@ export const TMDB: Record<string, TmdbRecord> = {
         "name": "Satya Krishnan",
         "character": "Spandhana",
         "profilePath": "/8ymNkVGuJuAQkYcVc2ZZuxw6xov.jpg"
+      },
+      {
+        "name": "Sravya Dimple",
+        "character": null,
+        "profilePath": null
       }
     ]
   },
@@ -5588,10 +5593,10 @@ export const TMDB: Record<string, TmdbRecord> = {
     ],
     "director": "Vikram Kumar",
     "writers": [
-      "Poorna Prajna",
       "Vikram Kumar",
-      "Sripal Reddy",
-      "Naveen George Thomas"
+      "Dondapati Venkatesh",
+      "Poorna Prajna",
+      "Sripal Reddy"
     ],
     "cast": [
       {
@@ -5669,7 +5674,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "#RESTART",
     "certification": "PG",
     "tmdbRating": 7.9,
-    "tmdbVotes": 257,
+    "tmdbVotes": 258,
     "genres": [
       "Drama"
     ],
@@ -5849,7 +5854,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": null,
     "certification": "U",
     "tmdbRating": 7.7,
-    "tmdbVotes": 66,
+    "tmdbVotes": 68,
     "genres": [
       "Romance",
       "Comedy"
@@ -5873,7 +5878,7 @@ export const TMDB: Record<string, TmdbRecord> = {
       {
         "name": "Mamitha Baiju",
         "character": "Reenu",
-        "profilePath": "/tGEFW7uGdYrvZ2f3FP8JH5Yh5L2.jpg"
+        "profilePath": "/9ySiE3j7ep16fhKi3u5iq5rbOk6.jpg"
       },
       {
         "name": "Sangeeth Prathap",
@@ -5940,7 +5945,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": null,
     "certification": "UA",
     "tmdbRating": 7.7,
-    "tmdbVotes": 240,
+    "tmdbVotes": 242,
     "genres": [
       "Action",
       "Thriller",
@@ -6031,7 +6036,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": null,
     "certification": "UA",
     "tmdbRating": 7.4,
-    "tmdbVotes": 100,
+    "tmdbVotes": 101,
     "genres": [
       "Comedy",
       "Action"
@@ -6120,7 +6125,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The world forever changes.",
     "certification": "UA",
     "tmdbRating": 8,
-    "tmdbVotes": 12202,
+    "tmdbVotes": 12233,
     "genres": [
       "Drama",
       "History"
@@ -6211,7 +6216,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": null,
     "certification": "UA",
     "tmdbRating": 7.7,
-    "tmdbVotes": 94,
+    "tmdbVotes": 96,
     "genres": [
       "Thriller",
       "Crime",
@@ -6235,7 +6240,7 @@ export const TMDB: Record<string, TmdbRecord> = {
       {
         "name": "Meenakshi Chaudhary",
         "character": "Sumathi Kumar",
-        "profilePath": "/3kI9sBIGcXyvlfocmfQwkmXO1zS.jpg"
+        "profilePath": "/vXrZJrt6qKEgUOEvmFTSh3F0FDp.jpg"
       },
       {
         "name": "Tinnu Anand",
@@ -6302,7 +6307,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "It's how you wear the mask that matters.",
     "certification": "UA",
     "tmdbRating": 8.3,
-    "tmdbVotes": 8970,
+    "tmdbVotes": 9000,
     "genres": [
       "Animation",
       "Action",
@@ -6315,11 +6320,11 @@ export const TMDB: Record<string, TmdbRecord> = {
       "Lord Miller",
       "Pascal Pictures"
     ],
-    "director": "Kemp Powers, Justin K. Thompson, Joaquim Dos Santos",
+    "director": "Justin K. Thompson, Kemp Powers, Joaquim Dos Santos",
     "writers": [
+      "David Callaham",
       "Phil Lord",
-      "Christopher Miller",
-      "David Callaham"
+      "Christopher Miller"
     ],
     "cast": [
       {
@@ -6397,7 +6402,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Sometimes you have to lose your way to find yourself.",
     "certification": "UA",
     "tmdbRating": 7.8,
-    "tmdbVotes": 169,
+    "tmdbVotes": 170,
     "genres": [
       "Comedy",
       "Drama",
@@ -6488,7 +6493,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "Every path has a price.",
     "certification": "A",
     "tmdbRating": 8.4,
-    "tmdbVotes": 7220,
+    "tmdbVotes": 7232,
     "genres": [
       "Drama"
     ],
@@ -6535,8 +6540,8 @@ export const TMDB: Record<string, TmdbRecord> = {
     "trailerKey": "WBlIUsFEnsw",
     "tagline": "Back for seconds.",
     "certification": "TV-MA",
-    "tmdbRating": 8.1,
-    "tmdbVotes": 1866,
+    "tmdbRating": 8.2,
+    "tmdbVotes": 1873,
     "genres": [
       "Drama",
       "Comedy"
@@ -6602,7 +6607,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "An epic saga of war, passion, and power set in Feudal Japan.",
     "certification": "TV-MA",
     "tmdbRating": 8.4,
-    "tmdbVotes": 1843,
+    "tmdbVotes": 1847,
     "genres": [
       "Drama",
       "War & Politics"
@@ -6665,7 +6670,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "An original story about copying.",
     "certification": "U/A 16+",
     "tmdbRating": 7.8,
-    "tmdbVotes": 179,
+    "tmdbVotes": 180,
     "genres": [
       "Drama",
       "Crime"
@@ -6741,7 +6746,7 @@ export const TMDB: Record<string, TmdbRecord> = {
     "tagline": "The hunt is on.",
     "certification": "A",
     "tmdbRating": 8.8,
-    "tmdbVotes": 6090,
+    "tmdbVotes": 6096,
     "genres": [
       "Animation",
       "Action & Adventure",
@@ -6836,6 +6841,363 @@ export const TMDB: Record<string, TmdbRecord> = {
         "name": "Sunita Rajwar",
         "character": "Kranti Devi",
         "profilePath": "/cEhnGiU6arxA4vxZCUspFWDP76F.jpg"
+      }
+    ]
+  },
+  "rao-bahadur-2026": {
+    "tmdbId": 1443961,
+    "tmdbType": "movie",
+    "imdbId": "tt37895011",
+    "matchedTitle": "Rao Bahadur",
+    "originalTitle": "రావు బహదూర్",
+    "releaseDate": "2026-07-02",
+    "posterPath": "/9hzKAJImKEHBz0vnF5EazPMA8D4.jpg",
+    "backdropPath": "/zGbfaJpIFoUBYJJMm0ypQWPlKP5.jpg",
+    "trailerKey": "aevbXGQKlw8",
+    "tagline": "Doubt is a demon.",
+    "certification": "U/A 16+",
+    "tmdbRating": 7.2,
+    "tmdbVotes": 5,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Thriller"
+    ],
+    "productionCompanies": [
+      "SriChakraas Entertainments",
+      "A+S Movies",
+      "GMB Entertainment",
+      "Better Invest Media Vision Fund"
+    ],
+    "director": "Venkatesh Maha",
+    "writers": [
+      "Venkatesh Maha"
+    ],
+    "cast": [
+      {
+        "name": "Satyadev Kancharana",
+        "character": "Bhuvanam Ramappa \"Ramudu\" Rao Bahadur",
+        "profilePath": "/uIf1HM99iDVf9vdJwXPMgggOHkA.jpg"
+      },
+      {
+        "name": "Vikas Muppala",
+        "character": "Dr. Narayanachari \"Achari\"",
+        "profilePath": null
+      },
+      {
+        "name": "Deepa Thomas",
+        "character": "Renuka",
+        "profilePath": "/XaAMnfjvpFfB1uhIXsRWqYGGsB.jpg"
+      },
+      {
+        "name": "Master Kiran",
+        "character": "Bhuvanam \"Kusuma\" Kusumappa",
+        "profilePath": null
+      },
+      {
+        "name": "Pranay Vaka",
+        "character": "Bhuvanam \"Lavana\" Lavanappa",
+        "profilePath": "/e57mfqfT9Zos8BogFzkY2T4viHO.jpg"
+      },
+      {
+        "name": "Bala Parasar",
+        "character": "Achchamma",
+        "profilePath": null
+      },
+      {
+        "name": "Anand",
+        "character": "Jagannadhan",
+        "profilePath": "/nITOqirdTcd3hDCZvp8QWknV6WU.jpg"
+      },
+      {
+        "name": "Venkat Showrya",
+        "character": "Child Lavana",
+        "profilePath": null
+      },
+      {
+        "name": "Kunal Kaushik",
+        "character": null,
+        "profilePath": null
+      },
+      {
+        "name": "Venkatesh Maha",
+        "character": "Ramapppa's Founding Ancestor",
+        "profilePath": "/yttZ7EKdTEueZkkvzCuUSCtVJxd.jpg"
+      }
+    ]
+  },
+  "lenin-2026": {
+    "tmdbId": 1408170,
+    "tmdbType": "movie",
+    "imdbId": "tt5256640",
+    "matchedTitle": "Lenin",
+    "originalTitle": "లెనిన్",
+    "releaseDate": "2026-07-10",
+    "posterPath": "/rAHQviBq8Fxi20hNtHPGLnr4L0f.jpg",
+    "backdropPath": "/5P6jYac8MjxyIh0m9JO4K7MUeUc.jpg",
+    "trailerKey": "_d8Gw4ZkEqs",
+    "tagline": "Manodu Vasthunnadu",
+    "certification": "U/A 16+",
+    "tmdbRating": 6.4,
+    "tmdbVotes": 5,
+    "genres": [
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "productionCompanies": [
+      "Sithara Entertainments",
+      "Manam Enterprises",
+      "Annapurna Studios"
+    ],
+    "director": "Murali Kishor Abburu",
+    "writers": [
+      "Murali Kishor Abburu"
+    ],
+    "cast": [
+      {
+        "name": "Akhil Akkineni",
+        "character": "Lenin",
+        "profilePath": "/e8vXTFBfPsQoMTJ4EwjHaz1CIoh.jpg"
+      },
+      {
+        "name": "Bhagyashri Borse",
+        "character": "Bharathi",
+        "profilePath": "/3gVgbXl0YC1xxrFatf0pEkFbK4Q.jpg"
+      },
+      {
+        "name": "Sivaji Sontineni",
+        "character": "Yatirajulu",
+        "profilePath": "/rYttVZsngTbaS2ElxDiIiQ32RbL.jpg"
+      },
+      {
+        "name": "Easwari Rao",
+        "character": "Jayanthi",
+        "profilePath": "/fjyvQ45YZcovy2Egj2eux8UiuHU.jpg"
+      },
+      {
+        "name": "Brahmaji",
+        "character": "Damodaram",
+        "profilePath": "/xDTE7POq1bkyjLINxdy7rW4wQlg.jpg"
+      },
+      {
+        "name": "Sunil Varma",
+        "character": "Parthasarathi",
+        "profilePath": "/ifmUCkLgpEzbfnRjIw62otrADpI.jpg"
+      },
+      {
+        "name": "N.T. Rama Rao Jr.",
+        "character": "Narrator (voice)",
+        "profilePath": "/5ycQgZ3SPUa12bq0yn1jpToBq9X.jpg"
+      },
+      {
+        "name": "Pavani Karanam",
+        "character": "Sulochana",
+        "profilePath": "/v6U8bCFGs6PmYnYoiB6XbEtBtDc.jpg"
+      },
+      {
+        "name": "Getup Srinu",
+        "character": "Murli",
+        "profilePath": "/xb2lJ213oU3DS6kMkDuqlf7EFeG.jpg"
+      },
+      {
+        "name": "Saranya Pradeep",
+        "character": "Murali wife",
+        "profilePath": "/zGdjxXehk4Bashdfq4DpOqnVzc6.jpg"
+      },
+      {
+        "name": "Pramod Panju",
+        "character": "Vasanth",
+        "profilePath": "/2URHh4gn72VYlgrrZrNaEyXjpPh.jpg"
+      },
+      {
+        "name": "Ramesh Indira",
+        "character": "MLA",
+        "profilePath": null
+      }
+    ]
+  },
+  "dc-2026": {
+    "tmdbId": 1479832,
+    "tmdbType": "movie",
+    "imdbId": "tt37501035",
+    "matchedTitle": "DC",
+    "originalTitle": "டிசி",
+    "releaseDate": "2026-08-07",
+    "posterPath": "/k9AwqfQ9wYtaGew8oZh6GBouvO2.jpg",
+    "backdropPath": "/v7kqufGRDotShPCw53SM7m8t6oc.jpg",
+    "trailerKey": "U-ct5Svx7E0",
+    "tagline": null,
+    "certification": "A",
+    "tmdbRating": 7.9,
+    "tmdbVotes": 11,
+    "genres": [
+      "Romance",
+      "Action",
+      "Drama"
+    ],
+    "productionCompanies": [
+      "Sun Pictures",
+      "G Squad (IN)"
+    ],
+    "director": "Arun Matheswaran",
+    "writers": [
+      "Arun Matheswaran",
+      "Arun Ranjan"
+    ],
+    "cast": [
+      {
+        "name": "Lokesh Kanagaraj",
+        "character": "Devadas",
+        "profilePath": "/yym15SAcSzIe6xzxOWCgDWiSaZN.jpg"
+      },
+      {
+        "name": "Wamiqa Gabbi",
+        "character": "Chandra",
+        "profilePath": "/e1CNXkH2scGeoabOTowFJJxX2YF.jpg"
+      },
+      {
+        "name": "Sanjana Krishnamoorthy",
+        "character": "Parvathi",
+        "profilePath": "/eNYxaRfb8xyj0OoNa46txZhzuWw.jpg"
+      },
+      {
+        "name": "Avinash Raghudevan",
+        "character": "Kitty",
+        "profilePath": "/AuiRkWkzpmZU2P88s1wwcqVDKJV.jpg"
+      },
+      {
+        "name": "Jawahar Sakthi",
+        "character": "Karuppan",
+        "profilePath": "/tujqtpUT92SDeo2AuUJiJGKBfYp.jpg"
+      },
+      {
+        "name": "Sharath Ravi",
+        "character": "Chunnilal",
+        "profilePath": "/5hgdkBe06e6xRRTPvQEPcoanC2u.jpg"
+      },
+      {
+        "name": "Kasthoori Raja",
+        "character": "Sendhooran",
+        "profilePath": "/7i5YtjslyQAQrBoEhlWz8G4yqj5.jpg"
+      },
+      {
+        "name": "Thalaivasal Vijay",
+        "character": "Arasu",
+        "profilePath": "/2mlbBSwHF2nzlPpVnjXpTKLaoxQ.jpg"
+      },
+      {
+        "name": "Pranav Teophine",
+        "character": "Sebastian",
+        "profilePath": null
+      },
+      {
+        "name": "Balaji Devi Prasad",
+        "character": "Ashraf",
+        "profilePath": null
+      },
+      {
+        "name": "Sarah Christina Black",
+        "character": "Sarah",
+        "profilePath": null
+      },
+      {
+        "name": "Bigil Siva",
+        "character": "Doctor",
+        "profilePath": null
+      }
+    ]
+  },
+  "spider-man-brand-new-day": {
+    "tmdbId": 969681,
+    "tmdbType": "movie",
+    "imdbId": "tt22084616",
+    "matchedTitle": "Spider-Man: Brand New Day",
+    "originalTitle": "Spider-Man: Brand New Day",
+    "releaseDate": "2026-07-29",
+    "posterPath": "/iPOn6DinuVyLY17YM9mKuPofV08.jpg",
+    "backdropPath": "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+    "trailerKey": "8TZMtslA3UY",
+    "tagline": "A brand new day starts now.",
+    "certification": "U/A 13+",
+    "tmdbRating": 7.9,
+    "tmdbVotes": 1702,
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "productionCompanies": [
+      "Marvel Studios",
+      "Columbia Pictures",
+      "Pascal Pictures",
+      "TSG Entertainment"
+    ],
+    "director": "Destin Daniel Cretton",
+    "writers": [
+      "Erik Sommers",
+      "Chris McKenna"
+    ],
+    "cast": [
+      {
+        "name": "Tom Holland",
+        "character": "Peter Parker / Spider-Man",
+        "profilePath": "/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg"
+      },
+      {
+        "name": "Zendaya",
+        "character": "MJ",
+        "profilePath": "/3WdOloHpjtjL96uVOhFRRCcYSwq.jpg"
+      },
+      {
+        "name": "Mark Ruffalo",
+        "character": "Bruce Banner / Hulk",
+        "profilePath": "/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+      },
+      {
+        "name": "Jon Bernthal",
+        "character": "Frank Castle / Punisher",
+        "profilePath": "/o0t6EVkJOrFAjESDilZUlf46IbQ.jpg"
+      },
+      {
+        "name": "Jacob Batalon",
+        "character": "Ned Leeds",
+        "profilePath": "/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg"
+      },
+      {
+        "name": "Sadie Sink",
+        "character": "Jean Grey",
+        "profilePath": "/92FddzBfK50XOUbtwjqHPraoGHy.jpg"
+      },
+      {
+        "name": "Florence Pugh",
+        "character": "Yelena Belova / Black Widow",
+        "profilePath": "/1Uvfh7xL4U2evkhs0M3C7BbBYFf.jpg"
+      },
+      {
+        "name": "Liza Colón-Zayas",
+        "character": "Detective Jean DeWolff",
+        "profilePath": "/qBb5eYEoZAlStrRXvsFlKukKJG8.jpg"
+      },
+      {
+        "name": "Tramell Tillman",
+        "character": "William 'Bill' Metzger",
+        "profilePath": "/bEA15zMnkcXlRroYjKrFUWiiK7y.jpg"
+      },
+      {
+        "name": "Marisa Tomei",
+        "character": "May Parker",
+        "profilePath": "/fj6t3XEXFTfA3mxicQAK3uZDdow.jpg"
+      },
+      {
+        "name": "Naomi Watts",
+        "character": "E.V. (voice)",
+        "profilePath": "/7ysvff7ZhW388SIh2YjQ0XIryOn.jpg"
+      },
+      {
+        "name": "Michael Mando",
+        "character": "Mac Gargan / Scorpion",
+        "profilePath": "/gvM2wG66bjEpiirdeQdyG9EzUfv.jpg"
       }
     ]
   }
