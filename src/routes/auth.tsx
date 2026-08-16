@@ -28,10 +28,11 @@ export const Route = createFileRoute("/auth")({
 });
 
 function AuthPage() {
-  const { user, ready, login, register, resetPassword } = useAuth();
+  const { user, ready, login, register, requestPasswordReset } = useAuth();
   const navigate = useNavigate();
   const [error, setError] = useState<string | null>(null);
   const [mode, setMode] = useState("login");
+  const [busy, setBusy] = useState(false);
 
   useEffect(() => {
     if (ready && user) navigate({ to: "/", replace: true });
@@ -40,7 +41,8 @@ function AuthPage() {
   return (
     <div className="grid min-h-screen lg:grid-cols-2">
       <section className="relative hidden cinema-panel lg:block">
-        <div className="absolute inset-0 animate-cine-zoom opacity-45"
+        <div
+          className="absolute inset-0 animate-cine-zoom opacity-45"
           style={{
             backgroundImage:
               "radial-gradient(80% 60% at 20% 15%, oklch(0.55 0.21 25 / 0.45), transparent 60%), radial-gradient(70% 70% at 90% 90%, oklch(0.7 0.1 250 / 0.28), transparent 65%)",
@@ -59,7 +61,7 @@ function AuthPage() {
             </p>
           </div>
           <p className="text-xs text-cinema-foreground/50">
-            Prototype authentication stored in your browser. Not production-secure.
+            Your watch history, favourites and progress are saved to your account.
           </p>
         </div>
       </section>
@@ -69,30 +71,38 @@ function AuthPage() {
           <div className="mb-8 lg:hidden">
             <Logo />
           </div>
-          <Tabs value={mode} onValueChange={(v) => { setMode(v); setError(null); }}>
+          <Tabs
+            value={mode}
+            onValueChange={(v) => {
+              setMode(v);
+              setError(null);
+            }}
+          >
             <TabsList className="grid w-full grid-cols-3">
               <TabsTrigger value="login">Log in</TabsTrigger>
               <TabsTrigger value="register">Sign up</TabsTrigger>
-              <TabsTrigger value="forgot">Reset</TabsTrigger>
+              <TabsTrigger value="forgot">Forgot</TabsTrigger>
             </TabsList>
 
             <TabsContent value="login" className="mt-6">
               <form
                 className="space-y-4"
-                onSubmit={(e) => {
+                onSubmit={async (e) => {
                   e.preventDefault();
                   const f = new FormData(e.currentTarget);
-                  const res = login(String(f.get("email")), String(f.get("password")));
+                  setBusy(true);
+                  const res = await login(String(f.get("email")), String(f.get("password")));
+                  setBusy(false);
                   if (!res.ok) return setError(res.error ?? "Login failed.");
                   setError(null);
-                  toast("Welcome back to CineAI 🎬");
+                  toast("Welcome back to CineAI 🎬", { description: "Restoring your library…" });
                   navigate({ to: "/" });
                 }}
               >
                 <Field id="login-email" label="Email" name="email" type="email" />
                 <Field id="login-password" label="Password" name="password" type="password" />
                 {error && <ErrorText>{error}</ErrorText>}
-                <Button type="submit" className="w-full">
+                <Button type="submit" className="w-full" disabled={busy}>
                   Log in
                 </Button>
               </form>
@@ -101,15 +111,17 @@ function AuthPage() {
             <TabsContent value="register" className="mt-6">
               <form
                 className="space-y-4"
-                onSubmit={(e) => {
+                onSubmit={async (e) => {
                   e.preventDefault();
                   const f = new FormData(e.currentTarget);
-                  const res = register(
+                  setBusy(true);
+                  const res = await register(
                     String(f.get("name")),
                     String(f.get("email")),
                     String(f.get("password")),
                     String(f.get("confirm")),
                   );
+                  setBusy(false);
                   if (!res.ok) return setError(res.error ?? "Registration failed.");
                   setError(null);
                   toast("Account created — welcome to CineAI ✨");
@@ -121,7 +133,7 @@ function AuthPage() {
                 <Field id="reg-password" label="Password" name="password" type="password" />
                 <Field id="reg-confirm" label="Confirm password" name="confirm" type="password" />
                 {error && <ErrorText>{error}</ErrorText>}
-                <Button type="submit" className="w-full">
+                <Button type="submit" className="w-full" disabled={busy}>
                   Create account
                 </Button>
               </form>
@@ -130,32 +142,43 @@ function AuthPage() {
             <TabsContent value="forgot" className="mt-6">
               <form
                 className="space-y-4"
-                onSubmit={(e) => {
+                onSubmit={async (e) => {
                   e.preventDefault();
                   const f = new FormData(e.currentTarget);
-                  const res = resetPassword(String(f.get("email")), String(f.get("password")));
-                  if (!res.ok) return setError(res.error ?? "Could not reset password.");
+                  setBusy(true);
+                  const res = await requestPasswordReset(String(f.get("email")));
+                  setBusy(false);
+                  if (!res.ok) return setError(res.error ?? "Could not send the reset email.");
                   setError(null);
-                  toast("Password updated — you can log in now.");
+                  toast("Password reset email sent 📧", {
+                    description: "Open the link to choose a new password.",
+                  });
                   setMode("login");
                 }}
               >
                 <p className="text-sm text-muted-foreground">
-                  This demo resets your password locally — no email is sent.
+                  We'll email you a secure link to set a new password.
                 </p>
                 <Field id="fp-email" label="Account email" name="email" type="email" />
-                <Field id="fp-password" label="New password" name="password" type="password" />
                 {error && <ErrorText>{error}</ErrorText>}
-                <Button type="submit" className="w-full">
-                  Reset password
+                <Button type="submit" className="w-full" disabled={busy}>
+                  Send reset link
                 </Button>
               </form>
             </TabsContent>
           </Tabs>
 
           <p className="mt-8 text-center text-xs text-muted-foreground">
-            Demo accounts live in this browser's local storage. Replace with server-side auth before
-            production.
+            Already have an account? Just log in — your watch history, favourites and progress are
+            restored automatically. You can also{" "}
+            <button
+              type="button"
+              className="underline underline-offset-2"
+              onClick={() => navigate({ to: "/" })}
+            >
+              browse as a guest
+            </button>
+            .
           </p>
         </div>
       </section>
