@@ -56,16 +56,8 @@ function AssistantPage() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const data = {
-    favorites: lib.favorites,
-    watchlist: lib.watchlist,
-    watched: lib.watched,
-    recentlyViewed: lib.recentlyViewed,
-    searchHistory: lib.searchHistory,
-    preferences: lib.preferences,
-    targets: lib.targets,
-    notifications: lib.notifications,
-  };
+  const data = lib.snapshot;
+
 
   const send = async (prompt: string) => {
     if (!prompt.trim() || loading) return;
