@@ -78,16 +78,7 @@ function HomePage() {
         title="AI Picks For You"
         subtitle={
           aiPicks[0]
-            ? reasonFor(aiPicks[0], {
-                favorites: lib.favorites,
-                watchlist: lib.watchlist,
-                watched: lib.watched,
-                recentlyViewed: lib.recentlyViewed,
-                searchHistory: lib.searchHistory,
-                preferences: lib.preferences,
-                targets: lib.targets,
-                notifications: lib.notifications,
-              })
+            ? reasonFor(aiPicks[0], lib.snapshot)
             : "Tuned to your favourites, watchlist and preferences."
         }
         items={aiPicks}
