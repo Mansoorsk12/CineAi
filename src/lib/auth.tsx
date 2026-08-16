@@ -103,7 +103,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         password,
         options: {
           data: { name: name.trim() },
-          emailRedirectTo: typeof window === "undefined" ? undefined : window.location.origin,
+          ...(typeof window === "undefined" ? {} : { emailRedirectTo: window.location.origin }),
         },
       });
       if (error) {
