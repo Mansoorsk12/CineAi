@@ -1,133 +1,161 @@
+/**
+ * Authentication backed by Lovable Cloud.
+ *
+ * The session lives in the auth SDK (secure token storage + automatic refresh),
+ * so reopening the site restores the session. Signing out only ends the
+ * session — it never deletes account rows or user data.
+ */
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import {
-  getCurrentUserId,
-  getUsers,
-  saveUsers,
-  setCurrentUserId,
-  weakHash,
-  type StoredUser,
-} from "./storage";
+import type { Session } from "@supabase/supabase-js";
+import { supabase } from "@/integrations/supabase/client";
 
 export interface AuthUser {
   id: string;
   name: string;
   email: string;
   avatar?: string | undefined;
+  createdAt: string;
 }
+
+type Result = { ok: boolean; error?: string };
 
 interface AuthContextValue {
   user: AuthUser | null;
   ready: boolean;
-  login: (email: string, password: string) => { ok: boolean; error?: string };
-  register: (
-    name: string,
-    email: string,
-    password: string,
-    confirm: string,
-  ) => { ok: boolean; error?: string };
-  resetPassword: (email: string, password: string) => { ok: boolean; error?: string };
-  updateProfile: (patch: Partial<Pick<AuthUser, "name" | "avatar">>) => void;
-  deleteAccount: () => void;
-  logout: () => void;
+  login: (email: string, password: string) => Promise<Result>;
+  register: (name: string, email: string, password: string, confirm: string) => Promise<Result>;
+  /** Sends a password-reset email that lands on /reset-password. */
+  requestPasswordReset: (email: string) => Promise<Result>;
+  updateProfile: (patch: Partial<Pick<AuthUser, "name" | "avatar">>) => Promise<void>;
+  changePassword: (password: string) => Promise<Result>;
+  logout: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 
-const publicUser = (u: StoredUser): AuthUser => ({
-  id: u.id,
-  name: u.name,
-  email: u.email,
-  avatar: u.avatar,
-});
-
 const emailValid = (e: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e.trim());
+
+const fromSession = (session: Session, profile?: { name?: string | null; avatar?: string | null }): AuthUser => ({
+  id: session.user.id,
+  email: session.user.email ?? "",
+  name:
+    profile?.name ||
+    (session.user.user_metadata?.["name"] as string | undefined) ||
+    (session.user.email ?? "there").split("@")[0]!,
+  avatar: profile?.avatar ?? (session.user.user_metadata?.["avatar_url"] as string | undefined),
+  createdAt: session.user.created_at,
+});
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    const id = getCurrentUserId();
-    if (id) {
-      const found = getUsers().find((u) => u.id === id);
-      if (found) setUser(publicUser(found));
-    }
-    setReady(true);
+    let active = true;
+
+    const hydrate = async (session: Session | null) => {
+      if (!session) {
+        if (active) setUser(null);
+        return;
+      }
+      // Show the session user immediately, then enrich from the profile row.
+      if (active) setUser(fromSession(session));
+      const { data } = await supabase
+        .from("profiles")
+        .select("name, avatar")
+        .eq("id", session.user.id)
+        .maybeSingle();
+      if (active) setUser(fromSession(session, data ?? undefined));
+    };
+
+    const { data: sub } = supabase.auth.onAuthStateChange((_event, session) => {
+      void hydrate(session);
+    });
+
+    void supabase.auth.getSession().then(async ({ data }) => {
+      await hydrate(data.session);
+      if (active) setReady(true);
+    });
+
+    return () => {
+      active = false;
+      sub.subscription.unsubscribe();
+    };
   }, []);
 
-  const login = useCallback<AuthContextValue["login"]>((email, password) => {
+  const login = useCallback<AuthContextValue["login"]>(async (email, password) => {
     const normalized = email.trim().toLowerCase();
     if (!emailValid(normalized)) return { ok: false, error: "Enter a valid email address." };
-    const found = getUsers().find((u) => u.email === normalized);
-    if (!found || found.passwordHash !== weakHash(password))
-      return { ok: false, error: "Incorrect email or password." };
-    setCurrentUserId(found.id);
-    setUser(publicUser(found));
+    const { error } = await supabase.auth.signInWithPassword({ email: normalized, password });
+    if (error) return { ok: false, error: "Incorrect email or password." };
     return { ok: true };
   }, []);
 
   const register = useCallback<AuthContextValue["register"]>(
-    (name, email, password, confirm) => {
+    async (name, email, password, confirm) => {
       const normalized = email.trim().toLowerCase();
       if (name.trim().length < 2) return { ok: false, error: "Please enter your full name." };
       if (!emailValid(normalized)) return { ok: false, error: "Enter a valid email address." };
-      if (password.length < 6)
-        return { ok: false, error: "Password must be at least 6 characters." };
+      if (password.length < 6) return { ok: false, error: "Password must be at least 6 characters." };
       if (password !== confirm) return { ok: false, error: "Passwords do not match." };
-      const users = getUsers();
-      if (users.some((u) => u.email === normalized))
-        return { ok: false, error: "An account with this email already exists." };
-      const created: StoredUser = {
-        id: `user_${Date.now().toString(36)}`,
-        name: name.trim(),
+      const { data, error } = await supabase.auth.signUp({
         email: normalized,
-        passwordHash: weakHash(password),
-        createdAt: new Date().toISOString(),
-      };
-      saveUsers([...users, created]);
-      setCurrentUserId(created.id);
-      setUser(publicUser(created));
+        password,
+        options: {
+          data: { name: name.trim() },
+          ...(typeof window === "undefined" ? {} : { emailRedirectTo: window.location.origin }),
+        },
+      });
+      if (error) {
+        const msg = /already/i.test(error.message)
+          ? "An account with this email already exists — log in instead."
+          : error.message;
+        return { ok: false, error: msg };
+      }
+      if (!data.session) {
+        return { ok: false, error: "Check your email to confirm your account, then log in." };
+      }
       return { ok: true };
     },
     [],
   );
 
-  const resetPassword = useCallback<AuthContextValue["resetPassword"]>((email, password) => {
+  const requestPasswordReset = useCallback<AuthContextValue["requestPasswordReset"]>(async (email) => {
     const normalized = email.trim().toLowerCase();
-    const users = getUsers();
-    const existing = users.find((u) => u.email === normalized);
-    if (!existing) return { ok: false, error: "No account found with that email." };
-    if (password.length < 6) return { ok: false, error: "Password must be at least 6 characters." };
-    existing.passwordHash = weakHash(password);
-    saveUsers(users);
+    if (!emailValid(normalized)) return { ok: false, error: "Enter a valid email address." };
+    const { error } = await supabase.auth.resetPasswordForEmail(normalized, {
+      redirectTo: `${window.location.origin}/reset-password`,
+    });
+    if (error) return { ok: false, error: error.message };
     return { ok: true };
   }, []);
 
-  const updateProfile = useCallback<AuthContextValue["updateProfile"]>((patch) => {
-    setUser((prev) => {
-      if (!prev) return prev;
-      const users = getUsers().map((u) => (u.id === prev.id ? { ...u, ...patch } : u));
-      saveUsers(users);
-      return { ...prev, ...patch };
-    });
+  const updateProfile = useCallback<AuthContextValue["updateProfile"]>(async (patch) => {
+    setUser((prev) => (prev ? { ...prev, ...patch } : prev));
+    const { data } = await supabase.auth.getUser();
+    if (!data.user) return;
+    const row: { name?: string; avatar?: string | null } = {};
+    if (patch.name !== undefined) row.name = patch.name;
+    if (patch.avatar !== undefined) row.avatar = patch.avatar ?? null;
+    await supabase.from("profiles").update(row).eq("id", data.user.id);
   }, []);
 
-  const logout = useCallback(() => {
-    setCurrentUserId(null);
+  const changePassword = useCallback<AuthContextValue["changePassword"]>(async (password) => {
+    if (password.length < 6) return { ok: false, error: "Password must be at least 6 characters." };
+    const { error } = await supabase.auth.updateUser({ password });
+    if (error) return { ok: false, error: error.message };
+    return { ok: true };
+  }, []);
+
+  const logout = useCallback(async () => {
+    // Ends the session only — every row in the database stays intact.
+    await supabase.auth.signOut();
     setUser(null);
   }, []);
 
-  const deleteAccount = useCallback(() => {
-    setUser((prev) => {
-      if (prev) saveUsers(getUsers().filter((u) => u.id !== prev.id));
-      setCurrentUserId(null);
-      return null;
-    });
-  }, []);
-
   const value = useMemo(
-    () => ({ user, ready, login, register, resetPassword, updateProfile, logout, deleteAccount }),
-    [user, ready, login, register, resetPassword, updateProfile, logout, deleteAccount],
+    () => ({ user, ready, login, register, requestPasswordReset, updateProfile, changePassword, logout }),
+    [user, ready, login, register, requestPasswordReset, updateProfile, changePassword, logout],
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
