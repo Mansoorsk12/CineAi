@@ -14,7 +14,183 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      favorites: {
+        Row: {
+          created_at: string
+          movie_id: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          movie_id: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          movie_id?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      movie_feedback: {
+        Row: {
+          feedback: string
+          movie_id: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          feedback: string
+          movie_id: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          feedback?: string
+          movie_id?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      movie_ratings: {
+        Row: {
+          movie_id: string
+          rating: number
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          movie_id: string
+          rating: number
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          movie_id?: string
+          rating?: number
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          avatar: string | null
+          created_at: string
+          email: string
+          id: string
+          name: string
+          updated_at: string
+        }
+        Insert: {
+          avatar?: string | null
+          created_at?: string
+          email?: string
+          id: string
+          name?: string
+          updated_at?: string
+        }
+        Update: {
+          avatar?: string | null
+          created_at?: string
+          email?: string
+          id?: string
+          name?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      user_settings: {
+        Row: {
+          preferences: Json
+          recently_viewed: Json
+          search_history: Json
+          targets: Json
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          preferences?: Json
+          recently_viewed?: Json
+          search_history?: Json
+          targets?: Json
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          preferences?: Json
+          recently_viewed?: Json
+          search_history?: Json
+          targets?: Json
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      watch_history: {
+        Row: {
+          id: string
+          movie_id: string
+          user_id: string
+          watched_at: string
+        }
+        Insert: {
+          id?: string
+          movie_id: string
+          user_id: string
+          watched_at?: string
+        }
+        Update: {
+          id?: string
+          movie_id?: string
+          user_id?: string
+          watched_at?: string
+        }
+        Relationships: []
+      }
+      watch_progress: {
+        Row: {
+          movie_id: string
+          runtime: number
+          seconds: number
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          movie_id: string
+          runtime?: number
+          seconds?: number
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          movie_id?: string
+          runtime?: number
+          seconds?: number
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      watchlist: {
+        Row: {
+          created_at: string
+          movie_id: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          movie_id: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          movie_id?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
