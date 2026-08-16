@@ -134,7 +134,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setUser((prev) => (prev ? { ...prev, ...patch } : prev));
     const { data } = await supabase.auth.getUser();
     if (!data.user) return;
-    await supabase.from("profiles").update(patch).eq("id", data.user.id);
+    const row: { name?: string; avatar?: string | null } = {};
+    if (patch.name !== undefined) row.name = patch.name;
+    if (patch.avatar !== undefined) row.avatar = patch.avatar ?? null;
+    await supabase.from("profiles").update(row).eq("id", data.user.id);
   }, []);
 
   const changePassword = useCallback<AuthContextValue["changePassword"]>(async (password) => {
