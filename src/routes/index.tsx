@@ -57,23 +57,8 @@ function HomePage() {
     return () => clearInterval(id);
   }, []);
 
-  const aiPicks = useMemo(
-    () =>
-      recommend(
-        {
-          favorites: lib.favorites,
-          watchlist: lib.watchlist,
-          watched: lib.watched,
-          recentlyViewed: lib.recentlyViewed,
-          searchHistory: lib.searchHistory,
-          preferences: lib.preferences,
-          targets: lib.targets,
-          notifications: lib.notifications,
-        },
-        12,
-      ),
-    [lib.favorites, lib.watchlist, lib.watched, lib.recentlyViewed, lib.preferences, lib.searchHistory, lib.targets, lib.notifications],
-  );
+  const aiPicks = useMemo(() => recommend(lib.snapshot, 12), [lib.snapshot]);
+
 
   const recent = lib.recentlyViewed
     .map((id) => CATALOG.find((t) => t.id === id))
