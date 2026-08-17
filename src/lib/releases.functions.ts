@@ -68,9 +68,9 @@ export const adminUpdateRelease = createServerFn({ method: "POST" })
   .handler(async ({ data, context }): Promise<{ ok: boolean }> => {
     await assertAdmin(context as any);
     const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
-    const patch: Record<string, boolean> = {};
-    if (data.hidden !== undefined) patch["hidden"] = data.hidden;
-    if (data.featured !== undefined) patch["featured"] = data.featured;
+    const patch: { hidden?: boolean; featured?: boolean } = {};
+    if (data.hidden !== undefined) patch.hidden = data.hidden;
+    if (data.featured !== undefined) patch.featured = data.featured;
     if (!Object.keys(patch).length) return { ok: true };
     const { error } = await supabaseAdmin
       .from("tmdb_releases")
