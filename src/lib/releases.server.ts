@@ -203,8 +203,8 @@ export async function refreshReleaseCache(): Promise<number> {
       imdb_id: d.imdbId,
       runtime: d.runtime,
       director: d.director,
-      cast_members: d.cast,
-      providers: d.providers,
+      cast_members: d.cast as unknown as import("@/integrations/supabase/types").Json,
+      providers: d.providers as unknown as import("@/integrations/supabase/types").Json,
       fetched_at: new Date().toISOString(),
     }));
   if (!rows.length) return 0;
