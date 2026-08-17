@@ -39,7 +39,7 @@ export const Route = createFileRoute("/settings")({
 
 function SettingsPage() {
   const { theme, toggle } = useTheme();
-  const { logout, deleteAccount } = useAuth();
+  const { logout } = useAuth();
   const lib = useLibrary();
   const navigate = useNavigate();
 
@@ -88,20 +88,11 @@ function SettingsPage() {
         <Button
           variant="secondary"
           onClick={() => {
-            logout();
-            navigate({ to: "/auth" });
+            void logout().then(() => navigate({ to: "/auth" }));
           }}
         >
           Log out
         </Button>
-        <Confirm
-          label="Delete account"
-          destructive
-          onConfirm={() => {
-            deleteAccount();
-            navigate({ to: "/auth" });
-          }}
-        />
       </section>
     </div>
   );
