@@ -32,6 +32,156 @@ export type Database = {
         }
         Relationships: []
       }
+      media_items: {
+        Row: {
+          backdrop_path: string | null
+          cast_members: Json
+          country: string | null
+          director: string | null
+          episodes: number | null
+          featured: boolean
+          first_imported_at: string
+          genres: string[]
+          hidden: boolean
+          id: string
+          imdb_id: string | null
+          industry: string
+          language: string
+          language_code: string
+          media_type: string
+          original_title: string | null
+          overview: string
+          popularity: number
+          poster_path: string | null
+          rating: number
+          release_date: string | null
+          runtime: number | null
+          seasons: number | null
+          source: string
+          status: string | null
+          title: string
+          tmdb_id: number
+          trailer_key: string | null
+          updated_at: string
+          vote_count: number
+          year: number | null
+        }
+        Insert: {
+          backdrop_path?: string | null
+          cast_members?: Json
+          country?: string | null
+          director?: string | null
+          episodes?: number | null
+          featured?: boolean
+          first_imported_at?: string
+          genres?: string[]
+          hidden?: boolean
+          id?: string
+          imdb_id?: string | null
+          industry?: string
+          language?: string
+          language_code?: string
+          media_type: string
+          original_title?: string | null
+          overview?: string
+          popularity?: number
+          poster_path?: string | null
+          rating?: number
+          release_date?: string | null
+          runtime?: number | null
+          seasons?: number | null
+          source?: string
+          status?: string | null
+          title: string
+          tmdb_id: number
+          trailer_key?: string | null
+          updated_at?: string
+          vote_count?: number
+          year?: number | null
+        }
+        Update: {
+          backdrop_path?: string | null
+          cast_members?: Json
+          country?: string | null
+          director?: string | null
+          episodes?: number | null
+          featured?: boolean
+          first_imported_at?: string
+          genres?: string[]
+          hidden?: boolean
+          id?: string
+          imdb_id?: string | null
+          industry?: string
+          language?: string
+          language_code?: string
+          media_type?: string
+          original_title?: string | null
+          overview?: string
+          popularity?: number
+          poster_path?: string | null
+          rating?: number
+          release_date?: string | null
+          runtime?: number | null
+          seasons?: number | null
+          source?: string
+          status?: string | null
+          title?: string
+          tmdb_id?: number
+          trailer_key?: string | null
+          updated_at?: string
+          vote_count?: number
+          year?: number | null
+        }
+        Relationships: []
+      }
+      media_requests: {
+        Row: {
+          admin_note: string | null
+          created_at: string
+          id: string
+          imdb_id: string | null
+          media_type: string
+          message: string | null
+          query_title: string
+          status: string
+          tmdb_id: number | null
+          updated_at: string
+          user_id: string
+          verified_poster_path: string | null
+          verified_title: string | null
+        }
+        Insert: {
+          admin_note?: string | null
+          created_at?: string
+          id?: string
+          imdb_id?: string | null
+          media_type?: string
+          message?: string | null
+          query_title: string
+          status?: string
+          tmdb_id?: number | null
+          updated_at?: string
+          user_id: string
+          verified_poster_path?: string | null
+          verified_title?: string | null
+        }
+        Update: {
+          admin_note?: string | null
+          created_at?: string
+          id?: string
+          imdb_id?: string | null
+          media_type?: string
+          message?: string | null
+          query_title?: string
+          status?: string
+          tmdb_id?: number | null
+          updated_at?: string
+          user_id?: string
+          verified_poster_path?: string | null
+          verified_title?: string | null
+        }
+        Relationships: []
+      }
       movie_feedback: {
         Row: {
           feedback: string
@@ -98,6 +248,54 @@ export type Database = {
           id?: string
           name?: string
           updated_at?: string
+        }
+        Relationships: []
+      }
+      sync_logs: {
+        Row: {
+          added: number
+          checked: number
+          created_at: string
+          errors: Json
+          failed: number
+          finished_at: string | null
+          id: string
+          mode: string
+          skipped: number
+          started_at: string
+          status: string
+          triggered_by: string
+          updated: number
+        }
+        Insert: {
+          added?: number
+          checked?: number
+          created_at?: string
+          errors?: Json
+          failed?: number
+          finished_at?: string | null
+          id?: string
+          mode?: string
+          skipped?: number
+          started_at?: string
+          status?: string
+          triggered_by?: string
+          updated?: number
+        }
+        Update: {
+          added?: number
+          checked?: number
+          created_at?: string
+          errors?: Json
+          failed?: number
+          finished_at?: string | null
+          id?: string
+          mode?: string
+          skipped?: number
+          started_at?: string
+          status?: string
+          triggered_by?: string
+          updated?: number
         }
         Relationships: []
       }
