@@ -6,6 +6,7 @@
  * written to public.sync_logs instead of aborting the run.
  */
 import { supabaseAdmin } from "@/integrations/supabase/client.server";
+import type { Json } from "@/integrations/supabase/types";
 import {
   PRIORITY_LANGUAGES,
   discoverByLanguage,
@@ -56,7 +57,10 @@ export async function importOne(
 
   const { error } = await supabaseAdmin
     .from("media_items")
-    .upsert({ ...row, source }, { onConflict: "media_type,tmdb_id" });
+    .upsert(
+      { ...row, cast_members: row.cast_members as unknown as Json, source },
+      { onConflict: "media_type,tmdb_id" },
+    );
 
   if (error) return { outcome: "failed", error: error.message };
   return { outcome: existing ? "updated" : "added", row };
