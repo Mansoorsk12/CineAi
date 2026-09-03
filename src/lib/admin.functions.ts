@@ -150,10 +150,12 @@ export const decideRequest = createServerFn({ method: "POST" })
       .maybeSingle();
     if (!req) return { ok: false, error: "Request not found." };
 
-    const patch: Record<string, any> = {
-      status: data.decision,
-      admin_note: data.note || null,
-    };
+    const patch: {
+      status: string;
+      admin_note: string | null;
+      verified_title?: string | null;
+      verified_poster_path?: string | null;
+    } = { status: data.decision, admin_note: data.note || null };
 
     if (data.decision === "approved") {
       if (!req.tmdb_id) return { ok: false, error: "Request has no verified TMDB id." };
@@ -164,8 +166,8 @@ export const decideRequest = createServerFn({ method: "POST" })
       const { importOne } = await import("./sync.server");
       const r = await importOne(type, req.tmdb_id, "request");
       if (r.outcome === "failed") return { ok: false, error: r.error ?? "Import failed." };
-      patch["verified_title"] = verified.title;
-      patch["verified_poster_path"] = verified.poster_path;
+      patch.verified_title = verified.title;
+      patch.verified_poster_path = verified.poster_path;
     }
 
     const { error } = await db.from("media_requests").update(patch).eq("id", data.id);
@@ -206,10 +208,22 @@ export const updateMediaItem = createServerFn({ method: "POST" })
   }) => input)
   .handler(async ({ data, context }): Promise<{ ok: boolean; error?: string }> => {
     await assertAdmin(context);
-    const patch: Record<string, any> = {};
-    for (const k of ["hidden", "featured", "title", "overview", "language", "industry", "trailer_key"] as const) {
-      if (data[k] !== undefined) patch[k] = data[k];
-    }
+    const patch: {
+      hidden?: boolean;
+      featured?: boolean;
+      title?: string;
+      overview?: string;
+      language?: string;
+      industry?: string;
+      trailer_key?: string;
+    } = {};
+    if (data.hidden !== undefined) patch.hidden = data.hidden;
+    if (data.featured !== undefined) patch.featured = data.featured;
+    if (data.title !== undefined) patch.title = data.title;
+    if (data.overview !== undefined) patch.overview = data.overview;
+    if (data.language !== undefined) patch.language = data.language;
+    if (data.industry !== undefined) patch.industry = data.industry;
+    if (data.trailer_key !== undefined) patch.trailer_key = data.trailer_key;
     if (!Object.keys(patch).length) return { ok: true };
     const { error } = await context.supabase.from("media_items").update(patch).eq("id", data.id);
     return error ? { ok: false, error: error.message } : { ok: true };
