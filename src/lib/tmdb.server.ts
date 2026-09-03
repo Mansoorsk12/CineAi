@@ -117,7 +117,10 @@ export async function tmdb<T = any>(path: string, params: Record<string, string 
         await new Promise((r) => setTimeout(r, 1200 * (attempt + 1)));
         continue;
       }
-      if (!res.ok) return null;
+      if (!res.ok) {
+        console.error(`[tmdb] ${res.status} ${path} — ${(await res.text()).slice(0, 200)}`);
+        return null;
+      }
       return (await res.json()) as T;
     } catch {
       await new Promise((r) => setTimeout(r, 400 * (attempt + 1)));
