@@ -258,7 +258,7 @@ export const searchMedia = createServerFn({ method: "GET" })
 
         if (!candidates.length) {
           const byTitle = await searchTmdb(term);
-          candidates = byTitle.map((r) => ({
+          candidates = byTitle.map((r: any) => ({
             tmdbId: r.tmdbId,
             mediaType: r.mediaType,
             popularity: r.popularity,
@@ -266,7 +266,7 @@ export const searchMedia = createServerFn({ method: "GET" })
           if (candidates.length < 3) {
             const byPerson = await searchTmdbPerson(term);
             candidates.push(
-              ...byPerson.map((r) => ({
+              ...byPerson.map((r: any) => ({
                 tmdbId: r.tmdbId,
                 mediaType: r.mediaType,
                 popularity: r.popularity,

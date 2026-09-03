@@ -89,7 +89,7 @@ export const submitMediaRequest = createServerFn({ method: "POST" })
     // No usable reference — resolve by title search.
     if (!tmdbId) {
       const results = await searchTmdb(data.title);
-      const best = results.find((r) => r.mediaType === mediaType) ?? results[0];
+      const best = results.find((r: any) => r.mediaType === mediaType) ?? results[0];
       if (best) {
         tmdbId = best.tmdbId;
         mediaType = best.mediaType;

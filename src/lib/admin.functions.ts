@@ -53,7 +53,7 @@ export interface AdminStats {
     updated: number;
     skipped: number;
     failed: number;
-    errors: unknown;
+    errors: string[];
   } | null;
 }
 
@@ -107,7 +107,9 @@ export const getAdminStats = createServerFn({ method: "GET" })
       pending: pending + reviewing,
       approved,
       rejected,
-      lastSync: (sync as any).data ?? null,
+      lastSync: ((sync as any).data
+        ? { ...(sync as any).data, errors: Array.isArray((sync as any).data.errors) ? (sync as any).data.errors.map(String) : [] }
+        : null) as AdminStats["lastSync"],
     };
   });
 
@@ -148,7 +150,7 @@ export const decideRequest = createServerFn({ method: "POST" })
       .maybeSingle();
     if (!req) return { ok: false, error: "Request not found." };
 
-    const patch: Record<string, unknown> = {
+    const patch: Record<string, any> = {
       status: data.decision,
       admin_note: data.note || null,
     };
@@ -204,7 +206,7 @@ export const updateMediaItem = createServerFn({ method: "POST" })
   }) => input)
   .handler(async ({ data, context }): Promise<{ ok: boolean; error?: string }> => {
     await assertAdmin(context);
-    const patch: Record<string, unknown> = {};
+    const patch: Record<string, any> = {};
     for (const k of ["hidden", "featured", "title", "overview", "language", "industry", "trailer_key"] as const) {
       if (data[k] !== undefined) patch[k] = data[k];
     }
