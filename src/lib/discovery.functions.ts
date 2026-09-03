@@ -226,17 +226,9 @@ export const searchMedia = createServerFn({ method: "GET" })
     const { data: rows } = await query;
     let local = (rows ?? []).map(toItem);
 
-    // Cast search (JSONB) for plain-name queries with no title hits.
-    if (!local.length && !langWord && !year) {
-      const { data: castRows } = await db
-        .from("media_items")
-        .select(SELECT)
-        .eq("hidden", false)
-        .ilike("cast_members::text", like)
-        .order("popularity", { ascending: false })
-        .limit(40);
-      local = (castRows ?? []).map(toItem);
-    }
+    // Person-name queries with no local title hits fall through to the TMDB
+    // person fallback below (PostgREST cannot filter on cast_members text).
+
 
     local = teluguFirst(local);
 
@@ -266,7 +258,7 @@ export const searchMedia = createServerFn({ method: "GET" })
 
         if (!candidates.length) {
           const byTitle = await searchTmdb(term);
-          candidates = byTitle.map((r) => ({
+          candidates = byTitle.map((r: any) => ({
             tmdbId: r.tmdbId,
             mediaType: r.mediaType,
             popularity: r.popularity,
@@ -274,7 +266,7 @@ export const searchMedia = createServerFn({ method: "GET" })
           if (candidates.length < 3) {
             const byPerson = await searchTmdbPerson(term);
             candidates.push(
-              ...byPerson.map((r) => ({
+              ...byPerson.map((r: any) => ({
                 tmdbId: r.tmdbId,
                 mediaType: r.mediaType,
                 popularity: r.popularity,
