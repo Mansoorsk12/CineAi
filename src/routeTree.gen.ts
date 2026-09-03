@@ -22,6 +22,7 @@ import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as WatchedRouteImport } from './routes/watched'
 import { Route as WatchlistRouteImport } from './routes/watchlist'
 import { Route as TitleIdRouteImport } from './routes/title.$id'
+import { Route as ApiPublicCronTmdbSyncRouteImport } from './routes/api/public/cron/tmdb-sync'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -88,6 +89,11 @@ const TitleIdRoute = TitleIdRouteImport.update({
   path: '/title/$id',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicCronTmdbSyncRoute = ApiPublicCronTmdbSyncRouteImport.update({
+  id: '/api/public/cron/tmdb-sync',
+  path: '/api/public/cron/tmdb-sync',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -103,6 +109,7 @@ export interface FileRoutesByFullPath {
   '/watched': typeof WatchedRoute
   '/watchlist': typeof WatchlistRoute
   '/title/$id': typeof TitleIdRoute
+  '/api/public/cron/tmdb-sync': typeof ApiPublicCronTmdbSyncRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -118,6 +125,7 @@ export interface FileRoutesByTo {
   '/watched': typeof WatchedRoute
   '/watchlist': typeof WatchlistRoute
   '/title/$id': typeof TitleIdRoute
+  '/api/public/cron/tmdb-sync': typeof ApiPublicCronTmdbSyncRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -134,6 +142,7 @@ export interface FileRoutesById {
   '/watched': typeof WatchedRoute
   '/watchlist': typeof WatchlistRoute
   '/title/$id': typeof TitleIdRoute
+  '/api/public/cron/tmdb-sync': typeof ApiPublicCronTmdbSyncRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -151,6 +160,7 @@ export interface FileRouteTypes {
     | '/watched'
     | '/watchlist'
     | '/title/$id'
+    | '/api/public/cron/tmdb-sync'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -166,6 +176,7 @@ export interface FileRouteTypes {
     | '/watched'
     | '/watchlist'
     | '/title/$id'
+    | '/api/public/cron/tmdb-sync'
   id:
     | '__root__'
     | '/'
@@ -181,6 +192,7 @@ export interface FileRouteTypes {
     | '/watched'
     | '/watchlist'
     | '/title/$id'
+    | '/api/public/cron/tmdb-sync'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -197,6 +209,7 @@ export interface RootRouteChildren {
   WatchedRoute: typeof WatchedRoute
   WatchlistRoute: typeof WatchlistRoute
   TitleIdRoute: typeof TitleIdRoute
+  ApiPublicCronTmdbSyncRoute: typeof ApiPublicCronTmdbSyncRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -292,6 +305,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TitleIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/cron/tmdb-sync': {
+      id: '/api/public/cron/tmdb-sync'
+      path: '/api/public/cron/tmdb-sync'
+      fullPath: '/api/public/cron/tmdb-sync'
+      preLoaderRoute: typeof ApiPublicCronTmdbSyncRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -309,6 +329,7 @@ const rootRouteChildren: RootRouteChildren = {
   WatchedRoute: WatchedRoute,
   WatchlistRoute: WatchlistRoute,
   TitleIdRoute: TitleIdRoute,
+  ApiPublicCronTmdbSyncRoute: ApiPublicCronTmdbSyncRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
