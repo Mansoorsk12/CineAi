@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AssistantRouteImport } from './routes/assistant'
 import { Route as AuthRouteImport } from './routes/auth'
+import { Route as DiscoverRouteImport } from './routes/discover'
 import { Route as FavouritesRouteImport } from './routes/favourites'
 import { Route as GenresRouteImport } from './routes/genres'
 import { Route as MoviesRouteImport } from './routes/movies'
@@ -22,6 +23,7 @@ import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as WatchedRouteImport } from './routes/watched'
 import { Route as WatchlistRouteImport } from './routes/watchlist'
 import { Route as TitleIdRouteImport } from './routes/title.$id'
+import { Route as MediaTypeTmdbIdRouteImport } from './routes/media.$type.$tmdbId'
 import { Route as ApiPublicCronTmdbSyncRouteImport } from './routes/api/public/cron/tmdb-sync'
 
 const IndexRoute = IndexRouteImport.update({
@@ -37,6 +39,11 @@ const AssistantRoute = AssistantRouteImport.update({
 const AuthRoute = AuthRouteImport.update({
   id: '/auth',
   path: '/auth',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DiscoverRoute = DiscoverRouteImport.update({
+  id: '/discover',
+  path: '/discover',
   getParentRoute: () => rootRouteImport,
 } as any)
 const FavouritesRoute = FavouritesRouteImport.update({
@@ -89,6 +96,11 @@ const TitleIdRoute = TitleIdRouteImport.update({
   path: '/title/$id',
   getParentRoute: () => rootRouteImport,
 } as any)
+const MediaTypeTmdbIdRoute = MediaTypeTmdbIdRouteImport.update({
+  id: '/media/$type/$tmdbId',
+  path: '/media/$type/$tmdbId',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiPublicCronTmdbSyncRoute = ApiPublicCronTmdbSyncRouteImport.update({
   id: '/api/public/cron/tmdb-sync',
   path: '/api/public/cron/tmdb-sync',
@@ -99,6 +111,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
+  '/discover': typeof DiscoverRoute
   '/favourites': typeof FavouritesRoute
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
@@ -109,12 +122,14 @@ export interface FileRoutesByFullPath {
   '/watched': typeof WatchedRoute
   '/watchlist': typeof WatchlistRoute
   '/title/$id': typeof TitleIdRoute
+  '/media/$type/$tmdbId': typeof MediaTypeTmdbIdRoute
   '/api/public/cron/tmdb-sync': typeof ApiPublicCronTmdbSyncRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
+  '/discover': typeof DiscoverRoute
   '/favourites': typeof FavouritesRoute
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
@@ -125,6 +140,7 @@ export interface FileRoutesByTo {
   '/watched': typeof WatchedRoute
   '/watchlist': typeof WatchlistRoute
   '/title/$id': typeof TitleIdRoute
+  '/media/$type/$tmdbId': typeof MediaTypeTmdbIdRoute
   '/api/public/cron/tmdb-sync': typeof ApiPublicCronTmdbSyncRoute
 }
 export interface FileRoutesById {
@@ -132,6 +148,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
+  '/discover': typeof DiscoverRoute
   '/favourites': typeof FavouritesRoute
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
@@ -142,6 +159,7 @@ export interface FileRoutesById {
   '/watched': typeof WatchedRoute
   '/watchlist': typeof WatchlistRoute
   '/title/$id': typeof TitleIdRoute
+  '/media/$type/$tmdbId': typeof MediaTypeTmdbIdRoute
   '/api/public/cron/tmdb-sync': typeof ApiPublicCronTmdbSyncRoute
 }
 export interface FileRouteTypes {
@@ -150,6 +168,7 @@ export interface FileRouteTypes {
     | '/'
     | '/assistant'
     | '/auth'
+    | '/discover'
     | '/favourites'
     | '/genres'
     | '/movies'
@@ -160,12 +179,14 @@ export interface FileRouteTypes {
     | '/watched'
     | '/watchlist'
     | '/title/$id'
+    | '/media/$type/$tmdbId'
     | '/api/public/cron/tmdb-sync'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/assistant'
     | '/auth'
+    | '/discover'
     | '/favourites'
     | '/genres'
     | '/movies'
@@ -176,12 +197,14 @@ export interface FileRouteTypes {
     | '/watched'
     | '/watchlist'
     | '/title/$id'
+    | '/media/$type/$tmdbId'
     | '/api/public/cron/tmdb-sync'
   id:
     | '__root__'
     | '/'
     | '/assistant'
     | '/auth'
+    | '/discover'
     | '/favourites'
     | '/genres'
     | '/movies'
@@ -192,6 +215,7 @@ export interface FileRouteTypes {
     | '/watched'
     | '/watchlist'
     | '/title/$id'
+    | '/media/$type/$tmdbId'
     | '/api/public/cron/tmdb-sync'
   fileRoutesById: FileRoutesById
 }
@@ -199,6 +223,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AssistantRoute: typeof AssistantRoute
   AuthRoute: typeof AuthRoute
+  DiscoverRoute: typeof DiscoverRoute
   FavouritesRoute: typeof FavouritesRoute
   GenresRoute: typeof GenresRoute
   MoviesRoute: typeof MoviesRoute
@@ -209,6 +234,7 @@ export interface RootRouteChildren {
   WatchedRoute: typeof WatchedRoute
   WatchlistRoute: typeof WatchlistRoute
   TitleIdRoute: typeof TitleIdRoute
+  MediaTypeTmdbIdRoute: typeof MediaTypeTmdbIdRoute
   ApiPublicCronTmdbSyncRoute: typeof ApiPublicCronTmdbSyncRoute
 }
 
@@ -233,6 +259,13 @@ declare module '@tanstack/react-router' {
       path: '/auth'
       fullPath: '/auth'
       preLoaderRoute: typeof AuthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/discover': {
+      id: '/discover'
+      path: '/discover'
+      fullPath: '/discover'
+      preLoaderRoute: typeof DiscoverRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/favourites': {
@@ -305,6 +338,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TitleIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/media/$type/$tmdbId': {
+      id: '/media/$type/$tmdbId'
+      path: '/media/$type/$tmdbId'
+      fullPath: '/media/$type/$tmdbId'
+      preLoaderRoute: typeof MediaTypeTmdbIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/public/cron/tmdb-sync': {
       id: '/api/public/cron/tmdb-sync'
       path: '/api/public/cron/tmdb-sync'
@@ -319,6 +359,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AssistantRoute: AssistantRoute,
   AuthRoute: AuthRoute,
+  DiscoverRoute: DiscoverRoute,
   FavouritesRoute: FavouritesRoute,
   GenresRoute: GenresRoute,
   MoviesRoute: MoviesRoute,
@@ -329,6 +370,7 @@ const rootRouteChildren: RootRouteChildren = {
   WatchedRoute: WatchedRoute,
   WatchlistRoute: WatchlistRoute,
   TitleIdRoute: TitleIdRoute,
+  MediaTypeTmdbIdRoute: MediaTypeTmdbIdRoute,
   ApiPublicCronTmdbSyncRoute: ApiPublicCronTmdbSyncRoute,
 }
 export const routeTree = rootRouteImport
