@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AssistantRouteImport } from './routes/assistant'
 import { Route as AuthRouteImport } from './routes/auth'
+import { Route as DiscoverRouteImport } from './routes/discover'
 import { Route as FavouritesRouteImport } from './routes/favourites'
 import { Route as GenresRouteImport } from './routes/genres'
 import { Route as MoviesRouteImport } from './routes/movies'
@@ -37,6 +38,11 @@ const AssistantRoute = AssistantRouteImport.update({
 const AuthRoute = AuthRouteImport.update({
   id: '/auth',
   path: '/auth',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DiscoverRoute = DiscoverRouteImport.update({
+  id: '/discover',
+  path: '/discover',
   getParentRoute: () => rootRouteImport,
 } as any)
 const FavouritesRoute = FavouritesRouteImport.update({
@@ -99,6 +105,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
+  '/discover': typeof DiscoverRoute
   '/favourites': typeof FavouritesRoute
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
@@ -115,6 +122,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
+  '/discover': typeof DiscoverRoute
   '/favourites': typeof FavouritesRoute
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
@@ -132,6 +140,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
+  '/discover': typeof DiscoverRoute
   '/favourites': typeof FavouritesRoute
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
@@ -150,6 +159,7 @@ export interface FileRouteTypes {
     | '/'
     | '/assistant'
     | '/auth'
+    | '/discover'
     | '/favourites'
     | '/genres'
     | '/movies'
@@ -166,6 +176,7 @@ export interface FileRouteTypes {
     | '/'
     | '/assistant'
     | '/auth'
+    | '/discover'
     | '/favourites'
     | '/genres'
     | '/movies'
@@ -182,6 +193,7 @@ export interface FileRouteTypes {
     | '/'
     | '/assistant'
     | '/auth'
+    | '/discover'
     | '/favourites'
     | '/genres'
     | '/movies'
@@ -199,6 +211,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AssistantRoute: typeof AssistantRoute
   AuthRoute: typeof AuthRoute
+  DiscoverRoute: typeof DiscoverRoute
   FavouritesRoute: typeof FavouritesRoute
   GenresRoute: typeof GenresRoute
   MoviesRoute: typeof MoviesRoute
@@ -233,6 +246,13 @@ declare module '@tanstack/react-router' {
       path: '/auth'
       fullPath: '/auth'
       preLoaderRoute: typeof AuthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/discover': {
+      id: '/discover'
+      path: '/discover'
+      fullPath: '/discover'
+      preLoaderRoute: typeof DiscoverRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/favourites': {
@@ -319,6 +339,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AssistantRoute: AssistantRoute,
   AuthRoute: AuthRoute,
+  DiscoverRoute: DiscoverRoute,
   FavouritesRoute: FavouritesRoute,
   GenresRoute: GenresRoute,
   MoviesRoute: MoviesRoute,
