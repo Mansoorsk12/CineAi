@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AdminRouteImport } from './routes/admin'
 import { Route as AssistantRouteImport } from './routes/assistant'
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as DiscoverRouteImport } from './routes/discover'
@@ -17,6 +18,7 @@ import { Route as FavouritesRouteImport } from './routes/favourites'
 import { Route as GenresRouteImport } from './routes/genres'
 import { Route as MoviesRouteImport } from './routes/movies'
 import { Route as ProfileRouteImport } from './routes/profile'
+import { Route as RequestsRouteImport } from './routes/requests'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as SeriesRouteImport } from './routes/series'
 import { Route as SettingsRouteImport } from './routes/settings'
@@ -29,6 +31,11 @@ import { Route as ApiPublicCronTmdbSyncRouteImport } from './routes/api/public/c
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminRoute = AdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AssistantRoute = AssistantRouteImport.update({
@@ -64,6 +71,11 @@ const MoviesRoute = MoviesRouteImport.update({
 const ProfileRoute = ProfileRouteImport.update({
   id: '/profile',
   path: '/profile',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RequestsRoute = RequestsRouteImport.update({
+  id: '/requests',
+  path: '/requests',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SearchRoute = SearchRouteImport.update({
@@ -109,6 +121,7 @@ const ApiPublicCronTmdbSyncRoute = ApiPublicCronTmdbSyncRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/admin': typeof AdminRoute
   '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
   '/discover': typeof DiscoverRoute
@@ -116,6 +129,7 @@ export interface FileRoutesByFullPath {
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
   '/profile': typeof ProfileRoute
+  '/requests': typeof RequestsRoute
   '/search': typeof SearchRoute
   '/series': typeof SeriesRoute
   '/settings': typeof SettingsRoute
@@ -127,6 +141,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/admin': typeof AdminRoute
   '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
   '/discover': typeof DiscoverRoute
@@ -134,6 +149,7 @@ export interface FileRoutesByTo {
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
   '/profile': typeof ProfileRoute
+  '/requests': typeof RequestsRoute
   '/search': typeof SearchRoute
   '/series': typeof SeriesRoute
   '/settings': typeof SettingsRoute
@@ -146,6 +162,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/admin': typeof AdminRoute
   '/assistant': typeof AssistantRoute
   '/auth': typeof AuthRoute
   '/discover': typeof DiscoverRoute
@@ -153,6 +170,7 @@ export interface FileRoutesById {
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
   '/profile': typeof ProfileRoute
+  '/requests': typeof RequestsRoute
   '/search': typeof SearchRoute
   '/series': typeof SeriesRoute
   '/settings': typeof SettingsRoute
@@ -166,6 +184,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/admin'
     | '/assistant'
     | '/auth'
     | '/discover'
@@ -173,6 +192,7 @@ export interface FileRouteTypes {
     | '/genres'
     | '/movies'
     | '/profile'
+    | '/requests'
     | '/search'
     | '/series'
     | '/settings'
@@ -184,6 +204,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/admin'
     | '/assistant'
     | '/auth'
     | '/discover'
@@ -191,6 +212,7 @@ export interface FileRouteTypes {
     | '/genres'
     | '/movies'
     | '/profile'
+    | '/requests'
     | '/search'
     | '/series'
     | '/settings'
@@ -202,6 +224,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/admin'
     | '/assistant'
     | '/auth'
     | '/discover'
@@ -209,6 +232,7 @@ export interface FileRouteTypes {
     | '/genres'
     | '/movies'
     | '/profile'
+    | '/requests'
     | '/search'
     | '/series'
     | '/settings'
@@ -221,6 +245,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AdminRoute: typeof AdminRoute
   AssistantRoute: typeof AssistantRoute
   AuthRoute: typeof AuthRoute
   DiscoverRoute: typeof DiscoverRoute
@@ -228,6 +253,7 @@ export interface RootRouteChildren {
   GenresRoute: typeof GenresRoute
   MoviesRoute: typeof MoviesRoute
   ProfileRoute: typeof ProfileRoute
+  RequestsRoute: typeof RequestsRoute
   SearchRoute: typeof SearchRoute
   SeriesRoute: typeof SeriesRoute
   SettingsRoute: typeof SettingsRoute
@@ -245,6 +271,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin': {
+      id: '/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AdminRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/assistant': {
@@ -294,6 +327,13 @@ declare module '@tanstack/react-router' {
       path: '/profile'
       fullPath: '/profile'
       preLoaderRoute: typeof ProfileRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/requests': {
+      id: '/requests'
+      path: '/requests'
+      fullPath: '/requests'
+      preLoaderRoute: typeof RequestsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/search': {
@@ -357,6 +397,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AdminRoute: AdminRoute,
   AssistantRoute: AssistantRoute,
   AuthRoute: AuthRoute,
   DiscoverRoute: DiscoverRoute,
@@ -364,6 +405,7 @@ const rootRouteChildren: RootRouteChildren = {
   GenresRoute: GenresRoute,
   MoviesRoute: MoviesRoute,
   ProfileRoute: ProfileRoute,
+  RequestsRoute: RequestsRoute,
   SearchRoute: SearchRoute,
   SeriesRoute: SeriesRoute,
   SettingsRoute: SettingsRoute,

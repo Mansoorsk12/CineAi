@@ -1,9 +1,12 @@
 import { Link, useNavigate } from "@tanstack/react-router";
+import { useServerFn } from "@tanstack/react-start";
+import { useQuery } from "@tanstack/react-query";
 import {
   Bell,
   Bookmark,
   Check,
   Clapperboard,
+  Compass,
   Film,
   Heart,
   Home,
@@ -11,13 +14,16 @@ import {
   Menu,
   Moon,
   Search,
+  Send,
   Settings,
+  ShieldCheck,
   Sparkles,
   Sun,
   Theater,
   User,
 } from "lucide-react";
 import { useState } from "react";
+import { amIAdmin } from "@/lib/admin.functions";
 import { Logo } from "./Logo";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -45,6 +51,12 @@ const NAV = [
   { to: "/favourites", label: "Favourites", icon: Heart },
   { to: "/watched", label: "Watched", icon: Check },
   { to: "/genres", label: "Genres", icon: Theater },
+  { to: "/discover", label: "Discover", icon: Compass },
+] as const;
+
+const EXTRA = [
+  { to: "/requests", label: "Request Movie / Series", icon: Send },
+  { to: "/requests", label: "My Requests", icon: Bookmark },
 ] as const;
 
 const MOBILE = NAV.slice(0, 6);
@@ -56,6 +68,14 @@ export function Navbar() {
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   const unread = lib.notifications.filter((n) => !n.read).length;
+  const checkAdmin = useServerFn(amIAdmin);
+  const { data: adminData } = useQuery({
+    queryKey: ["am-i-admin", user?.id],
+    queryFn: () => checkAdmin(),
+    enabled: Boolean(user),
+    staleTime: 5 * 60 * 1000,
+  });
+  const isAdmin = Boolean(user && adminData?.admin);
 
   const initials = (user?.name ?? "CineAI")
     .split(" ")
@@ -81,6 +101,24 @@ export function Navbar() {
               </Link>
             </li>
           ))}
+          <li>
+            <Link
+              to="/requests"
+              className="rounded-full px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground data-[status=active]:bg-accent data-[status=active]:text-accent-foreground"
+            >
+              Request
+            </Link>
+          </li>
+          {isAdmin && (
+            <li>
+              <Link
+                to="/admin"
+                className="rounded-full px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground data-[status=active]:bg-accent data-[status=active]:text-accent-foreground"
+              >
+                Admin
+              </Link>
+            </li>
+          )}
         </ul>
 
         <div className="ml-auto flex items-center gap-1">
@@ -229,6 +267,28 @@ export function Navbar() {
                     <Clapperboard className="size-4" aria-hidden /> AI Assistant
                   </Link>
                 </li>
+                {EXTRA.map(({ to, label, icon: Icon }) => (
+                  <li key={label}>
+                    <Link
+                      to={to}
+                      onClick={() => setOpen(false)}
+                      className="flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium hover:bg-secondary data-[status=active]:bg-accent data-[status=active]:text-accent-foreground"
+                    >
+                      <Icon className="size-4" aria-hidden /> {label}
+                    </Link>
+                  </li>
+                ))}
+                {isAdmin && (
+                  <li>
+                    <Link
+                      to="/admin"
+                      onClick={() => setOpen(false)}
+                      className="flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium hover:bg-secondary data-[status=active]:bg-accent data-[status=active]:text-accent-foreground"
+                    >
+                      <ShieldCheck className="size-4" aria-hidden /> Admin
+                    </Link>
+                  </li>
+                )}
               </ul>
             </SheetContent>
           </Sheet>
