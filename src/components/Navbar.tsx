@@ -101,6 +101,16 @@ export function Navbar() {
               </Link>
             </li>
           ))}
+          {isAdmin && (
+            <li>
+              <Link
+                to="/admin"
+                className="rounded-full px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground data-[status=active]:bg-accent data-[status=active]:text-accent-foreground"
+              >
+                Admin
+              </Link>
+            </li>
+          )}
         </ul>
 
         <div className="ml-auto flex items-center gap-1">
