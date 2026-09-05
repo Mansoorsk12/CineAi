@@ -267,6 +267,28 @@ export function Navbar() {
                     <Clapperboard className="size-4" aria-hidden /> AI Assistant
                   </Link>
                 </li>
+                {EXTRA.map(({ to, label, icon: Icon }) => (
+                  <li key={label}>
+                    <Link
+                      to={to}
+                      onClick={() => setOpen(false)}
+                      className="flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium hover:bg-secondary data-[status=active]:bg-accent data-[status=active]:text-accent-foreground"
+                    >
+                      <Icon className="size-4" aria-hidden /> {label}
+                    </Link>
+                  </li>
+                ))}
+                {isAdmin && (
+                  <li>
+                    <Link
+                      to="/admin"
+                      onClick={() => setOpen(false)}
+                      className="flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium hover:bg-secondary data-[status=active]:bg-accent data-[status=active]:text-accent-foreground"
+                    >
+                      <ShieldCheck className="size-4" aria-hidden /> Admin
+                    </Link>
+                  </li>
+                )}
               </ul>
             </SheetContent>
           </Sheet>
