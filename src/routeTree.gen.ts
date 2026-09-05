@@ -17,6 +17,7 @@ import { Route as FavouritesRouteImport } from './routes/favourites'
 import { Route as GenresRouteImport } from './routes/genres'
 import { Route as MoviesRouteImport } from './routes/movies'
 import { Route as ProfileRouteImport } from './routes/profile'
+import { Route as RequestsRouteImport } from './routes/requests'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as SeriesRouteImport } from './routes/series'
 import { Route as SettingsRouteImport } from './routes/settings'
@@ -64,6 +65,11 @@ const MoviesRoute = MoviesRouteImport.update({
 const ProfileRoute = ProfileRouteImport.update({
   id: '/profile',
   path: '/profile',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RequestsRoute = RequestsRouteImport.update({
+  id: '/requests',
+  path: '/requests',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SearchRoute = SearchRouteImport.update({
@@ -116,6 +122,7 @@ export interface FileRoutesByFullPath {
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
   '/profile': typeof ProfileRoute
+  '/requests': typeof RequestsRoute
   '/search': typeof SearchRoute
   '/series': typeof SeriesRoute
   '/settings': typeof SettingsRoute
@@ -134,6 +141,7 @@ export interface FileRoutesByTo {
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
   '/profile': typeof ProfileRoute
+  '/requests': typeof RequestsRoute
   '/search': typeof SearchRoute
   '/series': typeof SeriesRoute
   '/settings': typeof SettingsRoute
@@ -153,6 +161,7 @@ export interface FileRoutesById {
   '/genres': typeof GenresRoute
   '/movies': typeof MoviesRoute
   '/profile': typeof ProfileRoute
+  '/requests': typeof RequestsRoute
   '/search': typeof SearchRoute
   '/series': typeof SeriesRoute
   '/settings': typeof SettingsRoute
@@ -173,6 +182,7 @@ export interface FileRouteTypes {
     | '/genres'
     | '/movies'
     | '/profile'
+    | '/requests'
     | '/search'
     | '/series'
     | '/settings'
@@ -191,6 +201,7 @@ export interface FileRouteTypes {
     | '/genres'
     | '/movies'
     | '/profile'
+    | '/requests'
     | '/search'
     | '/series'
     | '/settings'
@@ -209,6 +220,7 @@ export interface FileRouteTypes {
     | '/genres'
     | '/movies'
     | '/profile'
+    | '/requests'
     | '/search'
     | '/series'
     | '/settings'
@@ -228,6 +240,7 @@ export interface RootRouteChildren {
   GenresRoute: typeof GenresRoute
   MoviesRoute: typeof MoviesRoute
   ProfileRoute: typeof ProfileRoute
+  RequestsRoute: typeof RequestsRoute
   SearchRoute: typeof SearchRoute
   SeriesRoute: typeof SeriesRoute
   SettingsRoute: typeof SettingsRoute
@@ -294,6 +307,13 @@ declare module '@tanstack/react-router' {
       path: '/profile'
       fullPath: '/profile'
       preLoaderRoute: typeof ProfileRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/requests': {
+      id: '/requests'
+      path: '/requests'
+      fullPath: '/requests'
+      preLoaderRoute: typeof RequestsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/search': {
@@ -364,6 +384,7 @@ const rootRouteChildren: RootRouteChildren = {
   GenresRoute: GenresRoute,
   MoviesRoute: MoviesRoute,
   ProfileRoute: ProfileRoute,
+  RequestsRoute: RequestsRoute,
   SearchRoute: SearchRoute,
   SeriesRoute: SeriesRoute,
   SettingsRoute: SettingsRoute,
