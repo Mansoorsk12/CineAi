@@ -68,6 +68,14 @@ export function Navbar() {
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   const unread = lib.notifications.filter((n) => !n.read).length;
+  const checkAdmin = useServerFn(amIAdmin);
+  const { data: adminData } = useQuery({
+    queryKey: ["am-i-admin", user?.id],
+    queryFn: () => checkAdmin(),
+    enabled: Boolean(user),
+    staleTime: 5 * 60 * 1000,
+  });
+  const isAdmin = Boolean(user && adminData?.admin);
 
   const initials = (user?.name ?? "CineAI")
     .split(" ")
