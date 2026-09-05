@@ -51,6 +51,12 @@ const NAV = [
   { to: "/favourites", label: "Favourites", icon: Heart },
   { to: "/watched", label: "Watched", icon: Check },
   { to: "/genres", label: "Genres", icon: Theater },
+  { to: "/discover", label: "Discover", icon: Compass },
+] as const;
+
+const EXTRA = [
+  { to: "/requests", label: "Request Movie / Series", icon: Send },
+  { to: "/requests", label: "My Requests", icon: Bookmark },
 ] as const;
 
 const MOBILE = NAV.slice(0, 6);
