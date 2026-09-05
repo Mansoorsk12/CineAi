@@ -19,7 +19,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { listMyRequests, submitMediaRequest, type MediaRequestRow } from "@/lib/requests.functions";
-import { posterUrl } from "@/lib/media-types";
+import { TMDB_IMAGE } from "@/lib/media-types";
 
 export const Route = createFileRoute("/requests")({
   head: () => ({
@@ -214,7 +214,7 @@ function RequestsPage() {
 function RequestRow({ request: r }: { request: MediaRequestRow }) {
   const style = STATUS_STYLE[r.status] ?? STATUS_STYLE.pending!;
   const Icon = style.icon;
-  const poster = posterUrl(r.verified_poster_path, "w185");
+  const poster = TMDB_IMAGE(r.verified_poster_path, "w185");
   return (
     <li className="flex items-start gap-4 rounded-2xl border bg-card p-4">
       {poster ? (
