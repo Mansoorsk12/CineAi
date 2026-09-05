@@ -101,6 +101,14 @@ export function Navbar() {
               </Link>
             </li>
           ))}
+          <li>
+            <Link
+              to="/requests"
+              className="rounded-full px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground data-[status=active]:bg-accent data-[status=active]:text-accent-foreground"
+            >
+              Request
+            </Link>
+          </li>
           {isAdmin && (
             <li>
               <Link
