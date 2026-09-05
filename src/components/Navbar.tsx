@@ -1,9 +1,12 @@
 import { Link, useNavigate } from "@tanstack/react-router";
+import { useServerFn } from "@tanstack/react-start";
+import { useQuery } from "@tanstack/react-query";
 import {
   Bell,
   Bookmark,
   Check,
   Clapperboard,
+  Compass,
   Film,
   Heart,
   Home,
@@ -11,13 +14,16 @@ import {
   Menu,
   Moon,
   Search,
+  Send,
   Settings,
+  ShieldCheck,
   Sparkles,
   Sun,
   Theater,
   User,
 } from "lucide-react";
 import { useState } from "react";
+import { amIAdmin } from "@/lib/admin.functions";
 import { Logo } from "./Logo";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
