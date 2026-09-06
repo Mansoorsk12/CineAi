@@ -212,7 +212,7 @@ function RequestsPage() {
 }
 
 function RequestRow({ request: r }: { request: MediaRequestRow }) {
-  const style = STATUS_STYLE[r.status] ?? STATUS_STYLE.pending!;
+  const style = STATUS_STYLE[r.status] ?? STATUS_STYLE["pending"]!;
   const Icon = style.icon;
   const poster = TMDB_IMAGE(r.verified_poster_path, "w185");
   return (

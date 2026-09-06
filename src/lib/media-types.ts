@@ -40,15 +40,15 @@ export interface MediaItem {
 }
 
 export interface MediaFilters {
-  language?: string;
-  industry?: string;
-  type?: "movie" | "tv";
-  year?: number;
-  genre?: string;
-  status?: "released" | "upcoming";
-  minRating?: number;
-  sort?: "popularity" | "rating" | "newest";
-  page?: number;
+  language?: string | undefined;
+  industry?: string | undefined;
+  type?: "movie" | "tv" | undefined;
+  year?: number | undefined;
+  genre?: string | undefined;
+  status?: "released" | "upcoming" | undefined;
+  minRating?: number | undefined;
+  sort?: "popularity" | "rating" | "newest" | undefined;
+  page?: number | undefined;
 }
 
 export const TMDB_IMAGE = (path: string | null | undefined, size = "w342") =>
