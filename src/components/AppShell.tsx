@@ -5,16 +5,19 @@ import { Footer } from "./Footer";
 import { useAuth } from "@/lib/auth";
 import { Skeleton } from "@/components/ui/skeleton";
 
-/** Protected shell: unauthenticated visitors are redirected to /auth. */
-export function AppShell({ children }: { children: ReactNode }) {
+/**
+ * App shell. By default it is protected: unauthenticated visitors go to /auth.
+ * Pass `allowGuests` for public browsing pages (discover, media details).
+ */
+export function AppShell({ children, allowGuests = false }: { children: ReactNode; allowGuests?: boolean }) {
   const { user, ready } = useAuth();
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (ready && !user) navigate({ to: "/auth", replace: true });
-  }, [ready, user, navigate]);
+    if (!allowGuests && ready && !user) navigate({ to: "/auth", replace: true });
+  }, [ready, user, navigate, allowGuests]);
 
-  if (!ready || !user) {
+  if (!ready || (!user && !allowGuests)) {
     return (
       <div className="mx-auto max-w-5xl space-y-4 p-8">
         <Skeleton className="h-10 w-48" />
@@ -22,6 +25,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       </div>
     );
   }
+
 
   return (
     <div className="flex min-h-screen flex-col">
