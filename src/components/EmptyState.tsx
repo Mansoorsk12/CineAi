@@ -12,7 +12,7 @@ export function EmptyState({
   title: string;
   description: string;
   ctaLabel?: string;
-  ctaTo?: "/movies" | "/series" | "/search";
+  ctaTo?: "/movies" | "/series" | "/search" | "/discover" | "/requests";
 }) {
   return (
     <div className="flex flex-col items-center justify-center rounded-3xl border border-dashed bg-secondary/40 px-6 py-16 text-center">
