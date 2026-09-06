@@ -43,7 +43,7 @@ export const Route = createFileRoute("/discover")({
     ],
   }),
   component: () => (
-    <AppShell>
+    <AppShell allowGuests>
       <DiscoverPage />
     </AppShell>
   ),
