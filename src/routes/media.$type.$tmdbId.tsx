@@ -30,7 +30,7 @@ export const Route = createFileRoute("/media/$type/$tmdbId")({
     ],
   }),
   component: () => (
-    <AppShell>
+    <AppShell allowGuests>
       <MediaDetailPage />
     </AppShell>
   ),
